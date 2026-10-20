@@ -9,6 +9,7 @@ The user explicitly requested an independent composition using Known.com as the 
 - Homepage: `src/app/page.tsx` and `src/components/decades-home.tsx`.
 - Isolated styles: `src/components/decades-home.module.css`.
 - Supplied sketch: `public/images/brand/capra-sketch-transparent.png`, a genuine RGBA cutout displayed with white strokes. Keep the original paper sketch as the source asset. Never use a rectangular background or blend-mode workaround for the active mark.
+- Browser icon: `src/app/icon.svg` uses only the goat from the supplied sketch, with transparent surroundings and ink that adapts to light/dark browser themes.
 - Film: `public/videos/greatness-through-time.mp4` — 27 chronological half-second shots, 13.5 seconds, silent, 1080p/30fps. It begins in a small centered rectangle and grows to fill the viewport over 7.5 seconds. Actual historical sources provide the progression from archival black-and-white to modern digital footage.
 - Preserve pause/play, a reduced-motion still, keyboard access, and visible source credits. Home and film are one experience: do not reintroduce a separate cinema mode or a back-to-film/home toggle. Sources and adaptation licenses are in `docs/video-sources.md` and `docs/decades-film-edit.json`; visible credit data is in `src/data/decades-film.json`.
 - The edited film is CC BY-SA 4.0; source attribution and a downloadable film are required. Athlete imagery does not imply a Capra endorsement or product test.
@@ -19,7 +20,9 @@ The user explicitly requested an independent composition using Known.com as the 
 
 - Match the approved homepage: near-black `#090909`, warm white `#f4f2ea`, Helvetica Neue/Helvetica/Arial, regular weights and generous space. Muted text is for metadata and captions, not inconsistent navigation brightness.
 - Interior layouts are in `src/app/globals.css`; the homepage retains its CSS module.
-- The homepage CTA is **Explore**, links to `/clothing`, and has a 12px text-to-arrow gap. Keep button labels short and arrow gaps compact.
+- The homepage CTA is **Explore**, links to `/clothing`, and has a 12px text-to-arrow gap. Keep button labels short and arrow gaps compact. The closing “This is Capra” line uses the actual handwritten CAPRA lettering from the transparent sketch, clipped through an SVG viewport.
+- The frame expansion, copy reveal and dark-overlay fade finish independently with CSS animation fill. Do not force their final states at frame completion: that interrupts the longer overlay fade and causes a visible brightness jump.
+- All homepage navigation links, including Explore and Bag, use the same short fade into the destination. The keyed React ViewTransition in SiteChrome follows the actual route commit; respect reduced motion and preserve ordinary navigation in browsers without support.
 - Clothing, Accessories, product details, Our story, Studio, Bag, policy pages and 404 share the same styling.
 - Studio expresses **Free-spirited by nature**, with three principles: independence (find your own way), resolve (one foothold at a time), and resourcefulness (at home on hard ground). These interpret the goat’s curiosity, climbing and adaptation as brand values; they are not garment performance claims.
 

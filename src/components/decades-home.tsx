@@ -14,7 +14,6 @@ export function DecadesHome() {
   const [playing, setPlaying] = useState(false);
   const [ready, setReady] = useState(false);
   const [failed, setFailed] = useState(false);
-  const [introComplete, setIntroComplete] = useState(false);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -57,16 +56,12 @@ export function DecadesHome() {
       id="main-content"
       className={styles.home}
       data-ready={ready || failed}
-      data-intro-complete={introComplete}
     >
       <h1 className="sr-only">Capra. For the ones who go beyond.</h1>
 
       <div
         className={styles.filmWindow}
         aria-hidden="true"
-        onAnimationEnd={event => {
-          if (event.target === event.currentTarget) setIntroComplete(true);
-        }}
       >
         <video
           ref={videoRef}
@@ -108,9 +103,15 @@ export function DecadesHome() {
           <p>Higher than anyone imagined.<br />Faster than anyone believed.<br />Beyond what seemed possible.</p>
           <p>A first step.<br />A last-second win.<br />A lifetime in one moment.</p>
           <p>For the ones who dream it.<br />And then go out and do it.</p>
-          <p>This is Capra.</p>
+          <p className={styles.signature}>
+            <span>This is</span>
+            <svg className={styles.signatureWordmark} viewBox="150 750 1170 300" role="img" aria-label="Capra">
+              <image href="/images/brand/capra-sketch-transparent.png" width="1460" height="1078" />
+            </svg>
+            <span className={styles.signaturePeriod}>.</span>
+          </p>
         </div>
-        <Link className={styles.callToAction} href="/clothing">
+        <Link className={styles.callToAction} href="/clothing" transitionTypes={['home-navigation']}>
           Explore
           <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 13 13 3M5 3h8v8" fill="none" stroke="currentColor" strokeWidth="1.2" /></svg>
         </Link>
