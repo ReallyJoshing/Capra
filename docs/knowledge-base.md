@@ -64,8 +64,8 @@ The current catalog imports the approved Field Study 03 design book and its exis
 
 ## Capra identity — October 20, 2026
 
-The user supplied the Capra horn-C logo and requested the identity across the website. The original PNG is preserved in `public/brand/capra-reference.png`; `src/components/capra-logo.tsx` renders it with independent horn and lettering colors. Fraunces is self-hosted under the SIL Open Font License, with soft, heavy settings for headings and navigation and lighter settings for reading. The exact font in the screenshot is unconfirmed.
+The user supplied a revised horizontal Capra horn-C logo and requested it replace every logo. The latest PNG is preserved unchanged in `public/brand/capra-reference.png`; `src/components/capra-logo.tsx` renders it with independent horn and lettering colors. The user also asked not to use the logo text in the site itself; this is implemented as keeping the rounded lettering within the artwork and restoring self-hosted Archivo sans-serif for all interface text. This supersedes the initial Fraunces treatment. Header, homepage, footer, color/background previews, retained scaffold logos and share metadata all use the updated artwork.
 
 Homepage, header, footer, page titles, browser icon, share metadata, Vision copy, product text, color lab and test-checkout display branding now use Capra. The proposed operating entity remains Odle Gear LLC; a brand update does not establish a renamed company. Earlier prototype photos can still contain the old ODLE embroidery. They remain historical concept imagery rather than newly branded manufacturing evidence. Cart storage, product URLs, payment integration identifiers and hosting identifiers are kept compatible.
 
-The C-only browser icon has a transparent background (October 20 follow-up). Its foreground adapts to light/dark browser themes; the metadata URL is versioned to refresh cached icons.
+The C-only browser icon uses the revised artwork and has a transparent background (October 20 follow-ups). Its foreground adapts to light/dark browser themes; the metadata URL is versioned to refresh cached icons.

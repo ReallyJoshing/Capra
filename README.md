@@ -4,11 +4,11 @@ Outdoor layers and shared adventure, born in the Washington backcountry. This st
 
 ## Current identity
 
-The October 20, 2026 Capra reference replaces the earlier Odle identity across the homepage, navigation, footer, page titles, browser icon, share metadata, Vision copy and test-checkout display name.
+The latest October 20, 2026 horizontal Capra reference replaces the earlier Odle identity across the homepage, navigation, footer, page titles, browser icon, share metadata, Vision copy and test-checkout display name.
 
 - Original supplied artwork: `public/brand/capra-reference.png`, preserved without pixel edits.
 - Shared logo: `src/components/capra-logo.tsx`. SVG presentation masks expose independent horn and lettering colors without redrawing the mark.
-- Typography: self-hosted [Fraunces](https://github.com/undercasetype/Fraunces), using its soft axis and heavy weights to echo the reference. It is a close match; the screenshot's exact font has not been identified. License: `src/app/fonts/Fraunces-OFL.txt`.
+- Typography: self-hosted Archivo sans-serif for all interface text. The rounded logo lettering belongs only in the artwork, as requested. License: `src/app/fonts/Archivo-OFL.txt`.
 - Brand styles: `src/app/capra.css`; layout styles: `src/app/globals.css`.
 - Defaults: charcoal `#20201e` for both parts on white. `/experimental` changes horn/lettering colors and the homepage background.
 

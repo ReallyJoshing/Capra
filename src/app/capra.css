@@ -1,39 +1,38 @@
-/* Capra: the supplied horn mark and a soft, substantial serif voice. */
+/* Capra artwork carries the lettering style; interface text stays neutral. */
 :root {
   --wordmark-color: #20201e;
   --wordmark-inlay-color: #20201e;
   color: #20201e;
-  font-family: var(--font-navigation), Georgia, serif;
-  font-variation-settings: 'SOFT' 100, 'WONK' 1, 'opsz' 24;
+  font-family: var(--font-navigation), Arial, Helvetica, sans-serif;
+  font-variation-settings: 'wdth' 100;
 }
 
 body, button, input, select, textarea {
-  font-family: var(--font-navigation), Georgia, serif;
+  font-family: var(--font-navigation), Arial, Helvetica, sans-serif;
 }
 
 .canvas { padding: 120px 24px 56px; }
 .wordmark {
-  width: min(520px, 56vw, 62dvh);
+  width: min(640px, 65vw, 110dvh);
   max-width: 100%;
   font-size: inherit;
 }
 .capra-logo { overflow: visible; }
-.header-brand { width: 72px; height: 76px; }
-.header-brand .wordmark-art { width: 66px; }
+.header-brand { width: 128px; height: 72px; }
+.header-brand .wordmark-art { width: 120px; }
 .header-nav {
-  font-family: var(--font-navigation), Georgia, serif;
-  font-variation-settings: 'SOFT' 100, 'WONK' 1, 'opsz' 36;
+  font-family: var(--font-navigation), Arial, Helvetica, sans-serif;
 }
 .nav-trigger, .bag-link {
-  font-size: 17px;
-  font-weight: 750;
-  letter-spacing: -.025em;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
   text-transform: lowercase;
 }
 .nav-trigger { color: #20201e; }
 .nav-link, .glass-filter-trigger, .primary-button, .text-link {
-  font-weight: 650;
-  letter-spacing: -.015em;
+  font-weight: 500;
+  letter-spacing: 0;
 }
 .primary-button { font-size: 15px; background: #20201e; border-color: #20201e; }
 .glass-filter-trigger { font-size: 14px; }
@@ -42,19 +41,17 @@ body, button, input, select, textarea {
 .catalog-heading h1, .catalog-empty h2, .product-info h1,
 .commerce-page h1, .policy-page h1, .vision-page h1,
 .vision-page h2, .vision-page h3, .background-lab h2 {
-  font-family: var(--font-navigation), Georgia, serif;
-  font-variation-settings: 'SOFT' 100, 'WONK' 1, 'opsz' 72;
-  font-weight: 850;
-  letter-spacing: -.045em;
-  line-height: 1.08;
+  font-family: var(--font-navigation), Arial, Helvetica, sans-serif;
+  font-weight: 450;
+  letter-spacing: -.035em;
+  line-height: 1.15;
   color: #20201e;
 }
 .product-caption h2, .viewer-heading h2, .bag-item h2,
 .bag-summary h2, .policy-page h2, .concept-features h3 {
-  font-weight: 750;
-  font-variation-settings: 'SOFT' 100, 'WONK' 1, 'opsz' 36;
+  font-weight: 500;
   text-transform: none;
-  letter-spacing: -.025em;
+  letter-spacing: -.015em;
   line-height: 1.25;
 }
 .product-caption h2 { font-size: 17px; }
@@ -65,14 +62,14 @@ body, button, input, select, textarea {
 .concept-features h3 { font-size: 16px; }
 .concept-features p, .product-disclosures { font-size: 14px; line-height: 1.75; }
 .vision-page section p { font-size: 17px; }
-.vision-page blockquote p { font-size: 23px; font-weight: 600; }
+.vision-page blockquote p { font-size: 23px; font-weight: 400; }
 
 .brand-preview { grid-template-columns: 1.6fr 1fr; }
 .brand-preview-art { min-height: 290px; padding: 24px; }
-.brand-preview-art .capra-logo { width: min(100%, 240px); }
+.brand-preview-art .capra-logo { width: min(100%, 360px); }
 .brand-preview-logo .capra-logo { width: 135px; }
-.background-preview-wordmark { width: min(34%, 260px); }
-.color-tile-panel legend { font-weight: 750; font-size: 17px; }
+.background-preview-wordmark { width: min(55%, 360px); }
+.color-tile-panel legend { font-weight: 500; font-size: 16px; }
 
 .site-footer {
   display: flex;
@@ -82,31 +79,33 @@ body, button, input, select, textarea {
   color: #45453e;
   font-size: 12px;
 }
-.footer-brand { display: block; width: 86px; flex-shrink: 0; }
-.footer-information nav { gap: 12px 24px; font-size: 14px; font-weight: 650; }
+.footer-brand { display: block; width: 128px; flex-shrink: 0; }
+.footer-information nav { gap: 12px 24px; font-size: 14px; font-weight: 400; }
 .footer-information p { margin: 6px 0; }
 
 @media (max-width: 767px) and (min-width: 640px) {
   .site-header { padding-inline: 18px; }
+  .header-brand { width: 108px; }
+  .header-brand .wordmark-art { width: 104px; }
   .nav-list { gap: 14px; }
-  .nav-trigger { font-size: 15px; padding-inline: 2px; }
+  .nav-trigger { font-size: 13px; padding-inline: 2px; }
 }
 @media (max-width: 639px) {
   .canvas { padding-top: 150px; }
-  .wordmark { width: min(78vw, 440px, 58dvh); }
+  .wordmark { width: min(84vw, 520px, 105dvh); }
   .site-header { padding: 6px 14px 0; }
-  .header-brand { width: 56px; height: 56px; }
-  .header-brand .wordmark-art { width: 48px; }
+  .header-brand { width: 104px; height: 56px; }
+  .header-brand .wordmark-art { width: 100px; }
   .nav-list { justify-content: space-between; gap: 6px; }
-  .nav-trigger { font-size: 14px; font-weight: 700; letter-spacing: -.03em; padding-inline: 1px; }
-  .bag-link { font-size: 16px; }
+  .nav-trigger { font-size: 13px; font-weight: 400; letter-spacing: 0; padding-inline: 1px; }
+  .bag-link { font-size: 14px; }
   .product-caption h2 { font-size: 15px; }
   .card-price { font-size: 11px; }
   .brand-preview { grid-template-columns: 1fr; }
   .brand-preview-art { min-height: 240px; }
   .brand-preview-logo .brand-preview-art { min-height: 180px; }
   .site-footer { gap: 24px; align-items: flex-start; padding-inline: 20px; }
-  .footer-brand { width: 64px; }
+  .footer-brand { width: 100px; }
   .footer-information nav { flex-direction: column; gap: 8px; }
 }
 @media (max-width: 359px) {

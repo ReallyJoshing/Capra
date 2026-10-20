@@ -33,7 +33,7 @@ Use real landscapes, real outdoor moments, and the people within them. Washingto
 
 The phrase “ready for foreign planets” describes the feeling of capability and possibility. The website direction is documentary: actual terrain, weather, friends, and garments. Photography should retain the character of those places.
 
-The supplied Capra horn-C logo, rounded serif typography, charcoal ink, and plain homepage form the visual foundation. The original logo artwork is preserved; Fraunces is the close web-font match for interface text, not a verified identification of the lettering in the reference. ROA helped the founder identify a standard of coherence, fashion sensitivity, material care, and product visibility. Capra's subject and source material come from the founder's own outdoor experience.
+The latest horizontal Capra horn-C logo, charcoal ink, and plain homepage form the visual foundation. The supplied artwork is preserved unchanged. Its rounded lettering stays within the logo; the interface uses clean Archivo sans-serif text, following the user's October 20 correction. ROA helped the founder identify a standard of coherence, fashion sensitivity, material care, and product visibility. Capra's subject and source material come from the founder's own outdoor experience.
 
 ## The website concept
 
