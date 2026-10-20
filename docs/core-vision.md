@@ -29,11 +29,11 @@ These are development standards. No garment's weather protection, lifespan, safe
 
 ## The visual world
 
-Use real landscapes, real outdoor moments, and the people within them. Washington is the origin of the vision. Trips elsewhere can extend the story with their actual locations identified. The homepage montage uses illustrative licensed stock footage; it does not document the founder's trips or Capra garment testing.
+Use real landscapes, real outdoor moments, and the people within them. Washington is the origin of the vision. Trips elsewhere can extend the story with their actual locations identified. The current homepage uses a chronological montage of attributed archival and Creative Commons footage. It celebrates historical achievement; it does not document the founder's trips or Capra garment testing.
 
 The phrase “ready for foreign planets” describes the feeling of capability and possibility. The website direction is documentary: actual terrain, weather, friends, and garments. Photography should retain the character of those places.
 
-The hand-drawn mountain goat and CAPRA sketch now lead the site, with Archivo navigation typography. The homepage pairs it with a short, energetic film of outdoor pursuits and victory moments, plus copy about making an imagined day real. ROA helped the founder identify a standard of coherence, fashion sensitivity, material care, and product visibility. Capra's purpose comes from the founder's own outdoor experience.
+The supplied mountain goat and CAPRA sketch remains the identity. Independent homepage version `capra-jc-2` uses a dark, minimal composition inspired by Known.com, a centered statement, and a film of real historical feats cut every half second. The previous visual direction remains on `capra-jc-1`; each version is developed independently. ROA helped the founder identify a standard of coherence, fashion sensitivity, material care, and product visibility. Capra's purpose comes from the founder's own outdoor experience.
 
 ## The website concept
 

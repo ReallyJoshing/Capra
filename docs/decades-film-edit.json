@@ -1,0 +1,482 @@
+{
+  "title": "Greatness, through time",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "shotDuration": 0.5,
+  "sources": [
+    {
+      "id": "chamonix1924",
+      "eventYear": 1924,
+      "author": "Jean de Rovera / Rapid-Film; Bernard Natan camera team",
+      "title": "The Olympic Games Held at Chamonix in 1924 (1925)",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Olympic_Games_Held_at_Chamonix_in_1924_(1925)_by_Jean_de_Rovera.webm",
+      "license": "Public domain (author died 1939; published 1925)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "id": "berlin1936",
+      "eventYear": 1936,
+      "author": "U.S. War Department; produced by Frank Capra, directed by Stuart Heisler",
+      "title": "Berlin 1936 Olympic footage in The Negro Soldier (1944)",
+      "url": "https://archive.org/details/gov.fdr.31",
+      "license": "Public domain U.S. federal government work; Archive item CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "supportingUrl": "https://commons.wikimedia.org/wiki/File:The_Negro_Soldier.ogv",
+      "note": "Only Berlin Olympics sports excerpt is selected. The source is a 1944 historical War Department film; do not label the event 1944. Thin colored scanner edge can be cropped."
+    },
+    {
+      "id": "kittinger1960",
+      "eventYear": 1960,
+      "author": "Universal Studios / U.S. Air Force footage",
+      "title": "19 1/2 Miles High: AF Balloonist Makes Record Flight and Jump, within U-2 Spy Trial, 1960/08/18",
+      "url": "https://archive.org/details/1960-08-18_u2_spy_trial",
+      "license": "Public domain as catalogued by Internet Archive Universal Newsreels collection",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "note": "Joseph Kittinger record jump took place August 16, 1960; newsreel released August18."
+    },
+    {
+      "id": "tokyo1964",
+      "eventYear": 1964,
+      "author": "Universal Studios",
+      "title": "The Olympics. U.S. Widens Tokyo Lead, 1964/10/19",
+      "url": "https://archive.org/details/1964-10-19_The_Olympics",
+      "license": "Public domain as catalogued by Internet Archive Universal Newsreels collection",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "id": "bikila1964",
+      "eventYear": 1964,
+      "author": "Universal Studios",
+      "title": "Olympics End. U.S. Teams Win Medal Honors, 1964/10/26",
+      "url": "https://commons.wikimedia.org/wiki/File:Olympics_End._U.S._Teams_Win_Medal_Honors,_1964-10-26.ogv",
+      "license": "CC0 / Universal Newsreel public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": "nasa1984",
+      "eventYear": 1984,
+      "author": "NASA",
+      "title": "STS-41B Mission Highlights",
+      "url": "https://plus.nasa.gov/video/sts-41b-mission-highlights/",
+      "license": "NASA-produced U.S. government footage; generally not subject to U.S. copyright",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "note": "Downloaded source range 635-667sec from full film. Actual 1984 color footage; astronaut likeness/endorsement rights separate from copyright. NASA guidance says promotional use of identifiable astronauts may need permission, including historical identity. Parent should retain editorial historical context and no-endorsement note or select launch alternate."
+    },
+    {
+      "id": "teter",
+      "eventYear": 2009,
+      "title": "Hannah Teter — halfpipe rotation",
+      "url": "https://commons.wikimedia.org/wiki/File:Hannah_Teter_NASA.ogv",
+      "author": "NASA",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "note": "Source publication 2009-07-01; exact performance capture date not established."
+    },
+    {
+      "id": "skiflying",
+      "eventYear": 2010,
+      "title": "Ski-Flying World Championships, Planica",
+      "url": "https://commons.wikimedia.org/wiki/File:FIS_Ski-Flying_World_Championships_2010.ogv",
+      "author": "MORS",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "note": "Capture 2010-03-20."
+    },
+    {
+      "id": "sharma",
+      "eventYear": 2012,
+      "title": "Chris Sharma — Céüse overhang",
+      "url": "https://commons.wikimedia.org/wiki/File:Chris_Sharma_-_BACK_in_C%C3%A9%C3%BCse_-_Sport_climbing_and_bolting_in_France.webm",
+      "author": "Petzl-sport",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "note": "2012 footage; original publication 2012-09-04."
+    },
+    {
+      "id": "surfaerial",
+      "eventYear": 2014,
+      "title": "The Wedge — huge breaking wave",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_Surfing.webm",
+      "author": "Daniel Peckham",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "note": "2014-08-29 source date."
+    },
+    {
+      "id": "ashima",
+      "eventYear": 2015,
+      "title": "Ashima Shiraishi — Open Your Mind Direct",
+      "url": "https://commons.wikimedia.org/wiki/File:Ashima_Shiraishi_sends_Open_Your_Mind_Direct_9a.webm",
+      "author": "Petzl-sport",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "note": "Record-setting send filmed in spring 2015; video published 2015-04-27."
+    },
+    {
+      "id": "wingsuit",
+      "eventYear": 2016,
+      "title": "Aiguille du Midi — wingsuit flight",
+      "url": "https://commons.wikimedia.org/wiki/File:Wingsuit_flight_Jump_from_Aiguille_du_Midi_2016_-_Chamonix.webm",
+      "author": "Anton Squeezer",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "note": "Source publication 2016-11-06; film explicitly titled 2016."
+    },
+    {
+      "id": "basewaterfall",
+      "eventYear": 2017,
+      "title": "Sipiso-Piso waterfall BASE jump",
+      "url": "https://commons.wikimedia.org/wiki/File:BASE_jumping_in_Indonesia._Waterfall_Sipiso-Piso.webm",
+      "author": "DROPROPE",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "note": "Source date 2017-01-08."
+    },
+    {
+      "id": "basetonsai",
+      "eventYear": 2017,
+      "title": "Ton Sai — BASE jump exit",
+      "url": "https://commons.wikimedia.org/wiki/File:BASE_jumping_in_Ton_Sai_(2-Way).webm",
+      "author": "DROPROPE",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "note": "Source date 2017-01-14."
+    },
+    {
+      "id": "hosszu",
+      "eventYear": 2017,
+      "title": "Katinka Hosszú — world championship gold celebration",
+      "url": "https://commons.wikimedia.org/wiki/File:Katinka_Hossz%C3%BA_shatter_world_record_in_winning_400-meter_individual_medley_gold_-_Ceremony.ogv",
+      "author": "Elekes Andor",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "note": "2017-07-30; women’s 400m IM gold, championship record. Filename says world record but performance was a championship record, not new world record."
+    },
+    {
+      "id": "trophy",
+      "eventYear": 2017,
+      "title": "UCF — AAC championship trophy and confetti",
+      "url": "https://commons.wikimedia.org/wiki/File:AAC_Trophy_Presentation_(38780488452).webm",
+      "author": "elisfkc",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "note": "Source date 2017-12-03; game was 2017-12-02, metadata describes UCF beating Memphis 62–55."
+    },
+    {
+      "id": "white",
+      "eventYear": 2018,
+      "title": "Shaun White — Olympic gold celebration",
+      "url": "https://commons.wikimedia.org/wiki/File:Footage_of_Shaun_White_celebrating_2018_gold_medal_k-M70MFw4dWEPtLB.webm",
+      "author": "U.S. Embassy Seoul",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "note": "Commons date 2018-02-13; medal event in Korea on 2018-02-14. Keep year only."
+    },
+    {
+      "id": "gerard",
+      "eventYear": 2018,
+      "title": "Red Gerard — Olympic Big Air final",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Gerard_competes_in_the_Big_Air_snowboarding_finals_CNenR3ree4rRa_T0.webm",
+      "author": "Sarah Sanders",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "note": "2018 Winter Olympics; tweet identifier/source from 2018-02-24. Not 2022."
+    },
+    {
+      "id": "youthski2",
+      "eventYear": 2020,
+      "title": "Marco Wörgötter — Youth Olympic ski jump",
+      "url": "https://commons.wikimedia.org/wiki/File:Ski_jumping_at_the_2020_Winter_Youth_Olympics_-_20_January_2020_-_40.webm",
+      "author": "DarDarCH",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "note": "Capture 2020-01-20. File description identifies his second jump."
+    },
+    {
+      "id": "janja",
+      "eventYear": 2017,
+      "title": "Janja Garnbret — Edinburgh Lead World Cup final",
+      "url": "https://commons.wikimedia.org/wiki/File:Janja_Garnbret,_2017_IFSC_Climbing_Worldcup_Edinburgh_Great_Britain,_Women_Lead.webm",
+      "author": "MountainTV",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "note": "2017 event; source publication 2017-12-08, exact event day not verified. Full stretch toward finishing hold with both feet extended. Keep MountainTV/score overlays (do not remove watermarks)."
+    }
+  ],
+  "shots": [
+    {
+      "id": "1924-ski-flight",
+      "sourceId": "chamonix1924",
+      "year": "1924",
+      "label": "Ski jumper in flight, first Winter Olympics",
+      "input": "archive/1924.webm",
+      "start": 1824.6,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "1936-owens-start",
+      "sourceId": "berlin1936",
+      "year": "1936",
+      "label": "Jesse Owens poised before sprint",
+      "input": "archive/owens1944.mp4",
+      "start": 955.3,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "1936-owens-finish",
+      "sourceId": "berlin1936",
+      "year": "1936",
+      "label": "Jesse Owens sprint finish, Berlin Olympics",
+      "input": "archive/owens1944.mp4",
+      "start": 970.5,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "1936-owens-smile",
+      "sourceId": "berlin1936",
+      "year": "1936",
+      "label": "Jesse Owens smiling after race",
+      "input": "archive/owens1944.mp4",
+      "start": 981,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "1960-kittinger",
+      "sourceId": "kittinger1960",
+      "year": "1960",
+      "label": "Joseph Kittinger falling toward Earth",
+      "input": "archive/1960-08-18_u2_spy_trial_512kb.mp4",
+      "start": 201.0,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "1964-dive",
+      "sourceId": "tokyo1964",
+      "year": "1964",
+      "label": "Leslie Bush platform dive",
+      "input": "archive/1964-10-19_The_Olympics.mp4",
+      "start": 44.8,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "1964-hayes",
+      "sourceId": "tokyo1964",
+      "year": "1964",
+      "label": "Bob Hayes sprint, Tokyo Olympics",
+      "input": "archive/1964-10-19_The_Olympics.mp4",
+      "start": 92,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "1964-medals",
+      "sourceId": "tokyo1964",
+      "year": "1964",
+      "label": "Tokyo women 100m medal podium, winner raises arms",
+      "input": "archive/1964-10-19_The_Olympics.mp4",
+      "start": 133.2,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "1964-bikila",
+      "sourceId": "bikila1964",
+      "year": "1964",
+      "label": "Abebe Bikila marathon running closeup",
+      "input": "archive/1964.ogv",
+      "start": 100,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "1984-spacewalk",
+      "sourceId": "nasa1984",
+      "year": "1984",
+      "label": "Untethered spacewalk above Earth, STS-41B",
+      "input": "archive/1984-spacewalk-high.mp4",
+      "start": 11,
+      "duration": 0.5,
+      "crop": "crop=1440:1080:240:0"
+    },
+    {
+      "id": "modern-01",
+      "sourceId": "teter",
+      "year": "2000s",
+      "label": "Hannah Teter — halfpipe rotation",
+      "input": "modern/teter.webm",
+      "start": 20.05,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "modern-02",
+      "sourceId": "skiflying",
+      "year": "2010",
+      "label": "Ski-Flying World Championships, Planica",
+      "input": "modern/skiflying.ogv",
+      "start": 129.8,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "modern-03",
+      "sourceId": "sharma",
+      "year": "2012",
+      "label": "Chris Sharma — Céüse overhang",
+      "input": "modern/sharma.webm",
+      "start": 471.0,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "modern-04",
+      "sourceId": "surfaerial",
+      "year": "2014",
+      "label": "The Wedge — huge breaking wave",
+      "input": "modern/surfaerial.webm",
+      "start": 8.1,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "modern-05",
+      "sourceId": "surfaerial",
+      "year": "2014",
+      "label": "The Wedge — rider on wave face",
+      "input": "modern/surfaerial.webm",
+      "start": 21.55,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "modern-06",
+      "sourceId": "ashima",
+      "year": "2015",
+      "label": "Ashima Shiraishi — Open Your Mind Direct",
+      "input": "modern/ashima.webm",
+      "start": 123.0,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "modern-07",
+      "sourceId": "ashima",
+      "year": "2015",
+      "label": "Ashima Shiraishi — release after the send",
+      "input": "modern/ashima.webm",
+      "start": 223.0,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "modern-08",
+      "sourceId": "wingsuit",
+      "year": "2016",
+      "label": "Aiguille du Midi — wingsuit flight",
+      "input": "modern/wingsuit.webm",
+      "start": 69.9,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "modern-09",
+      "sourceId": "wingsuit",
+      "year": "2016",
+      "label": "Chamonix — proximity flight over trees",
+      "input": "modern/wingsuit.webm",
+      "start": 126.5,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "modern-10",
+      "sourceId": "basewaterfall",
+      "year": "2017",
+      "label": "Sipiso-Piso waterfall BASE jump",
+      "input": "modern/basewaterfall.webm",
+      "start": 5.0,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "modern-11",
+      "sourceId": "basetonsai",
+      "year": "2017",
+      "label": "Ton Sai — BASE jump exit",
+      "input": "modern/basetonsai.webm",
+      "start": 17.35,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "modern-12",
+      "sourceId": "hosszu",
+      "year": "2017",
+      "label": "Katinka Hosszú — world championship gold celebration",
+      "input": "modern/hosszu.webm",
+      "start": 143.0,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "modern-extra-janja",
+      "sourceId": "janja",
+      "year": "2017",
+      "label": "Janja Garnbret — Edinburgh Lead World Cup final",
+      "input": "modern/janja.webm",
+      "start": 366,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "modern-13",
+      "sourceId": "trophy",
+      "year": "2017",
+      "label": "UCF — championship trophy presentation",
+      "input": "modern/trophy.webm",
+      "start": 17.35,
+      "duration": 0.5,
+      "crop": "crop=960:540:400:260"
+    },
+    {
+      "id": "modern-14",
+      "sourceId": "white",
+      "year": "2018",
+      "label": "Shaun White — Olympic gold celebration",
+      "input": "modern/white.webm",
+      "start": 0.35,
+      "duration": 0.5,
+      "crop": "crop=480:270:0:100"
+    },
+    {
+      "id": "modern-15",
+      "sourceId": "gerard",
+      "year": "2018",
+      "label": "Red Gerard — Olympic Big Air final",
+      "input": "modern/gerard.mp4",
+      "start": 4.0,
+      "duration": 0.5,
+      "crop": "crop=480:270:600:80"
+    },
+    {
+      "id": "modern-16",
+      "sourceId": "youthski2",
+      "year": "2020",
+      "label": "Marco Wörgötter — Youth Olympic ski jump",
+      "input": "modern/youthski2.webm",
+      "start": 8.4,
+      "duration": 0.5,
+      "crop": "crop=960:540:250:180"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "licenseNote": "This edited montage is shared under Creative Commons Attribution-ShareAlike 4.0. Credit the source contributors listed here and Capra for the edit; retain the source credits and license when sharing an adaptation. Athlete likenesses and trademarks remain separate rights. The website code and Capra mark are not included in this video license."
+}

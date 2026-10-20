@@ -1,34 +1,34 @@
-# Capra storefront
+# Capra — Greatness, through time
 
-Development branch `capra-jc-1`, based on `feature/landing`. This repository contains the Capra storefront, its product concepts, images, and supporting documentation.
+**Independent homepage design: `capra-jc-2`.** The earlier design remains on `capra-jc-1`; `main` remains a separate baseline. This homepage was composed from scratch around the supplied sketch and Known.com’s minimal film-led presentation.
 
-## Product vision
+## Homepage
 
-Capra begins in the Washington backcountry, with a vision for capable layers, freedom of movement, and a lifetime of shared adventure. Its core is the feeling of arriving somewhere demanding and being deeply glad the gear you invested in lets you enjoy being there. Material care, considered form, and quality through repeated use should earn a devoted community's trust.
+A small film frame on a black canvas expands to fill the screen. A quiet, centered statement appears over the film, with white sketch branding and restrained navigation. **Watch the film** or **Feel it** switches to unobstructed viewing; **Back to Capra** or Escape returns to the statement. Pause/play and reduced-motion behavior are built in.
 
-The current references are the [core vision](docs/core-vision.md), [knowledge base](docs/knowledge-base.md), and [JN scenes and founder quotations](docs/jn-vision-references.md). These guide product and website decisions; performance remains an ambition until verified for each garment.
+The 13.5-second film has **27 hard cuts at 0.5 seconds per shot**, ordered chronologically from 1924 to 2020. Real archival Olympic moments, Jesse Owens, Joseph Kittinger, Tokyo medal celebrations and a 1984 spacewalk give way to modern footage of Hannah Teter, Chris Sharma, Ashima Shiraishi, Janja Garnbret, wingsuit flight, giant surf and championship celebrations. The source texture progresses naturally across eras; modern footage has not been made artificially old.
 
-The **Vision** tab opens `/vision`, an editorial page pairing founder lines with five original JN archive scenes. The environment-based shop concept is recorded for future development; it is not implemented by the Vision page or homepage film.
+Full provenance, exact edit ranges and source licenses are in [video sources](docs/video-sources.md) and the [edit manifest](docs/decades-film-edit.json). The film is distributed under CC BY-SA 4.0, with a visible credits dialog and download. The athletes shown are not affiliated with Capra.
 
-## Current storefront
+The homepage has its own component and scoped CSS. Existing catalog and Vision routes remain available at their URLs but do not determine the homepage’s visual design. Product context remains documented in the [core vision](docs/core-vision.md) and [knowledge base](docs/knowledge-base.md).
 
-The homepage leads with the supplied hand-drawn mountain goat and CAPRA sketch. A short, silent montage moves through climbing, snowboarding, a hockey trophy lift, mountain bike jumps, a soccer medal celebration, cliff diving, and surfing. It starts in a small frame and expands across the viewport over about 6.5 seconds. It loops with a pause/play control; reduced-motion visitors see a still poster from the surf sequence. Opening copy centers on making the day you imagined real, and links lead to the Vision page and collection. The footage is illustrative stock, not Capra product testing or founder-trip documentation. Its sources and usage notes are in [video sources](docs/video-sources.md).
+## Compare versions
 
-The floating header uses the sketch as its home mark. Clothing and Accessories link directly to `/clothing` and `/accessories`; hover menus provide collection shortcuts, also accessible with Arrow Down. Navigation uses locally hosted Archivo with restrained uppercase letter spacing. On narrow screens, navigation moves into its own centered row.
+Open each branch in its own worktree and run a different port. This version uses `npm run dev -- --port 3002` at **http://localhost:3002**. Keep the versions separate until one is explicitly selected for release. A normal branch diff compares their source snapshots:
 
-The active catalog is **Field Study 03**: 50 collection concepts, split into 29 clothing pieces and 21 accessories. Each has a design image, palette color, fit direction and five design features. Type and color filters combine, with live result counts and collection shortcuts in the header. The images show generated concepts, not manufactured products. Four previews have edited CAPRA headings: `hearth-beanie`, `trail-belt`, `ridgeline-cap`, and `talus-work-trouser`; the other study previews remain unchanged. Pricing and availability remain unset, so these concepts cannot be added to checkout. Earlier prototype product URLs and saved test bags remain supported.
-
-The default import source is the sibling `capra-field-study-03/data/design-book.json` plus its `previews/` folder. Run `python3 scripts/import-field-study.py` to refresh `src/data/field-study-03.json` and `public/images/field-study-03/` from that source. If the study lives elsewhere, set `FIELD_STUDY_SOURCE=/path/to/study` for the command. The import preserves all 50 designs, all 250 features, and the four curated CAPRA previews using the Capra-branded source data. The original design-study workspace is not included in this repository; the checked-in data and images are sufficient to run the storefront.
+```sh
+git diff capra-jc-1..capra-jc-2
+```
 
 ## Work locally
 
-Use Node 20.9 or later. Run `npm ci`, then `npm run dev` and open http://127.0.0.1:3001.
+Use Node 20.9 or later. Run `npm ci`, then `npm run dev -- --port 3002` and open http://localhost:3002.
 
 - Homepage: `src/app/page.tsx`
-- Homepage film component: `src/components/capra-hero.tsx`
+- Homepage component: `src/components/decades-home.tsx`
 - Active sketch: `public/images/brand/capra-sketch.png`
-- Film and poster: `public/videos/capra-reel.mp4`, `public/videos/capra-reel-poster.jpg`
-- Page styling: `src/app/globals.css`
+- Film and poster: `public/videos/greatness-through-time.mp4`, `public/videos/greatness-poster.jpg`
+- Homepage styling: `src/components/decades-home.module.css` (independent of shared route styles)
 - Document layout and metadata: `src/app/layout.tsx`
 - Header component: `src/components/site-header.tsx`
 - Menu labels and destinations: `src/config/navigation.ts`
@@ -58,7 +58,7 @@ Run `npm test`, `npm run typecheck`, and `npm run build`. If Turbopack is unavai
 
 This is a standard Next.js project. Use the Next.js framework preset, the repository root as the root directory, and the default build/output settings. No environment variables are required for the current page.
 
-See Hosting below for deployment configuration. The `capra-jc-1` redesign is a branch for review and is not described here as a production deployment. Keep `.vercel/` and credentials out of source control. Search indexing remains disabled in the page metadata.
+See Hosting below for deployment configuration. The `capra-jc-2` redesign is a branch for review and is not described here as a production deployment. Keep `.vercel/` and credentials out of source control. Search indexing remains disabled in the page metadata.
 
 ## Studio and catalog details
 

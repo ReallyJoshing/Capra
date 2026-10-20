@@ -1,8 +1,7 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
-import { SiteHeader } from '@/components/site-header';
+import { SiteChrome } from '@/components/site-chrome';
 import './globals.css';
-import { SiteFooter } from '@/components/site-footer';
 
 const navigationFont = localFont({
   src: './fonts/Archivo-Variable.ttf',
@@ -14,7 +13,7 @@ const navigationFont = localFont({
 
 export const metadata: Metadata = {
   title: 'Capra',
-  description: 'Born in the Washington backcountry. A vision for capable layers, freedom of movement, and a lifetime of shared adventure.',
+  description: 'For the ones who dream it. And then go out and do it. Capra.',
   robots: { index: false, follow: false },
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -22,9 +21,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en" className={navigationFont.variable}>
       <body>
         <a href="#main-content" className="skip-link">Skip to content</a>
-        <SiteHeader />
-        {children}
-        <SiteFooter />
+        <SiteChrome>{children}</SiteChrome>
       </body>
     </html>
   );

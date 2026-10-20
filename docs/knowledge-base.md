@@ -13,9 +13,9 @@ Updated October 20, 2026. Use this with the [core vision](core-vision.md) when d
 | Product ambition | Capable layers with unrestricted mobility, carefully chosen materials, and durability through repeated use. |
 | Aesthetic | Fashion-informed proportions and material choices, restrained presentation, visible product quality. |
 | Business ambition | A devoted community with confidence earned through products and care over time. |
-| Visual setting | Real landscapes and outdoor pursuits. Identify documented trip locations accurately; treat the homepage stock reel as illustrative footage. |
+| Visual setting | Real landscapes and outdoor pursuits. Identify documented trip locations accurately; treat the homepage historical montage as an editorial celebration, with no athlete endorsement implied. |
 | Website direction | Eventually explore and shop by environment, with selectable garments on the people in each scene. |
-| Current website | A hand-drawn goat/CAPRA sketch and short expanding film of outdoor feats and victory moments on the homepage, a Vision tab with JN imagery, and the complete Field Study 03 catalog. |
+| Current website | Independent homepage `capra-jc-2`: a dark composition, white sketch, expanding chronological film and centered statement. `capra-jc-1` preserves the first design. Catalog and Vision pages remain at their existing routes. |
 | Active catalog | 50 concepts: 29 clothing pieces and 21 accessories, each with five features. The original ROA-inspired proportions guide the form; technical references inform development beneath that form. |
 | Catalog status | Generated concept imagery, including four previews with curated CAPRA heading edits. Materials, sizing, price and availability are unconfirmed. Concept products are browse-only; earlier prototype URLs retain their test commerce behavior. |
 
@@ -36,7 +36,7 @@ These are questions for product development, not specifications or completed tes
 - Keep the founder's emotional direction distinct from a claim about a finished product.
 - Use exact excerpts for quotation marks. Attribute them to the founder's vision; they are not customer reviews or transcripts from the footage.
 - JN footage illustrates the life and terrain that inspired the brand. It does not show verified Capra field testing or prove that the pictured clothes are Capra products.
-- The homepage reel uses licensed stock clips of outdoor feats. It conveys aspiration, not identified athletes' endorsements, founder-trip records, or product performance evidence. See [video sources](video-sources.md).
+- The homepage reel uses attributed archival and Creative Commons footage of historical feats. It conveys aspiration, not identified athletes' endorsements, founder-trip records, or product performance evidence. See [video sources](video-sources.md).
 - Keep Washington's role as the origin explicit. Identify Thousand Island Lake and Hetch Hetchy as California references when using them.
 - Do not turn “any environment,” “roughest conditions,” “second skin,” or “years and years” into universal protection or lifespan guarantees.
 - Preserve the existing sample-price, sample-material, prototype, and test-checkout disclosures until the underlying product and business facts are verified.

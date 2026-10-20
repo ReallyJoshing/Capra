@@ -1,23 +1,29 @@
-# Capra sketch and film storefront
+# Capra — independent homepage version 2
 
-Publication: this work is on `capra-jc-1` in `ReallyJoshing/Capra`. `feature/landing` is the parent branch; `release` preserved an earlier annotated storefront in the original source checkout.
+Current design branch: `capra-jc-2` in `ReallyJoshing/Capra`. `capra-jc-1` preserves the earlier homepage. `main` is the repository baseline. Keep each design on its own branch; do not merge a design to main without an explicit request.
 
-- Read `docs/core-vision.md` and `docs/knowledge-base.md` before changing product direction, brand copy, imagery, or the shopping experience. The current vision centers on feeling at home outdoors, shared effort, comfort at the destination, and trust earned through use.
-- The Vision tab at `/vision` pairs founder statements with real JN archive scenes. Source details live in `docs/jn-vision-references.md` and `docs/vision-media-sources.json`. Do not present these images as Capra performance tests or the founder's quotes as video transcripts.
-- The homepage uses the supplied hand-drawn goat and CAPRA sketch at `public/images/brand/capra-sketch.png`. Its film at `public/videos/capra-reel.mp4` mixes outdoor feats with brief victory and celebration moments. It starts automatically in a small frame and expands across the viewport over about 6.5 seconds. Preserve its pause/play control, still poster, and reduced-motion equivalent. The montage is illustrative stock footage, not Capra product testing, founder-trip footage, or an endorsement by the people shown; see `docs/video-sources.md`.
-- Environment-based shopping with selectable garments is a documented future direction. Preserve the sketch-and-film homepage until that experience is explicitly requested.
+## Homepage direction
 
-- Homepage: `src/app/page.tsx`. Styling: `src/app/globals.css`. Metadata: `src/app/layout.tsx`.
-- Active brand art: `public/images/brand/capra-sketch.png` on the homepage and shared header; `/experimental` is a simple Studio page showing the sketch. The earlier Archivo vector wordmark remains in `src/components/capra-wordmark.tsx`, `src/assets/capra-wordmark.json`, and `scripts/generate-wordmark.py` for reference, but is no longer the primary site mark or an interactive color lab.
-- Homepage film: `public/videos/capra-reel.mp4`, with `public/videos/capra-reel-poster.jpg` as its still. The source and usage notes are in `docs/video-sources.md`.
-- Shared header: `src/components/site-header.tsx`. Collection routes: `/clothing` and `/accessories`. Product data: `src/data/products.ts`; filters: `src/lib/catalog.mjs`.
-- Keep Archivo navigation typography and the hand-drawn sketch as the active identity. The old mist-forest/background picker and two-color vector lab are retained code, not current homepage or `/experimental` features.
-- The active catalog is Field Study 03: 50 concepts in `src/data/field-study-03.json`, imported with `scripts/import-field-study.py`. Images in `public/images/field-study-03/` are generated study previews; four have curated CAPRA heading edits (`hearth-beanie`, `trail-belt`, `ridgeline-cap`, `talus-work-trouser`) that the importer preserves. Keep five features per design. Concepts have no price, sizes or purchase controls. The earlier five prototype items remain in `legacyProducts` for existing URLs and saved test bags; `allProducts` resolves both sets. Do not imply verified inventory or manufacturing facts.
-- Existing components and configuration from the previous storefront are retained but not rendered by the homepage.
-- Use Next.js App Router, TypeScript, and Tailwind v4 / CSS; preserve Vercel compatibility.
-- Add real commerce, customer data collection, or additional features only when requested.
-- Run `npm test`, `npm run typecheck`, and `npm run build` before a release checkpoint. Check the page at desktop and narrow widths when browser access is available.
-- Keep private conversation details and credentials out of source control.
+The user explicitly requested an independent composition using Known.com as the homepage reference. Do not derive this homepage’s design from the earlier storefront. It has its own CSS module, header, footer, copy, and film controls.
+
+- Homepage: `src/app/page.tsx` and `src/components/decades-home.tsx`.
+- Isolated styles: `src/components/decades-home.module.css`.
+- Supplied sketch: `public/images/brand/capra-sketch.png`, displayed with white strokes on the dark homepage.
+- Film: `public/videos/greatness-through-time.mp4` — 27 chronological half-second shots, 13.5 seconds, silent, 1080p/30fps. It begins in a small centered rectangle and grows to fill the viewport over 7.5 seconds. Actual historical sources provide the progression from archival black-and-white to modern digital footage.
+- Preserve pause/play, a reduced-motion still, film-only viewing, keyboard access, and visible source credits. Sources and adaptation licenses are in `docs/video-sources.md` and `docs/decades-film-edit.json`; visible credit data is in `src/data/decades-film.json`.
+- The edited film is CC BY-SA 4.0; source attribution and a downloadable film are required. Athlete imagery does not imply a Capra endorsement or product test.
+- `src/components/site-chrome.tsx` excludes the earlier storefront header/footer from `/`. Collection routes retain their existing interface; the homepage does not render it.
+- Use Capra throughout source, docs, assets, package metadata and storage keys. Do not retain old-name compatibility fallbacks.
+
+## Shared application
+
+Read `docs/core-vision.md` and `docs/knowledge-base.md` for product work. The homepage’s new creative brief takes precedence over older homepage presentation guidance in those documents.
+
+The catalog is Field Study 03: 50 generated concepts with five features each. Keep catalog facts and prototype commerce disclosures accurate. Do not add real commerce or collect customer data without a request. Preserve Next.js App Router, TypeScript and Vercel compatibility.
+
+Run `npm test`, `npm run typecheck`, and `npm run build` before a release checkpoint. Check desktop and narrow layouts and the film controls in a browser. The development preview for this version uses port 3002: `npm run dev -- --port 3002`.
+
+Keep private conversation details, downloaded source footage, and credentials out of source control. The finished film, poster, edit manifest and attribution belong in the repository.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
