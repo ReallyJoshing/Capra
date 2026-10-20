@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = { title: 'The studio — Capra' };
@@ -13,7 +12,19 @@ export default function StudioPage() {
       </header>
       <div className="studio-layout">
         <figure className="studio-mark">
-          <Image src="/images/brand/capra-sketch-transparent.png" alt="The hand-drawn Capra goat in motion above the Capra name" width={1460} height={1078} sizes="(max-width: 767px) 90vw, 50vw" />
+          <svg viewBox="190 0 1060 790" role="img" aria-label="The hand-drawn Capra goat in motion">
+            <defs>
+              <clipPath id="studio-goat">
+                <path d="M200 0H1250V745H620V778H300V745H200Z" />
+              </clipPath>
+            </defs>
+            <image
+              href="/images/brand/capra-sketch-transparent.png"
+              width="1460"
+              height="1078"
+              clipPath="url(#studio-goat)"
+            />
+          </svg>
         </figure>
         <section className="studio-copy">
           <p className="eyebrow">It starts with a mark.</p>

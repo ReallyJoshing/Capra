@@ -26,6 +26,7 @@ The user explicitly requested an independent composition using Known.com as the 
 - All homepage navigation links, including Explore and Bag, use the same short fade into the destination. The keyed React ViewTransition in SiteChrome follows the actual route commit; respect reduced motion and preserve ordinary navigation in browsers without support.
 - Clothing, Accessories, product details, Our story, Studio, Bag, policy pages and 404 share the same styling.
 - Studio expresses **Free-spirited by nature**, with three principles: independence (find your own way), resolve (one foothold at a time), and resourcefulness (at home on hard ground). These interpret the goat’s curiosity, climbing and adaptation as brand values; they are not garment performance claims.
+- The large Studio illustration shows only the goat, without CAPRA lettering. Its SVG viewport clips the original transparent sketch while preserving the rear hoof.
 
 ## Shared application
 
