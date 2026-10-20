@@ -1,9 +1,0 @@
-.env*
-.data/
-output/
-scripts/
-tests/
-docs/
-.git/
-.next/
-node_modules/
