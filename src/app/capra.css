@@ -1,0 +1,118 @@
+/* Capra: the supplied horn mark and a soft, substantial serif voice. */
+:root {
+  --wordmark-color: #20201e;
+  --wordmark-inlay-color: #20201e;
+  color: #20201e;
+  font-family: var(--font-navigation), Georgia, serif;
+  font-variation-settings: 'SOFT' 100, 'WONK' 1, 'opsz' 24;
+}
+
+body, button, input, select, textarea {
+  font-family: var(--font-navigation), Georgia, serif;
+}
+
+.canvas { padding: 120px 24px 56px; }
+.wordmark {
+  width: min(520px, 56vw, 62dvh);
+  max-width: 100%;
+  font-size: inherit;
+}
+.capra-logo { overflow: visible; }
+.header-brand { width: 72px; height: 76px; }
+.header-brand .wordmark-art { width: 66px; }
+.header-nav {
+  font-family: var(--font-navigation), Georgia, serif;
+  font-variation-settings: 'SOFT' 100, 'WONK' 1, 'opsz' 36;
+}
+.nav-trigger, .bag-link {
+  font-size: 17px;
+  font-weight: 750;
+  letter-spacing: -.025em;
+  text-transform: lowercase;
+}
+.nav-trigger { color: #20201e; }
+.nav-link, .glass-filter-trigger, .primary-button, .text-link {
+  font-weight: 650;
+  letter-spacing: -.015em;
+}
+.primary-button { font-size: 15px; background: #20201e; border-color: #20201e; }
+.glass-filter-trigger { font-size: 14px; }
+.nav-list { gap: clamp(20px, 3vw, 42px); }
+
+.catalog-heading h1, .catalog-empty h2, .product-info h1,
+.commerce-page h1, .policy-page h1, .vision-page h1,
+.vision-page h2, .vision-page h3, .background-lab h2 {
+  font-family: var(--font-navigation), Georgia, serif;
+  font-variation-settings: 'SOFT' 100, 'WONK' 1, 'opsz' 72;
+  font-weight: 850;
+  letter-spacing: -.045em;
+  line-height: 1.08;
+  color: #20201e;
+}
+.product-caption h2, .viewer-heading h2, .bag-item h2,
+.bag-summary h2, .policy-page h2, .concept-features h3 {
+  font-weight: 750;
+  font-variation-settings: 'SOFT' 100, 'WONK' 1, 'opsz' 36;
+  text-transform: none;
+  letter-spacing: -.025em;
+  line-height: 1.25;
+}
+.product-caption h2 { font-size: 17px; }
+.product-caption { align-items: start; }
+.product-swatch { flex-shrink: 0; margin-top: 3px; }
+.card-price { font-size: 12px; line-height: 1.5; }
+.detail-description, .policy-page p { font-size: 16px; line-height: 1.75; }
+.concept-features h3 { font-size: 16px; }
+.concept-features p, .product-disclosures { font-size: 14px; line-height: 1.75; }
+.vision-page section p { font-size: 17px; }
+.vision-page blockquote p { font-size: 23px; font-weight: 600; }
+
+.brand-preview { grid-template-columns: 1.6fr 1fr; }
+.brand-preview-art { min-height: 290px; padding: 24px; }
+.brand-preview-art .capra-logo { width: min(100%, 240px); }
+.brand-preview-logo .capra-logo { width: 135px; }
+.background-preview-wordmark { width: min(34%, 260px); }
+.color-tile-panel legend { font-weight: 750; font-size: 17px; }
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  gap: clamp(32px, 5vw, 80px);
+  background: #fafaf8;
+  color: #45453e;
+  font-size: 12px;
+}
+.footer-brand { display: block; width: 86px; flex-shrink: 0; }
+.footer-information nav { gap: 12px 24px; font-size: 14px; font-weight: 650; }
+.footer-information p { margin: 6px 0; }
+
+@media (max-width: 767px) and (min-width: 640px) {
+  .site-header { padding-inline: 18px; }
+  .nav-list { gap: 14px; }
+  .nav-trigger { font-size: 15px; padding-inline: 2px; }
+}
+@media (max-width: 639px) {
+  .canvas { padding-top: 150px; }
+  .wordmark { width: min(78vw, 440px, 58dvh); }
+  .site-header { padding: 6px 14px 0; }
+  .header-brand { width: 56px; height: 56px; }
+  .header-brand .wordmark-art { width: 48px; }
+  .nav-list { justify-content: space-between; gap: 6px; }
+  .nav-trigger { font-size: 14px; font-weight: 700; letter-spacing: -.03em; padding-inline: 1px; }
+  .bag-link { font-size: 16px; }
+  .product-caption h2 { font-size: 15px; }
+  .card-price { font-size: 11px; }
+  .brand-preview { grid-template-columns: 1fr; }
+  .brand-preview-art { min-height: 240px; }
+  .brand-preview-logo .brand-preview-art { min-height: 180px; }
+  .site-footer { gap: 24px; align-items: flex-start; padding-inline: 20px; }
+  .footer-brand { width: 64px; }
+  .footer-information nav { flex-direction: column; gap: 8px; }
+}
+@media (max-width: 359px) {
+  .nav-trigger { font-size: 12px; }
+}
+@media (forced-colors: active) {
+  :root { --wordmark-color: CanvasText; --wordmark-inlay-color: CanvasText; }
+  .capra-logo { forced-color-adjust: none; }
+}

@@ -615,7 +615,7 @@
     "concept": {
       "code": "10",
       "intro": "A broad half-zip in warm fog grey, retaining the clean original front without adding a chest pocket. Preserve its standing collar, diagonal shoulder seam, relaxed sleeve and settled lower band. Let a dry dense fleece surface and monochrome construction establish the shape.",
-      "description": "A broad half-zip in warm fog grey, retaining the clean original front without adding a chest pocket. Preserve its standing collar, diagonal shoulder seam, relaxed sleeve and settled lower band. Let a dry dense fleece surface and monochrome construction establish the shape. Lengthen the front zip enough for deliberate heat release, following Deviator and Trail Mix proportions, while retaining Kimo’s clean vertical center line. Place stretch fleece at the arms and underarms after Deviator, allowing a larger Logo Half Zip body to move without thick fabric bunching beneath the shoulder. Evaluate Ceramik’s abrasion-oriented face treatment as a research benchmark, without assuming its proprietary finish can be transferred to the selected Odle fabric. Preserve the first Ridge's uninterrupted half-zip front. If secure storage is needed, conceal a small pocket in a side seam rather than adding an external chest opening. Retain the first study's standing collar, diagonal shoulder seams and softly resting lower band. Warm fog grey continues through all visible fabric, leaving shape and surface to carry the design.",
+      "description": "A broad half-zip in warm fog grey, retaining the clean original front without adding a chest pocket. Preserve its standing collar, diagonal shoulder seam, relaxed sleeve and settled lower band. Let a dry dense fleece surface and monochrome construction establish the shape. Lengthen the front zip enough for deliberate heat release, following Deviator and Trail Mix proportions, while retaining Kimo’s clean vertical center line. Place stretch fleece at the arms and underarms after Deviator, allowing a larger Logo Half Zip body to move without thick fabric bunching beneath the shoulder. Evaluate Ceramik’s abrasion-oriented face treatment as a research benchmark, without assuming its proprietary finish can be transferred to the selected Capra fabric. Preserve the first Ridge's uninterrupted half-zip front. If secure storage is needed, conceal a small pocket in a side seam rather than adding an external chest opening. Retain the first study's standing collar, diagonal shoulder seams and softly resting lower band. Warm fog grey continues through all visible fabric, leaving shape and surface to carry the design.",
       "fit": "Boxy through chest, with room at the biceps and a straight high-hip hem.",
       "validation": "Check zipper comfort, underarm mobility, fabric pilling and the balance between insulation and venting.",
       "features": [
@@ -638,7 +638,7 @@
         },
         {
           "name": "Durable face study",
-          "text": "Evaluate Ceramik’s abrasion-oriented face treatment as a research benchmark, without assuming its proprietary finish can be transferred to the selected Odle fabric.",
+          "text": "Evaluate Ceramik’s abrasion-oriented face treatment as a research benchmark, without assuming its proprietary finish can be transferred to the selected Capra fabric.",
           "sources": [
             "OR-035"
           ]
@@ -2176,7 +2176,7 @@
     "concept": {
       "code": "34",
       "intro": "An enveloping thigh-length parka in warm pale stone. Carry Basin's oversized hood, soft substantial volume and disciplined quilt rhythm into a longer straight shape. Broad lower chambers and an uninterrupted shoulder face, all tonal. Dark hardware should be barely visible.",
-      "description": "An enveloping thigh-length parka in warm pale stone. Carry Basin's oversized hood, soft substantial volume and disciplined quilt rhythm into a longer straight shape. Broad lower chambers and an uninterrupted shoulder face, all tonal. Dark hardware should be barely visible. Extend Nuna and Smooth volume into a straight thigh-length body, keeping the hood large and the lower silhouette broad enough to sit without compressing insulation. Study Super Alpine’s quilt-free hood, sleeve and side exterior, reducing exposed quilt lines at weather-facing zones while maintaining organized chambers inside. Compare OR alpine and urban parkas as different warmth and weight references; choose fill, distribution and fabric for the intended camp environment rather than mixing their claims. Use a two-way center closure and internal stash pockets informed by Super Alpine, with hand pockets positioned to stay accessible above the seated fold. Stormcraft provides a benchmark for integrating weather protection with insulation; the Odle parka remains a proposed assembly until its complete shell and seam design are tested.",
+      "description": "An enveloping thigh-length parka in warm pale stone. Carry Basin's oversized hood, soft substantial volume and disciplined quilt rhythm into a longer straight shape. Broad lower chambers and an uninterrupted shoulder face, all tonal. Dark hardware should be barely visible. Extend Nuna and Smooth volume into a straight thigh-length body, keeping the hood large and the lower silhouette broad enough to sit without compressing insulation. Study Super Alpine’s quilt-free hood, sleeve and side exterior, reducing exposed quilt lines at weather-facing zones while maintaining organized chambers inside. Compare OR alpine and urban parkas as different warmth and weight references; choose fill, distribution and fabric for the intended camp environment rather than mixing their claims. Use a two-way center closure and internal stash pockets informed by Super Alpine, with hand pockets positioned to stay accessible above the seated fold. Stormcraft provides a benchmark for integrating weather protection with insulation; the Capra parka remains a proposed assembly until its complete shell and seam design are tested.",
       "fit": "Room over the complete layering system; two-way front opening preserves seated and stepping freedom.",
       "validation": "Assess loft distribution, cold spots, seated warmth, hood visibility and drying after damp exposure.",
       "features": [
@@ -2212,7 +2212,7 @@
         },
         {
           "name": "Weather-layer boundary",
-          "text": "Stormcraft provides a benchmark for integrating weather protection with insulation; the Odle parka remains a proposed assembly until its complete shell and seam design are tested.",
+          "text": "Stormcraft provides a benchmark for integrating weather protection with insulation; the Capra parka remains a proposed assembly until its complete shell and seam design are tested.",
           "sources": [
             "OR-465",
             "ROA-053"

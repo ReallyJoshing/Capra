@@ -1,10 +1,10 @@
-# Odle core vision
+# Capra core vision
 
-Updated October 16, 2026. This is the current reference for product direction, brand voice, and the website. It supersedes the generic outdoor athleisure framing in the original storefront scaffold.
+Updated October 20, 2026. This is the current reference for product direction, brand voice, and the website. It supersedes the generic outdoor athleisure framing in the original storefront scaffold.
 
 ## The feeling at the center
 
-Odle begins in the Washington backcountry: effort shared with friends, changing weather, rough terrain, and the pleasure of arriving somewhere you want to stay. The defining moment is reaching the destination and feeling deeply glad you invested your hard-earned money in gear that helps you enjoy being there.
+Capra begins in the Washington backcountry: effort shared with friends, changing weather, rough terrain, and the pleasure of arriving somewhere you want to stay. The defining moment is reaching the destination and feeling deeply glad you invested your hard-earned money in gear that helps you enjoy being there.
 
 The ambition is to feel at home in wild places. Capable layers should let the wearer move naturally, stay comfortable within the garment's intended conditions, and settle into the landscape with the people they care about. The product has to respect the money, time, and trust someone puts into it.
 
@@ -14,7 +14,7 @@ Health and individual strength are part of this vision. Effort is approached wit
 
 People with an orientation toward nature who want a full, active life outdoors. The shared quality is a desire to participate, explore, and return. Experience can grow over time. The brand should speak with the specificity of lived outdoor experience while remaining welcoming to people finding their way into it.
 
-The founder's ambition is a devoted community whose trust strengthens with repeated use. Success means people reach for their Odle clothes again, recommend them from experience, and have good reason to consider the next release.
+The founder's ambition is a devoted community whose trust strengthens with repeated use. Success means people reach for their Capra clothes again, recommend them from experience, and have good reason to consider the next release.
 
 ## What the clothes must work toward
 
@@ -33,7 +33,7 @@ Use real landscapes, real outdoor moments, and the people within them. Washingto
 
 The phrase “ready for foreign planets” describes the feeling of capability and possibility. The website direction is documentary: actual terrain, weather, friends, and garments. Photography should retain the character of those places.
 
-The existing Odle wordmark, Archivo typography, restrained palette, and plain homepage remain the visual foundation. ROA helped the founder identify a standard of coherence, fashion sensitivity, material care, and product visibility. Odle's subject and source material come from the founder's own outdoor experience.
+The supplied Capra horn-C logo, rounded serif typography, charcoal ink, and plain homepage form the visual foundation. The original logo artwork is preserved; Fraunces is the close web-font match for interface text, not a verified identification of the lettering in the reference. ROA helped the founder identify a standard of coherence, fashion sensitivity, material care, and product visibility. Capra's subject and source material come from the founder's own outdoor experience.
 
 ## The website concept
 

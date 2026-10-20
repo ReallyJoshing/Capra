@@ -4,7 +4,7 @@ import { useEffect, useMemo, useSyncExternalStore } from 'react';
 import { defaultBrandColors } from '@/config/brand-palettes';
 
 type BrandColors = typeof defaultBrandColors;
-const key = 'odle-brand-colors';
+const key = 'capra-brand-colors-v1';
 const defaults = JSON.stringify(defaultBrandColors);
 let sessionValue: string | undefined;
 function snapshot() {
@@ -16,10 +16,10 @@ function subscribe(update: () => void) {
     if (event.key === key || event.key === null) { sessionValue = undefined; update(); }
   };
   window.addEventListener('storage', storage);
-  window.addEventListener('odle-colors-change', update);
+  window.addEventListener('capra-colors-change', update);
   return () => {
     window.removeEventListener('storage', storage);
-    window.removeEventListener('odle-colors-change', update);
+    window.removeEventListener('capra-colors-change', update);
   };
 }
 export function useBrandColors() {
@@ -34,7 +34,7 @@ export function useBrandColors() {
   function setColors(next: BrandColors) {
     sessionValue = JSON.stringify(next);
     try { localStorage.setItem(key, sessionValue); } catch { /* Still apply within this tab. */ }
-    window.dispatchEvent(new Event('odle-colors-change'));
+    window.dispatchEvent(new Event('capra-colors-change'));
   }
   return { colors, setColors };
 }

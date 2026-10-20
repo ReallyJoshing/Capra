@@ -1,6 +1,6 @@
-# Odle knowledge base
+# Capra knowledge base
 
-Updated October 19, 2026. Use this with the [core vision](core-vision.md) when developing products, copy, photography, and the storefront.
+Updated October 20, 2026. Use this with the [core vision](core-vision.md) when developing products, copy, photography, and the storefront.
 
 ## Current decisions
 
@@ -35,7 +35,7 @@ These are questions for product development, not specifications or completed tes
 
 - Keep the founder's emotional direction distinct from a claim about a finished product.
 - Use exact excerpts for quotation marks. Attribute them to the founder's vision; they are not customer reviews or transcripts from the footage.
-- JN footage illustrates the life and terrain that inspired the brand. It does not show verified Odle field testing or prove that the pictured clothes are Odle products.
+- JN footage illustrates the life and terrain that inspired the brand. It does not show verified Capra field testing or prove that the pictured clothes are Capra products.
 - Keep Washington's role as the origin explicit. Identify Thousand Island Lake and Hetch Hetchy as California references when using them.
 - Do not turn “any environment,” “roughest conditions,” “second skin,” or “years and years” into universal protection or lifespan guarantees.
 - Preserve the existing sample-price, sample-material, prototype, and test-checkout disclosures until the underlying product and business facts are verified.
@@ -61,3 +61,9 @@ These are questions for product development, not specifications or completed tes
 - [Launch readiness](launch-readiness.md).
 
 The current catalog imports the approved Field Study 03 design book and its existing preview images. `src/data/field-study-03.json` contains the 50 concepts and 250 features; `scripts/import-field-study.py` refreshes them from the sibling study folder. The earlier five sample products remain accessible by their existing URLs but are outside the active collection. All design images and sample commerce data remain prototype material. This vision update does not select a first production garment or approve a manufacturer, material specification, warranty, or production run.
+
+## Capra identity — October 20, 2026
+
+The user supplied the Capra horn-C logo and requested the identity across the website. The original PNG is preserved in `public/brand/capra-reference.png`; `src/components/capra-logo.tsx` renders it with independent horn and lettering colors. Fraunces is self-hosted under the SIL Open Font License, with soft, heavy settings for headings and navigation and lighter settings for reading. The exact font in the screenshot is unconfirmed.
+
+Homepage, header, footer, page titles, browser icon, share metadata, Vision copy, product text, color lab and test-checkout display branding now use Capra. The proposed operating entity remains Odle Gear LLC; a brand update does not establish a renamed company. Earlier prototype photos can still contain the old ODLE embroidery. They remain historical concept imagery rather than newly branded manufacturing evidence. Cart storage, product URLs, payment integration identifiers and hosting identifiers are kept compatible.

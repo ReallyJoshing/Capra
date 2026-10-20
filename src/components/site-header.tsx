@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { OdleWordmark } from '@/components/odle-wordmark';
 import { BagLink } from '@/components/bag-link';
 import { navigation } from '@/config/navigation';
 
@@ -40,9 +39,8 @@ export function SiteHeader({ logo }: { logo: ReactNode }) {
         }
       }}
     >
-      <Link className="header-brand" href="/" aria-label="Odle home" onClick={() => setOpenMenu(null)}>
+      <Link className="header-brand" href="/" aria-label="Capra home" onClick={() => setOpenMenu(null)}>
         {logo}
-        <span className="header-brand-tail" aria-hidden="true"><OdleWordmark suffix /></span>
       </Link>
       <nav className="header-nav" aria-label="Main navigation">
         <ul className="nav-list">

@@ -2,7 +2,7 @@
 
 import { useId, type KeyboardEvent } from 'react';
 import { useBrandColors } from '@/components/brand-theme';
-import { OdleWordmark } from '@/components/odle-wordmark';
+import { CapraLogo } from '@/components/capra-logo';
 import { brandPalette, defaultBrandColors } from '@/config/brand-palettes';
 
 function ColorTiles({ label, description, value, onChange }: {
@@ -68,21 +68,21 @@ export function BrandColorLab() {
     <div className="brand-color-lab">
       <section className="brand-preview" aria-label="Live brand previews">
         <figure className="brand-preview-title">
-          <figcaption>ODLE title</figcaption>
-          <div className="brand-preview-art" role="img" aria-label={`ODLE wordmark in ${primary} with ${secondary} inlays`}>
-            <OdleWordmark />
+          <figcaption>Capra mark</figcaption>
+          <div className="brand-preview-art" role="img" aria-label={`Capra mark: horn ${primary}, lettering ${secondary}`}>
+            <CapraLogo />
           </div>
         </figure>
         <figure className="brand-preview-logo">
-          <figcaption>Header logo</figcaption>
-          <div className="brand-preview-art" role="img" aria-label={`O logo in ${primary} with ${secondary} inlays`}>
-            <OdleWordmark monogram />
+          <figcaption>Horn monogram</figcaption>
+          <div className="brand-preview-art" role="img" aria-label={`Capra horn in ${primary}`}>
+            <CapraLogo monogram />
           </div>
         </figure>
       </section>
       <div className="color-tile-panels">
-        <ColorTiles label="Primary color" description="Lettering and the outer star." value={primary} onChange={setPrimary} />
-        <ColorTiles label="Secondary color" description="Inset lines and the inner star." value={secondary} onChange={setSecondary} />
+        <ColorTiles label="Horn color" description="The horn-shaped C." value={primary} onChange={setPrimary} />
+        <ColorTiles label="Lettering color" description="The apra lettering." value={secondary} onChange={setSecondary} />
       </div>
       <button
         className="text-link lab-reset"

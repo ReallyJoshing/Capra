@@ -1,8 +1,8 @@
-# Odle clean starting page
+# Capra storefront
 
 Publication: this snapshot is shared at `ReallyJoshing/Capra` on `feature/landing`. The branch names in the local development notes below refer to the original source checkout.
 
-The active experiment is `feat/clean-start`; `release` preserves the earlier annotated storefront.
+The shared storefront is on `feature/landing`. The original local source checkout retains `feat/clean-start`; its `release` branch preserves the earlier annotated storefront.
 
 - Read `docs/core-vision.md` and `docs/knowledge-base.md` before changing product direction, brand copy, imagery, or the shopping experience. The current vision centers on feeling at home outdoors, shared effort, comfort at the destination, and trust earned through use.
 - The Vision tab at `/vision` pairs founder statements with real JN archive scenes. Source details live in `docs/jn-vision-references.md` and `docs/vision-media-sources.json`. Do not present these images as Odle performance tests or the founder's quotes as video transcripts.
@@ -10,9 +10,9 @@ The active experiment is `feat/clean-start`; `release` preserves the earlier ann
 
 - Keep the homepage minimal until the user requests a visual direction or features.
 - Homepage: `src/app/page.tsx`. Styling: `src/app/globals.css`. Metadata: `src/app/layout.tsx`.
-- Wordmark: `src/components/odle-wordmark.tsx`; geometry: `src/assets/odle-wordmark.json`; generator: `scripts/generate-wordmark.py`. The Archivo settings are baked into these vector paths.
+- Current logo: `src/components/capra-logo.tsx`, using the original user-supplied `public/brand/capra-reference.png`. Preserve the supplied horn and lettering shapes. Historical Odle vector assets and generator are inactive.
 - Shared header: `src/components/site-header.tsx`. Collection routes: `/clothing` and `/accessories`. Product data: `src/data/products.ts`; filters: `src/lib/catalog.mjs`.
-- Keep the Archivo wordmark geometry and navigation typography on a plain white homepage. The wordmark uses dark bone-greige with pale sage inlays and nested four-point stars inside the O, shared by the header monogram. The experimental serif wordmark and landscape background were reverted.
+- The October 20 user-supplied Capra identity supersedes the former Odle/Archivo direction. Use self-hosted Fraunces, with soft heavy headings and legible lighter body text. Default horn and lettering are charcoal `#20201e`; both are adjustable in the color lab. The homepage remains minimal. Brand styles live in `src/app/capra.css`. Do not infer that the proposed legal entity has changed or that historical product-photo embroidery has been updated.
 - The active catalog is Field Study 03: 50 concepts in `src/data/field-study-03.json`, imported with `scripts/import-field-study.py`. Images are unchanged generated study previews in `public/images/field-study-03/`. Keep five features per design. Concepts have no price, sizes or purchase controls. The earlier five prototype items remain in `legacyProducts` for existing URLs and saved test bags; `allProducts` resolves both sets. Do not imply verified inventory or manufacturing facts.
 - Existing components and configuration from the previous storefront are retained but not rendered by the homepage.
 - Use Next.js App Router, TypeScript, and Tailwind v4 / CSS; preserve Vercel compatibility.

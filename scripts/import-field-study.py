@@ -48,5 +48,5 @@ for concept in book['concepts']:
     })
     catalog[-1]['concept']['kind'] = concept['type']
 assert len({product['id'] for product in catalog}) == 50
-(root / 'src/data/field-study-03.json').write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + '\n')
+(root / 'src/data/field-study-03.json').write_text(json.dumps(catalog, indent=2, ensure_ascii=False).replace('Odle', 'Capra') + '\n')
 print(f'Imported {len(catalog)} concepts, 250 features and 50 images.')

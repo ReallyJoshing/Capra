@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { ProductCatalog } from '@/components/product-catalog';
 import { products } from '@/data/products';
 
-export const metadata: Metadata = { title: 'Clothing — Odle' };
+export const metadata: Metadata = { title: 'Clothing | Capra' };
 
 export default async function ClothingPage({ searchParams }: { searchParams: Promise<{ type?: string | string[] }> }) {
   const query = await searchParams;
