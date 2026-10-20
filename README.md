@@ -6,7 +6,7 @@
 
 A small film frame on a black canvas expands to fill the screen. A quiet, centered statement appears over the film, with a transparent white sketch logo and direct navigation. Home and film are one experience. **Explore** leads to the collection; pause/play and reduced-motion behavior remain available.
 
-The 13.5-second film has **27 hard cuts at 0.5 seconds per shot**, ordered chronologically from 1924 to 2020. Real archival Olympic moments, Jesse Owens, Joseph Kittinger, Tokyo medal celebrations and a 1984 spacewalk give way to modern footage of Hannah Teter, Chris Sharma, Ashima Shiraishi, Janja Garnbret, wingsuit flight, giant surf and championship celebrations. The source texture progresses naturally across eras; modern footage has not been made artificially old.
+The 17.5-second film has **35 shots at 0.5 seconds each**, ordered chronologically from 1924 through June 2026. Real archival Olympic moments, Jesse Owens, Joseph Kittinger, Tokyo medal celebrations and a 1984 spacewalk give way to modern footage of Hannah Teter, a 2011 Everest summit, Chris Sharma, Chamonix highlining, Ashima Shiraishi, Janja Garnbret, wingsuit flight, giant surf, and sunset freefall over Washington in June 2026. The source texture progresses naturally across eras; modern footage has not been made artificially old.
 
 Full provenance, exact edit ranges and source licenses are in [video sources](docs/video-sources.md) and the [edit manifest](docs/decades-film-edit.json). The film is distributed under CC BY-SA 4.0, with a visible credits dialog and download. The athletes shown are not affiliated with Capra.
 

@@ -78,6 +78,19 @@ def main():
     (root / "src/data/decades-film.json").write_text(
         json.dumps(client, ensure_ascii=False, indent=2) + "\n"
     )
+    credits = [
+        f'{edit["title"]} — edited by Capra',
+        edit["licenseNote"] + "\n" + edit["licenseUrl"],
+    ]
+    credits.extend(
+        f'{source["title"]}\n{source["author"]}\n{source["url"]}\n'
+        f'{source["license"]}: {source["licenseUrl"]}'
+        for source in edit["sources"]
+    )
+    credits.append(
+        "Changes: half-second excerpts, muted, scaled, cropped, and assembled chronologically."
+    )
+    (root / "public/videos/greatness-credits.txt").write_text("\n\n".join(credits) + "\n")
     print(f"Rendered {len(paths)} half-second shots: {output}")
 
 

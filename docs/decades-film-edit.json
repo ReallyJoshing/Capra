@@ -84,6 +84,17 @@
       "note": "Capture 2010-03-20."
     },
     {
+      "id": "everest2011",
+      "eventYear": 2011,
+      "title": "Everest — summit ridge and climbers at the summit, May 2011",
+      "url": "https://commons.wikimedia.org/wiki/File:Alan_Arnette_Everest_2011_Summit_for_Alzheimer%27s-OhsHspWddhc.webm",
+      "author": "Panuru Sherpa / Alan Arnette",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "supportingUrl": "https://www.youtube.com/watch?v=OhsHspWddhc",
+      "note": "Captured May 21, 2011; published January 9, 2012. Panuru Sherpa filmed; Alan Arnette published the video for his Seven Summits Alzheimer’s campaign. Commons license review is pending, but the original YouTube page was independently checked on October 20, 2026: its License metadata explicitly states Creative Commons Attribution license (reuse allowed). Actual moving footage, 854×480 original. Selected images show the summit ridge and climbers at the summit; individual climbers in these cuts are not separately identified. Audio and the original fundraising titles are not used."
+    },
+    {
       "id": "sharma",
       "eventYear": 2012,
       "title": "Chris Sharma — Céüse overhang",
@@ -102,6 +113,17 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "note": "2014-08-29 source date."
+    },
+    {
+      "id": "highline2014",
+      "eventYear": 2014,
+      "title": "Chamonix — highline across the Brévent cliffs",
+      "url": "https://commons.wikimedia.org/wiki/File:Wingsuiters_Vs_Rope_Walkers_at_Chamonix.webm",
+      "author": "YouSlackline (now Slack Inov)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "supportingUrl": "https://www.youtube.com/watch?v=gHv8OYy8Cvk",
+      "note": "Original 1920×1080 video dated September 10, 2014. Commons records YouTubeReviewBot verification of the original Creative Commons license on December 9, 2019. Two moving excerpts show a barefoot highliner balancing and a wide cliff-to-cliff span above Chamonix with a flyer crossing overhead. The source page flags non-free soundtrack material: ALL original audio is omitted from this silent edit. The 2014 label follows the source date; no more precise filming date is claimed."
     },
     {
       "id": "ashima",
@@ -154,16 +176,6 @@
       "note": "2017-07-30; women’s 400m IM gold, championship record. Filename says world record but performance was a championship record, not new world record."
     },
     {
-      "id": "trophy",
-      "eventYear": 2017,
-      "title": "UCF — AAC championship trophy and confetti",
-      "url": "https://commons.wikimedia.org/wiki/File:AAC_Trophy_Presentation_(38780488452).webm",
-      "author": "elisfkc",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-      "note": "Source date 2017-12-03; game was 2017-12-02, metadata describes UCF beating Memphis 62–55."
-    },
-    {
       "id": "white",
       "eventYear": 2018,
       "title": "Shaun White — Olympic gold celebration",
@@ -202,6 +214,16 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "note": "2017 event; source publication 2017-12-08, exact event day not verified. Full stretch toward finishing hold with both feet extended. Keep MountainTV/score overlays (do not remove watermarks)."
+    },
+    {
+      "id": "sunset2026",
+      "eventYear": 2026,
+      "title": "Golden Knights — sunset freefall over Washington, D.C.",
+      "url": "https://www.dvidshub.net/video/1010848/us-army-parachute-team-jumps-sunset-over-washington-monument-freedom-250-events",
+      "author": "U.S. Army / Staff Sgt. Clay Stevens; published by Megan Hackett",
+      "license": "Public domain U.S. government footage",
+      "licenseUrl": "https://www.dvidshub.net/about/copyright",
+      "note": "DVIDS explicitly identifies this as public domain B-roll, taken June 13, 2026. Download DOD_111773409, 3840×1678. Source-mandated nonendorsement statement is included in the public credit note. Three different views: overhead smoke trail, linked freefall formation, solo silhouette at sunset. Original audio omitted."
     }
   ],
   "shots": [
@@ -326,6 +348,26 @@
       "crop": null
     },
     {
+      "id": "2011-everest-ridge",
+      "sourceId": "everest2011",
+      "year": "2011",
+      "label": "Everest — climber approaching the summit ridge",
+      "input": "modern/2011-everest-summit.webm",
+      "start": 18.3,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "2011-everest-summit",
+      "sourceId": "everest2011",
+      "year": "2011",
+      "label": "Everest — climbers together at the summit",
+      "input": "modern/2011-everest-summit.webm",
+      "start": 65.2,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
       "id": "modern-03",
       "sourceId": "sharma",
       "year": "2012",
@@ -356,12 +398,42 @@
       "crop": null
     },
     {
+      "id": "2014-highline-balance",
+      "sourceId": "highline2014",
+      "year": "2014",
+      "label": "Chamonix — barefoot balance on the highline",
+      "input": "modern/2014-highline.webm",
+      "start": 99.8,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "2014-highline-valley",
+      "sourceId": "highline2014",
+      "year": "2014",
+      "label": "Chamonix — highline above the valley",
+      "input": "modern/2014-highline.webm",
+      "start": 107.2,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
       "id": "modern-06",
       "sourceId": "ashima",
       "year": "2015",
       "label": "Ashima Shiraishi — Open Your Mind Direct",
       "input": "modern/ashima.webm",
       "start": 123.0,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "2015-ashima-close-reach",
+      "sourceId": "ashima",
+      "year": "2015",
+      "label": "Ashima Shiraishi — reaching through the limestone crux",
+      "input": "modern/ashima.webm",
+      "start": 153,
       "duration": 0.5,
       "crop": null
     },
@@ -392,6 +464,16 @@
       "label": "Chamonix — proximity flight over trees",
       "input": "modern/wingsuit.webm",
       "start": 126.5,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "2016-chamonix-canopy",
+      "sourceId": "wingsuit",
+      "year": "2016",
+      "label": "Chamonix — canopy above the mountain road",
+      "input": "modern/wingsuit.webm",
+      "start": 172.8,
       "duration": 0.5,
       "crop": null
     },
@@ -436,16 +518,6 @@
       "crop": null
     },
     {
-      "id": "modern-13",
-      "sourceId": "trophy",
-      "year": "2017",
-      "label": "UCF — championship trophy presentation",
-      "input": "modern/trophy.webm",
-      "start": 17.35,
-      "duration": 0.5,
-      "crop": "crop=960:540:400:260"
-    },
-    {
       "id": "modern-14",
       "sourceId": "white",
       "year": "2018",
@@ -474,9 +546,39 @@
       "start": 8.4,
       "duration": 0.5,
       "crop": "crop=960:540:250:180"
+    },
+    {
+      "id": "2026-sunset-overhead",
+      "sourceId": "sunset2026",
+      "year": "2026",
+      "label": "Golden Knights — smoke trails above Washington",
+      "input": "modern/2026-sunset-jump.mp4",
+      "start": 33,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "2026-sunset-formation",
+      "sourceId": "sunset2026",
+      "year": "2026",
+      "label": "Golden Knights — linked freefall formation at sunset",
+      "input": "modern/2026-sunset-jump.mp4",
+      "start": 26.8,
+      "duration": 0.5,
+      "crop": null
+    },
+    {
+      "id": "2026-sunset-flight",
+      "sourceId": "sunset2026",
+      "year": "2026",
+      "label": "Golden Knights — silhouette in freefall at sunset",
+      "input": "modern/2026-sunset-jump.mp4",
+      "start": 3,
+      "duration": 0.5,
+      "crop": null
     }
   ],
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "licenseNote": "This edited montage is shared under Creative Commons Attribution-ShareAlike 4.0. Credit the source contributors listed here and Capra for the edit; retain the source credits and license when sharing an adaptation. Athlete likenesses and trademarks remain separate rights. The website code and Capra mark are not included in this video license."
+  "licenseNote": "This edited montage is shared under Creative Commons Attribution-ShareAlike 4.0. Credit the source contributors listed here and Capra for the edit; retain the source credits and license when sharing an adaptation. Athlete likenesses and trademarks remain separate rights. The website code and Capra mark are not included in this video license. The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement."
 }

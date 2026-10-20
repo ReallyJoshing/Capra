@@ -49,6 +49,14 @@
       "label": "Ski-Flying World Championships, Planica"
     },
     {
+      "year": "2011",
+      "label": "Everest — climber approaching the summit ridge"
+    },
+    {
+      "year": "2011",
+      "label": "Everest — climbers together at the summit"
+    },
+    {
       "year": "2012",
       "label": "Chris Sharma — Céüse overhang"
     },
@@ -61,8 +69,20 @@
       "label": "The Wedge — rider on wave face"
     },
     {
+      "year": "2014",
+      "label": "Chamonix — barefoot balance on the highline"
+    },
+    {
+      "year": "2014",
+      "label": "Chamonix — highline above the valley"
+    },
+    {
       "year": "2015",
       "label": "Ashima Shiraishi — Open Your Mind Direct"
+    },
+    {
+      "year": "2015",
+      "label": "Ashima Shiraishi — reaching through the limestone crux"
     },
     {
       "year": "2015",
@@ -75,6 +95,10 @@
     {
       "year": "2016",
       "label": "Chamonix — proximity flight over trees"
+    },
+    {
+      "year": "2016",
+      "label": "Chamonix — canopy above the mountain road"
     },
     {
       "year": "2017",
@@ -93,10 +117,6 @@
       "label": "Janja Garnbret — Edinburgh Lead World Cup final"
     },
     {
-      "year": "2017",
-      "label": "UCF — championship trophy presentation"
-    },
-    {
       "year": "2018",
       "label": "Shaun White — Olympic gold celebration"
     },
@@ -107,6 +127,18 @@
     {
       "year": "2020",
       "label": "Marco Wörgötter — Youth Olympic ski jump"
+    },
+    {
+      "year": "2026",
+      "label": "Golden Knights — smoke trails above Washington"
+    },
+    {
+      "year": "2026",
+      "label": "Golden Knights — linked freefall formation at sunset"
+    },
+    {
+      "year": "2026",
+      "label": "Golden Knights — silhouette in freefall at sunset"
     }
   ],
   "sources": [
@@ -167,6 +199,13 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
     },
     {
+      "title": "Everest — summit ridge and climbers at the summit, May 2011",
+      "url": "https://commons.wikimedia.org/wiki/File:Alan_Arnette_Everest_2011_Summit_for_Alzheimer%27s-OhsHspWddhc.webm",
+      "author": "Panuru Sherpa / Alan Arnette",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
       "title": "Chris Sharma — Céüse overhang",
       "url": "https://commons.wikimedia.org/wiki/File:Chris_Sharma_-_BACK_in_C%C3%A9%C3%BCse_-_Sport_climbing_and_bolting_in_France.webm",
       "author": "Petzl-sport",
@@ -179,6 +218,13 @@
       "author": "Daniel Peckham",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "title": "Chamonix — highline across the Brévent cliffs",
+      "url": "https://commons.wikimedia.org/wiki/File:Wingsuiters_Vs_Rope_Walkers_at_Chamonix.webm",
+      "author": "YouSlackline (now Slack Inov)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
     },
     {
       "title": "Ashima Shiraishi — Open Your Mind Direct",
@@ -216,13 +262,6 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     {
-      "title": "UCF — AAC championship trophy and confetti",
-      "url": "https://commons.wikimedia.org/wiki/File:AAC_Trophy_Presentation_(38780488452).webm",
-      "author": "elisfkc",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-    },
-    {
       "title": "Shaun White — Olympic gold celebration",
       "url": "https://commons.wikimedia.org/wiki/File:Footage_of_Shaun_White_celebrating_2018_gold_medal_k-M70MFw4dWEPtLB.webm",
       "author": "U.S. Embassy Seoul",
@@ -249,7 +288,14 @@
       "author": "MountainTV",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "title": "Golden Knights — sunset freefall over Washington, D.C.",
+      "url": "https://www.dvidshub.net/video/1010848/us-army-parachute-team-jumps-sunset-over-washington-monument-freedom-250-events",
+      "author": "U.S. Army / Staff Sgt. Clay Stevens; published by Megan Hackett",
+      "license": "Public domain U.S. government footage",
+      "licenseUrl": "https://www.dvidshub.net/about/copyright"
     }
   ],
-  "licenseNote": "This edited montage is shared under Creative Commons Attribution-ShareAlike 4.0. Credit the source contributors listed here and Capra for the edit; retain the source credits and license when sharing an adaptation. Athlete likenesses and trademarks remain separate rights. The website code and Capra mark are not included in this video license."
+  "licenseNote": "This edited montage is shared under Creative Commons Attribution-ShareAlike 4.0. Credit the source contributors listed here and Capra for the edit; retain the source credits and license when sharing an adaptation. Athlete likenesses and trademarks remain separate rights. The website code and Capra mark are not included in this video license. The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement."
 }
