@@ -13,7 +13,7 @@
 }
 
 .home button, .home a { -webkit-tap-highlight-color: transparent; }
-.home button { color: inherit; cursor: pointer; font: inherit; }
+.home button { color: inherit; cursor: pointer; font-family: inherit; }
 .home button:focus-visible, .home a:focus-visible { outline: 2px solid var(--paper); outline-offset: 6px; }
 
 .filmWindow {
@@ -51,26 +51,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  mix-blend-mode: screen;
 }
 .brand { display: block; width: 92px; }
-.brand img { display: block; width: 100%; height: auto; filter: invert(1); mix-blend-mode: screen; }
-.navigation { display: flex; align-items: center; gap: 32px; }
-.navigation button { border: 0; background: transparent; font-size: 15px; letter-spacing: -.025em; }
-.spiritLink { padding: 12px 0; opacity: .8; transition: opacity 200ms; }
-.spiritLink:hover { opacity: 1; }
-.navigation .filmLink {
-  display: flex;
-  align-items: center;
-  gap: 22px;
-  padding: 13px 20px;
-  border: 1px solid rgb(244 242 234 / 35%);
-  border-radius: 999px;
-  background: rgb(0 0 0 / 8%);
-  transition: background 200ms, border-color 200ms;
-}
-.filmLink:hover { background: rgb(244 242 234 / 12%); border-color: var(--paper); }
-.filmLink span { font-size: 19px; line-height: 1; }
+.brand img { display: block; width: 100%; height: auto; filter: brightness(0) invert(1); }
 .introCaption {
   position: fixed;
   top: 69%;
@@ -104,15 +87,17 @@
 .callToAction {
   display: inline-flex;
   align-items: center;
-  gap: 28px;
+  gap: 12px;
   margin-top: 28px;
   padding: 14px 23px;
   border: 1px solid var(--paper);
   border-radius: 999px;
   background: var(--paper);
   color: #171716 !important;
-  font-size: 17px !important;
-  letter-spacing: -.035em;
+  font-size: 15px;
+  line-height: 1.3;
+  letter-spacing: -.025em;
+  text-decoration: none;
   transition: background 200ms, transform 200ms;
 }
 .callToAction:hover { background: #fff; transform: translateY(-2px); }
@@ -143,11 +128,6 @@
 .home[data-intro-complete='true'] .manifesto { animation: none; opacity: 1; visibility: visible; }
 .home[data-intro-complete='true'] .scrim::after { animation: none; opacity: 1; }
 .home[data-intro-complete='true'] .introCaption { display: none; }
-.home[data-cinema='true'] .manifesto { animation: none; opacity: 0; visibility: hidden; }
-.home[data-cinema='true'] .filmWindow { animation: none; width: 100vw; height: 100svh; }
-.home[data-cinema='true'] .scrim::after { animation: none; opacity: 0; }
-.home[data-cinema='true'] .introCaption { display: none; }
-.home[data-cinema='true'] .film { object-fit: contain; }
 
 .credits {
   position: fixed;
@@ -192,18 +172,15 @@
   .copy p { margin-bottom: 31px; }
 }
 @media (max-width: 639px) {
-  .header { inset: 20px 20px auto; }
+  .header { inset: 20px 20px auto; flex-wrap: wrap; gap: 8px; }
   .brand { width: 72px; }
-  .navigation { gap: 16px; }
-  .spiritLink { display: none; }
-  .navigation .filmLink { padding: 11px 15px; gap: 14px; font-size: 13px; }
   .filmWindow { width: 72vw; height: 40.5vw; }
   .home[data-ready='true'] .filmWindow { animation-name: openFrameMobile; }
   .introCaption { top: 66%; font-size: 12px; }
-  .manifesto { padding: 140px 20px 140px; }
+  .manifesto { padding: 170px 20px 130px; }
   .copy { font-size: 19px; }
   .copy p { margin-bottom: 25px; }
-  .callToAction { margin-top: 26px; padding: 12px 22px; font-size: 16px !important; }
+  .callToAction { margin-top: 26px; padding: 13px 22px; font-size: 14px; }
   .footer { inset: auto 20px 20px; align-items: center; gap: 12px; }
   .title { font-size: 11px; }
   .cue { max-width: 205px; font-size: 10px; min-height: 24px; }
@@ -211,6 +188,9 @@
   .creditsLink { font-size: 10px !important; white-space: nowrap; }
   .playback { width: 36px; height: 36px; flex-shrink: 0; }
   .credits { padding: 24px; }
+}
+@media (max-width: 359px) {
+  .brand { width: 60px; }
 }
 @keyframes openFrameMobile {
   0%, 9% { width: 72vw; height: 40.5vw; }
@@ -222,6 +202,4 @@
   .home .scrim::after { animation: none !important; opacity: 1; }
   .introCaption { display: none; }
   .home *, .home *::after { transition: none !important; }
-  .home[data-cinema='true'] .manifesto { opacity: 0; visibility: hidden; }
-  .home[data-cinema='true'] .scrim::after { opacity: 0; }
 }

@@ -41,7 +41,11 @@ The long-term shopping concept begins with environments. A visitor selects a lan
 
 The garment must remain easy to see and understand. Close views, fit in motion, material information, intended conditions, and the reason for each choice should substantiate the feeling. Direct collection browsing remains available. The current homepage uses an expanding film frame to convey exhilaration; provide a reduced-motion equivalent and a still image when video is unavailable.
 
-The current implementation has a dedicated **Vision** navigation tab and `/vision` page alongside the sketch-and-film homepage. Environment selection and shoppable people remain future work; the homepage film does not demonstrate garments or their performance.
+The current implementation has an **Our story** link to `/vision`, alongside Clothing, Accessories, Studio and Bag in a visible top navigation. All pages share the homepage’s dark palette, warm white typography, transparent sketch and restrained controls. The homepage’s **Explore** button leads to the collection. Environment selection and shoppable people remain future work; the homepage film does not demonstrate garments or their performance.
+
+## The goat and the studio
+
+**Free-spirited by nature.** The goat is a symbol of curiosity and independent exploration: following your own instinct, wandering beyond the familiar path, and finding your own way. Climbing suggests resolve: meeting difficult ground with patience, precision and the drive to reach higher. Life on exposed ground suggests resourcefulness: adapting and making the most of what is there. The Studio page connects these three ideas—independence, resolve and resourcefulness—to the original hand-drawn mark. They express the brand’s outlook rather than verified garment capabilities.
 
 ## Voice
 

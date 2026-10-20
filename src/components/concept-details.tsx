@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { Product } from '@/data/products';
 
 export function ConceptDetails({ product, concept }: { product: Product; concept: NonNullable<Product['concept']> }) {
@@ -17,5 +18,6 @@ export function ConceptDetails({ product, concept }: { product: Product; concept
       <details open><summary>Fit & silhouette</summary><p>{concept.fit}</p></details>
       <details><summary>Development notes</summary><p>Materials, construction, sizing and performance are in development. Pricing and availability have not been set.</p><p>{concept.validation}</p></details>
     </div>
+    <Link href={`/${product.category}`} className="outline-button">Back to {product.category} <span aria-hidden="true">↗</span></Link>
   </section>;
 }

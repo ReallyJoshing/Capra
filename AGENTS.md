@@ -8,12 +8,20 @@ The user explicitly requested an independent composition using Known.com as the 
 
 - Homepage: `src/app/page.tsx` and `src/components/decades-home.tsx`.
 - Isolated styles: `src/components/decades-home.module.css`.
-- Supplied sketch: `public/images/brand/capra-sketch.png`, displayed with white strokes on the dark homepage.
+- Supplied sketch: `public/images/brand/capra-sketch-transparent.png`, a genuine RGBA cutout displayed with white strokes. Keep the original paper sketch as the source asset. Never use a rectangular background or blend-mode workaround for the active mark.
 - Film: `public/videos/greatness-through-time.mp4` — 27 chronological half-second shots, 13.5 seconds, silent, 1080p/30fps. It begins in a small centered rectangle and grows to fill the viewport over 7.5 seconds. Actual historical sources provide the progression from archival black-and-white to modern digital footage.
-- Preserve pause/play, a reduced-motion still, film-only viewing, keyboard access, and visible source credits. Sources and adaptation licenses are in `docs/video-sources.md` and `docs/decades-film-edit.json`; visible credit data is in `src/data/decades-film.json`.
+- Preserve pause/play, a reduced-motion still, keyboard access, and visible source credits. Home and film are one experience: do not reintroduce a separate cinema mode or a back-to-film/home toggle. Sources and adaptation licenses are in `docs/video-sources.md` and `docs/decades-film-edit.json`; visible credit data is in `src/data/decades-film.json`.
 - The edited film is CC BY-SA 4.0; source attribution and a downloadable film are required. Athlete imagery does not imply a Capra endorsement or product test.
-- `src/components/site-chrome.tsx` excludes the earlier storefront header/footer from `/`. Collection routes retain their existing interface; the homepage does not render it.
+- `src/components/site-chrome.tsx` gives interior routes shared chrome. Every route uses the same direct navigation from `src/components/site-actions.tsx`: Clothing, Accessories, Our story, Studio, Bag. Keep navigation visible on mobile too; the user rejected a hidden menu.
 - Use Capra throughout source, docs, assets, package metadata and storage keys. Do not retain old-name compatibility fallbacks.
+
+## Site-wide presentation
+
+- Match the approved homepage: near-black `#090909`, warm white `#f4f2ea`, Helvetica Neue/Helvetica/Arial, regular weights and generous space. Muted text is for metadata and captions, not inconsistent navigation brightness.
+- Interior layouts are in `src/app/globals.css`; the homepage retains its CSS module.
+- The homepage CTA is **Explore**, links to `/clothing`, and has a 12px text-to-arrow gap. Keep button labels short and arrow gaps compact.
+- Clothing, Accessories, product details, Our story, Studio, Bag, policy pages and 404 share the same styling.
+- Studio expresses **Free-spirited by nature**, with three principles: independence (find your own way), resolve (one foothold at a time), and resourcefulness (at home on hard ground). These interpret the goat’s curiosity, climbing and adaptation as brand values; they are not garment performance claims.
 
 ## Shared application
 

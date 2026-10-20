@@ -6,6 +6,7 @@ Updated October 20, 2026. Use this with the [core vision](core-vision.md) when d
 
 | Area | Direction |
 | --- | --- |
+| Identity | The hand-drawn goat, genuinely transparent over the site. Studio theme: **Free-spirited by nature**, with independence, resolve and resourcefulness as the three principles. |
 | Origin | The founder's experience in the Washington backcountry. |
 | Core feeling | Arriving somewhere demanding and being deeply glad the gear you paid for lets you enjoy it in comfort. |
 | Human purpose | Health, strength, wholehearted effort, friendship, exploration, and the pleasure of being alive outdoors. |
@@ -15,7 +16,7 @@ Updated October 20, 2026. Use this with the [core vision](core-vision.md) when d
 | Business ambition | A devoted community with confidence earned through products and care over time. |
 | Visual setting | Real landscapes and outdoor pursuits. Identify documented trip locations accurately; treat the homepage historical montage as an editorial celebration, with no athlete endorsement implied. |
 | Website direction | Eventually explore and shop by environment, with selectable garments on the people in each scene. |
-| Current website | Homepage `capra-jc-1`: a dark composition, white sketch, expanding chronological film and centered statement. Continue iterating on this branch; previous iterations are retained in Git history. Catalog and Vision pages remain at their existing routes. |
+| Current website | Homepage `capra-jc-1`: a dark composition, white sketch, expanding chronological film and centered statement. Continue iterating on this branch; previous iterations are retained in Git history. The same visual style extends to the collection, product, story, Studio and supporting pages. Direct top navigation stays visible on desktop and mobile; **Explore** leads from the homepage to clothing. The film is part of home, with no separate viewing mode. |
 | Active catalog | 50 concepts: 29 clothing pieces and 21 accessories, each with five features. The original ROA-inspired proportions guide the form; technical references inform development beneath that form. |
 | Catalog status | Generated concept imagery, including four previews with curated CAPRA heading edits. Materials, sizing, price and availability are unconfirmed. Concept products are browse-only; earlier prototype URLs retain their test commerce behavior. |
 

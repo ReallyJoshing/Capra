@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Our vision | Capra',
+  title: 'Our story — Capra',
   description: 'Born in the Washington backcountry. Our vision for capable layers, freedom of movement, and trust earned over a lifetime of shared adventure.',
 };
 
@@ -11,7 +11,7 @@ export default function VisionPage() {
   return (
     <main className="vision-page" id="main-content">
       <header className="vision-intro">
-        <p className="vision-label">Our vision</p>
+        <p className="vision-label">Capra / Our story</p>
         <h1>At home out there.</h1>
         <p className="vision-deck">Born in the Washington backcountry. A vision for capable layers and a lifetime of shared adventure.</p>
       </header>

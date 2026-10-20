@@ -4,13 +4,13 @@
 
 ## Homepage
 
-A small film frame on a black canvas expands to fill the screen. A quiet, centered statement appears over the film, with white sketch branding and restrained navigation. **Watch the film** or **Feel it** switches to unobstructed viewing; **Back to Capra** or Escape returns to the statement. Pause/play and reduced-motion behavior are built in.
+A small film frame on a black canvas expands to fill the screen. A quiet, centered statement appears over the film, with a transparent white sketch logo and direct navigation. Home and film are one experience. **Explore** leads to the collection; pause/play and reduced-motion behavior remain available.
 
 The 13.5-second film has **27 hard cuts at 0.5 seconds per shot**, ordered chronologically from 1924 to 2020. Real archival Olympic moments, Jesse Owens, Joseph Kittinger, Tokyo medal celebrations and a 1984 spacewalk give way to modern footage of Hannah Teter, Chris Sharma, Ashima Shiraishi, Janja Garnbret, wingsuit flight, giant surf and championship celebrations. The source texture progresses naturally across eras; modern footage has not been made artificially old.
 
 Full provenance, exact edit ranges and source licenses are in [video sources](docs/video-sources.md) and the [edit manifest](docs/decades-film-edit.json). The film is distributed under CC BY-SA 4.0, with a visible credits dialog and download. The athletes shown are not affiliated with Capra.
 
-The homepage has its own component and scoped CSS. Existing catalog and Vision routes remain available at their URLs but do not determine the homepage’s visual design. Product context remains documented in the [core vision](docs/core-vision.md) and [knowledge base](docs/knowledge-base.md).
+All pages now share the homepage’s near-black palette, warm white typography, fine borders, and compact pill links. Clothing, Accessories, Our story, Studio and Bag are visible in the header on desktop and mobile. The homepage retains its own scoped composition. Product context remains documented in the [core vision](docs/core-vision.md) and [knowledge base](docs/knowledge-base.md).
 
 ## Branch workflow
 
@@ -24,7 +24,7 @@ Use Node 20.9 or later. Run `npm ci`, then `npm run dev -- --port 3000` and open
 
 - Homepage: `src/app/page.tsx`
 - Homepage component: `src/components/decades-home.tsx`
-- Active sketch: `public/images/brand/capra-sketch.png`
+- Active transparent sketch: `public/images/brand/capra-sketch-transparent.png` (original paper sketch retained alongside it)
 - Film and poster: `public/videos/greatness-through-time.mp4`, `public/videos/greatness-poster.jpg`
 - Homepage styling: `src/components/decades-home.module.css` (independent of shared route styles)
 - Document layout and metadata: `src/app/layout.tsx`
@@ -36,7 +36,7 @@ Use Node 20.9 or later. Run `npm ci`, then `npm run dev -- --port 3000` and open
 - Catalog interface and filters: `src/components/product-catalog.tsx`, `src/lib/catalog.mjs`
 - Product images: `public/images/field-study-03/` (current collection), `public/images/products/` (earlier prototypes)
 - Retained vector mark: `src/components/capra-wordmark.tsx`, `src/assets/capra-wordmark.json`
-- Navigation typeface: Archivo by Omnibus-Type
+- Site typeface: Helvetica Neue, Helvetica, Arial; Archivo remains for the retained vector reference
 
 Archivo source: https://github.com/Omnibus-Type/Archivo. License: SIL Open Font License 1.1, included in `src/app/fonts/Archivo-OFL.txt`. The previous vector CAPRA wordmark was drawn from Archivo at weight 460 and width 115, with greige outlines, pale sage centerlines, and nested four-point stars in the C. It is retained in source but the hand-drawn sketch is the active homepage and header mark.
 
@@ -60,17 +60,13 @@ See Hosting below for deployment configuration. The `capra-jc-1` redesign is a b
 
 ## Studio and catalog details
 
-`/experimental` is now a simple Studio page displaying the hand-drawn goat and CAPRA sketch. The previous vector color lab and homepage background picker remain in source for reference; neither appears on the current Studio page or homepage.
+`/experimental` is the Studio page: the original sketch, **Free-spirited by nature**, and the ideas of independence, resolve, and resourcefulness. The previous color lab and background picker remain in source for reference and are not rendered.
 
-Catalog introductions are hidden visually. Type and Color filters use glass bubbles with hover dropdowns, click/touch toggles, keyboard controls, and Escape dismissal.
+The catalog uses two generous image columns on desktop and one on mobile, retaining complete landscape concept sheets. Type and Color filters open on click, support keyboard focus and Escape dismissal, and show a result count and empty state. The 50 concepts remain browse-only with no invented price or availability.
 
-Glass surfaces use directional edge highlights, restrained translucent fills, and backdrop blur. Product captions overlap the photograph by 32px. This is a CSS approximation informed by Apple’s material guidance (https://developer.apple.com/design/human-interface-guidelines/materials) and MDN backdrop-filter documentation (https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter), not native Apple Liquid Glass. Technical pants front photography uses an AI-assisted background replacement; detail photography is the supplied original.
+Cards link to product detail pages, with keyboard-accessible image magnification, five design features, fit and development notes. Bag, checkout status, policies and 404 use the same visual language. The five earlier sample products retain test-only commerce.
 
-Catalog layout uses four columns at 1024px and above, and two below. Alternate views reveal on hover; tap/keyboard activation cycles photos without visible view buttons.
-
-Product cards open a native modal viewer with full-source photos and a click-toggle 2.5× rounded-square magnifier. Pointer movement, touch dragging and arrow keys move the lens; a second click or Escape disables it. Photo dots reflect hover views and select images. Card colors use bordered swatches with accessible names. The sweater reverse is a generated concept, labeled in the viewer.
-
-Development preview: `npm run dev` uses Next.js development mode on port 3001 with Fast Refresh. Use `next start` only for production checks, not iterative design work.
+Development preview: `npm run dev -- --port 3000` uses Fast Refresh. Use `next start` for production checks.
 
 ## Commerce prototype
 

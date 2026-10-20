@@ -1,7 +1,9 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
+import { SiteActions } from './site-actions';
 import styles from './decades-home.module.css';
 import film from '@/data/decades-film.json';
 
@@ -10,7 +12,6 @@ export function DecadesHome() {
   const creditsRef = useRef<HTMLDialogElement>(null);
   const pausedByUser = useRef(false);
   const [playing, setPlaying] = useState(false);
-  const [cinema, setCinema] = useState(false);
   const [ready, setReady] = useState(false);
   const [failed, setFailed] = useState(false);
   const [introComplete, setIntroComplete] = useState(false);
@@ -39,14 +40,6 @@ export function DecadesHome() {
     };
   }, []);
 
-  useEffect(() => {
-    const escape = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') setCinema(false);
-    };
-    document.addEventListener('keydown', escape);
-    return () => document.removeEventListener('keydown', escape);
-  }, []);
-
   function togglePlayback() {
     const video = videoRef.current;
     if (!video) return;
@@ -59,23 +52,11 @@ export function DecadesHome() {
     }
   }
 
-  function watchFilm() {
-    const video = videoRef.current;
-    setCinema(true);
-    setIntroComplete(true);
-    if (video) {
-      pausedByUser.current = false;
-      video.currentTime = 0;
-      void video.play().catch(() => setPlaying(false));
-    }
-  }
-
   return (
     <main
       id="main-content"
       className={styles.home}
       data-ready={ready || failed}
-      data-cinema={cinema}
       data-intro-complete={introComplete}
     >
       <h1 className="sr-only">Capra. For the ones who go beyond.</h1>
@@ -108,33 +89,20 @@ export function DecadesHome() {
       <header className={styles.header}>
         <a className={styles.brand} href="/" aria-label="Capra home">
           <Image
-            src="/images/brand/capra-sketch.png"
+            src="/images/brand/capra-sketch-transparent.png"
             alt=""
-            width={1459}
+            width={1460}
             height={1078}
             sizes="112px"
             preload
           />
         </a>
-        <nav className={styles.navigation} aria-label="Homepage">
-          <button
-            type="button"
-            className={styles.spiritLink}
-            onClick={() => { setCinema(false); setIntroComplete(true); }}
-            aria-pressed={!cinema}
-          >
-            Our spirit
-          </button>
-          <button type="button" className={styles.filmLink} onClick={cinema ? () => setCinema(false) : watchFilm}>
-            {cinema ? 'Back to Capra' : 'Watch the film'}
-            <span aria-hidden="true">{cinema ? '↙' : '↗'}</span>
-          </button>
-        </nav>
+        <SiteActions />
       </header>
 
       <p className={styles.introCaption} aria-hidden="true">Greatness, through time.</p>
 
-      <section className={styles.manifesto} aria-label="Our spirit" inert={cinema}>
+      <section className={styles.manifesto} aria-label="Our spirit">
         <div className={styles.copy}>
           <p>Every generation has someone<br />who goes a little further.</p>
           <p>Higher than anyone imagined.<br />Faster than anyone believed.<br />Beyond what seemed possible.</p>
@@ -142,9 +110,10 @@ export function DecadesHome() {
           <p>For the ones who dream it.<br />And then go out and do it.</p>
           <p>This is Capra.</p>
         </div>
-        <button type="button" className={styles.callToAction} onClick={watchFilm}>
-          Feel it <span aria-hidden="true">↗</span>
-        </button>
+        <Link className={styles.callToAction} href="/clothing">
+          Explore
+          <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 13 13 3M5 3h8v8" fill="none" stroke="currentColor" strokeWidth="1.2" /></svg>
+        </Link>
       </section>
 
       <footer className={styles.footer}>

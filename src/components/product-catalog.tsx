@@ -7,32 +7,34 @@ import { products, type Category, type Product } from '@/data/products';
 import { money, productDetails } from '@/data/commerce';
 import { filterProducts } from '@/lib/catalog.mjs';
 
-function GlassFilter({ label, value, options, onChange }: {
+function CatalogFilter({ label, value, options, onChange }: {
   label: string; value: string; options: string[]; onChange: (value: string) => void;
 }) {
   const [open, setOpen] = useState(false);
   const id = useId();
   const trigger = useRef<HTMLButtonElement>(null);
   return (
-    <div className="glass-filter"
-      onPointerEnter={event => { if (event.pointerType === 'mouse') setOpen(true); }}
-      onPointerLeave={event => { if (event.pointerType === 'mouse' && !event.currentTarget.contains(document.activeElement)) setOpen(false); }}
+    <div className="catalog-filter"
       onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false); }}
       onKeyDown={event => {
         if (event.key === 'Escape') { setOpen(false); trigger.current?.focus(); }
       }}>
-      <button ref={trigger} type="button" className="glass-filter-trigger"
+      <button ref={trigger} type="button" className="filter-trigger"
         aria-expanded={open} aria-controls={id} onClick={() => setOpen(!open)}
         onKeyDown={event => {
-          if (event.key === 'ArrowDown') { event.preventDefault(); setOpen(true); }
+          if (event.key === 'ArrowDown') {
+            event.preventDefault();
+            setOpen(true);
+            requestAnimationFrame(() => document.getElementById(id)?.querySelector<HTMLButtonElement>('button[aria-pressed="true"]')?.focus());
+          }
         }}>
         <span>{label}{value && `: ${value}`}</span>
-        <svg className="glass-filter-caret" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+        <svg className="filter-caret" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
           <path d="m2 4 4 4 4-4" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </button>
-      <div className="glass-filter-dropdown" id={id} hidden={!open}>
-        <div className="glass-filter-options" role="group" aria-label={label}>
+      <div className="filter-dropdown" id={id} hidden={!open}>
+        <div className="filter-options" role="group" aria-label={label}>
           {['', ...options].map(option => (
             <button type="button" key={option} aria-pressed={value === option}
               onClick={() => { onChange(option); setOpen(false); trigger.current?.focus(); }}>
@@ -61,7 +63,7 @@ function ProductCard({ product }: { product: Product }) {
           {product.images.map((image, i) => (
             <span className="product-photo-layer" key={image.src} style={{ visibility: index === i ? 'visible' : 'hidden' }} aria-hidden={index !== i}>
               <Image src={image.src} alt={image.alt} fill
-                sizes="(max-width: 639px) calc((100vw - 50px) / 2), (max-width: 1023px) 45vw, (max-width: 1260px) 22vw, 280px"
+                sizes="(max-width: 639px) 90vw, 46vw"
                 className={image.lifestyle ? 'product-image product-image-lifestyle' : `product-image ${product.imageClass ?? ''}`} />
             </span>
           ))}
@@ -73,7 +75,7 @@ function ProductCard({ product }: { product: Product }) {
       </div>
       <div className="product-caption">
         <div><h2><Link href={`/products/${product.id}`}>{product.name}</Link></h2><p className="card-price">{product.concept ? `${product.color} / Concept ${product.concept.code}` : money(productDetails[product.id].price)}</p></div>
-        <span className="product-swatch" style={{ backgroundColor: product.colorHex }} role="img" aria-label={`Color: ${product.color}`} title={product.color} />
+        <Link href={`/products/${product.id}`} className="product-arrow" aria-label={`Explore ${product.name}`}>↗</Link>
       </div>
     </article>
   );
@@ -97,13 +99,12 @@ export function ProductCatalog({ category, initialType = '' }: { category: Categ
     <>
       <div className="catalog-toolbar">
         <div className="catalog-filters" role="group" aria-label="Filter products">
-          <GlassFilter label="Type" value={type} options={types} onChange={setType} />
-          <GlassFilter label="Color" value={color} options={colors} onChange={setColor} />
+          <CatalogFilter label="Type" value={type} options={types} onChange={setType} />
+          <CatalogFilter label="Color" value={color} options={colors} onChange={setColor} />
           {hasFilters && <button className="clear-filters" type="button" onClick={clearFilters}>Clear filters</button>}
         </div>
         <p className="catalog-count" role="status" aria-live="polite">{results.length} {results.length === 1 ? 'piece' : 'pieces'}</p>
       </div>
-      <p className="catalog-study-note">Field Study 03 · Collection concepts</p>
       {results.length ? (
         <div className="product-grid">
           {results.map(product => <ProductCard key={product.id} product={product} />)}

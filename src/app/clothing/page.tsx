@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { ProductCatalog } from '@/components/product-catalog';
+import { CollectionHeading } from '@/components/collection-heading';
 import { products } from '@/data/products';
 
 export const metadata: Metadata = { title: 'Clothing — Capra' };
@@ -10,7 +11,7 @@ export default async function ClothingPage({ searchParams }: { searchParams: Pro
 
   return (
     <main className="catalog-page" id="main-content">
-      <h1 className="sr-only">Clothing</h1>
+      <CollectionHeading category="clothing" />
       <ProductCatalog category="clothing" initialType={type} key={type} />
     </main>
   );

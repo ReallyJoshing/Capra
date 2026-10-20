@@ -1,15 +1,6 @@
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
 import { SiteChrome } from '@/components/site-chrome';
 import './globals.css';
-
-const navigationFont = localFont({
-  src: './fonts/Archivo-Variable.ttf',
-  variable: '--font-navigation',
-  display: 'swap',
-  weight: '100 900',
-  style: 'normal',
-});
 
 export const metadata: Metadata = {
   title: 'Capra',
@@ -18,7 +9,7 @@ export const metadata: Metadata = {
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={navigationFont.variable}>
+    <html lang="en">
       <body>
         <a href="#main-content" className="skip-link">Skip to content</a>
         <SiteChrome>{children}</SiteChrome>
