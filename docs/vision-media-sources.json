@@ -1,0 +1,67 @@
+[
+  {
+    "asset": "/images/vision/winchester-ridge.jpg",
+    "selectionId": "JN0244-02",
+    "sourcePath": "/Volumes/JN/Final Cut Original Media/2025-02-06/GX014578 [16413058 +1945].mov",
+    "sourceRangeSeconds": {
+      "start": 9.3,
+      "end": 19.46877
+    },
+    "posterSource": "../jn-wilderness-selection/previews/JN0244-02.jpg",
+    "region": "Winchester Mountain",
+    "description": "Tiny hikers across an autumn ridge",
+    "note": "Unmodified existing selection poster. Range identifies the source clip; the exact poster frame time is not recorded. Quotes paired with these scenes are founder statements, not audio transcripts."
+  },
+  {
+    "asset": "/images/vision/park-butte-snow.jpg",
+    "selectionId": "JN0189-01",
+    "sourcePath": "/Volumes/JN/Final Cut Original Media/2025-01-05/GX014758 [19285220 +1007].mov",
+    "sourceRangeSeconds": {
+      "start": 8.192,
+      "end": 10.04268
+    },
+    "posterSource": "../jn-wilderness-selection/previews/JN0189-01.jpg",
+    "region": "Park Butte",
+    "description": "Creek crossing in falling snow",
+    "note": "Unmodified existing selection poster. Range identifies the source clip; the exact poster frame time is not recorded. Quotes paired with these scenes are founder statements, not audio transcripts."
+  },
+  {
+    "asset": "/images/vision/thousand-island-rock.jpg",
+    "selectionId": "JN0075-01",
+    "sourcePath": "/Volumes/JN/Final Cut Original Media/2016-01-03/GX015068.mov",
+    "sourceRangeSeconds": {
+      "start": 13.18,
+      "end": 27.2432
+    },
+    "posterSource": "../jn-wilderness-selection/previews/JN0075-01.jpg",
+    "region": "Thousand Island Lake",
+    "description": "Traversing the boulder field",
+    "note": "Unmodified existing selection poster. Range identifies the source clip; the exact poster frame time is not recorded. Quotes paired with these scenes are founder statements, not audio transcripts."
+  },
+  {
+    "asset": "/images/vision/thousand-island-lake.jpg",
+    "selectionId": "JN0129-05",
+    "sourcePath": "/Volumes/JN/Final Cut Original Media/2016-01-04/GX015115.mov",
+    "sourceRangeSeconds": {
+      "start": 34.9349,
+      "end": 38.22083
+    },
+    "posterSource": "../jn-wilderness-selection/previews/JN0129-05.jpg",
+    "region": "Thousand Island Lake",
+    "description": "Fishing beside mirrored peaks",
+    "note": "Unmodified existing selection poster. Range identifies the source clip; the exact poster frame time is not recorded. Quotes paired with these scenes are founder statements, not audio transcripts."
+  },
+  {
+    "asset": "/images/vision/thousand-island-camp.jpg",
+    "selectionId": "JN0112-08",
+    "sourcePath": "/Volumes/JN/Final Cut Original Media/2016-01-03/GX015105.mov",
+    "sourceRangeSeconds": {
+      "start": 57.92453,
+      "end": 70.21947
+    },
+    "posterSource": "../jn-wilderness-selection/previews/JN0112-08.jpg",
+    "region": "Thousand Island Lake",
+    "description": "Setting up camp in the meadow",
+    "note": "Unmodified existing selection poster. Range identifies the source clip; the exact poster frame time is not recorded. Quotes paired with these scenes are founder statements, not audio transcripts."
+  }
+]

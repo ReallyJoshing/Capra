@@ -1,0 +1,3265 @@
+[
+  {
+    "id": "basalt-shell",
+    "name": "Basalt Shell",
+    "category": "clothing",
+    "type": "Jackets",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/basalt-shell.jpg",
+        "alt": "Basalt Shell in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "01",
+      "intro": "Warm charcoal-grey shell, original broad torso and high neck, original straight chest zips. Keep the existing shoulder construction but match its color to the body. Matte dry face, gentle crinkle and dark hardware; no added graphic reinforcement.",
+      "description": "Warm charcoal-grey shell, original broad torso and high neck, original straight chest zips. Keep the existing shoulder construction but match its color to the body. Matte dry face, gentle crinkle and dark hardware; no added graphic reinforcement. Preserve the original broad body and straight chest openings. Develop elbow shaping and a discreet underarm gusset within that outline, using Skytour as a movement reference. Specify a candidate three-layer stretch laminate with sealed seams, using Foray and Headwall as construction benchmarks; material sourcing and waterproof performance remain to be established. Place long, protected side vents behind the arm line, informed by Foray ventilation, so the broad chest remains visually uninterrupted while the wearer dumps heat. Keep the first Basalt chest-pocket layout, with secure openings placed above the intended pack belt. Pocket bags and reinforcement remain inside the continuous shell face. Retain the high closing neck and compact hood adjustment. Keep cuffs, hood, body and hardware within the same charcoal family so the original proportions remain the main visual signal.",
+      "fit": "Relaxed chest and upper sleeves; controlled hood and cuffs. A dropped shoulder must not lower the armhole excessively.",
+      "validation": "Validate seam sealing, hood vision, pack-belt access, vent leakage and overhead reach on a physical sample.",
+      "features": [
+        {
+          "name": "Unforced shell volume",
+          "text": "Preserve the original broad body and straight chest openings. Develop elbow shaping and a discreet underarm gusset within that outline, using Skytour as a movement reference.",
+          "sources": [
+            "ROA-011",
+            "ROA-065",
+            "OR-025"
+          ]
+        },
+        {
+          "name": "Continuous rain barrier",
+          "text": "Specify a candidate three-layer stretch laminate with sealed seams, using Foray and Headwall as construction benchmarks; material sourcing and waterproof performance remain to be established.",
+          "sources": [
+            "OR-315",
+            "OR-353"
+          ]
+        },
+        {
+          "name": "Independent heat release",
+          "text": "Place long, protected side vents behind the arm line, informed by Foray ventilation, so the broad chest remains visually uninterrupted while the wearer dumps heat.",
+          "sources": [
+            "OR-315"
+          ]
+        },
+        {
+          "name": "Original raised storage",
+          "text": "Keep the first Basalt chest-pocket layout, with secure openings placed above the intended pack belt. Pocket bags and reinforcement remain inside the continuous shell face.",
+          "sources": [
+            "OR-025",
+            "ROA-063"
+          ]
+        },
+        {
+          "name": "Tonal weather interfaces",
+          "text": "Retain the high closing neck and compact hood adjustment. Keep cuffs, hood, body and hardware within the same charcoal family so the original proportions remain the main visual signal.",
+          "sources": [
+            "OR-315",
+            "ROA-065"
+          ]
+        }
+      ],
+      "kind": "Rain shell"
+    }
+  },
+  {
+    "id": "basin-down-jacket",
+    "name": "Basin Down Jacket",
+    "category": "clothing",
+    "type": "Jackets",
+    "color": "Fog",
+    "colorHex": "#b9b8af",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/basin-down-jacket.jpg",
+        "alt": "Basin Down Jacket in fog — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "02",
+      "intro": "Warm pale stone down jacket. Preserve the original generous hood, broad horizontal lower chambers and fine diamond-quilted upper area. Use the same pale stone across every panel, with soft silver-grey hardware and subtle surface depth.",
+      "description": "Warm pale stone down jacket. Preserve the original generous hood, broad horizontal lower chambers and fine diamond-quilted upper area. Use the same pale stone across every panel, with soft silver-grey hardware and subtle surface depth. Use the ROA quilted volume as the shape reference and OR alpine down pieces as insulation benchmarks; chamber size must support the selected fill rather than decoration. Study Helium hood and shoulder protection as an assembly benchmark. If this zoning is adopted, match the face fabrics in color and sheen and preserve the original quilt arrangement. Broaden the chest and upper arm around the intended midlayer, retaining Lithe softness while using a tall collar to reduce the gap beneath the hood. Provide elevated zip hand pockets and internal stash pockets; the proposed pocket bags should remain usable with gloves and not collapse the insulation beneath them. Keep the first jacket's gently gathered cuff and hem, with concealed adjustment and smooth inner zip finishing. The pale stone face continues across the whole garment.",
+      "fit": "Room over Boulder and Trailhead; sleeves generous without excessive wrist pooling.",
+      "validation": "Check chamber filling, cold spots, compression recovery, cuff leakage and rest warmth after exertion.",
+      "features": [
+        {
+          "name": "Wide insulated chambers",
+          "text": "Use the ROA quilted volume as the shape reference and OR alpine down pieces as insulation benchmarks; chamber size must support the selected fill rather than decoration.",
+          "sources": [
+            "ROA-039",
+            "ROA-049",
+            "OR-061"
+          ]
+        },
+        {
+          "name": "Discreet weather zoning",
+          "text": "Study Helium hood and shoulder protection as an assembly benchmark. If this zoning is adopted, match the face fabrics in color and sheen and preserve the original quilt arrangement.",
+          "sources": [
+            "OR-059"
+          ]
+        },
+        {
+          "name": "Layer-ready body",
+          "text": "Broaden the chest and upper arm around the intended midlayer, retaining Lithe softness while using a tall collar to reduce the gap beneath the hood.",
+          "sources": [
+            "ROA-053",
+            "OR-061"
+          ]
+        },
+        {
+          "name": "Warm practical storage",
+          "text": "Provide elevated zip hand pockets and internal stash pockets; the proposed pocket bags should remain usable with gloves and not collapse the insulation beneath them.",
+          "sources": [
+            "OR-061",
+            "OR-335"
+          ]
+        },
+        {
+          "name": "Soft thermal edges",
+          "text": "Keep the first jacket's gently gathered cuff and hem, with concealed adjustment and smooth inner zip finishing. The pale stone face continues across the whole garment.",
+          "sources": [
+            "OR-059",
+            "ROA-049"
+          ]
+        }
+      ],
+      "kind": "Down jacket"
+    }
+  },
+  {
+    "id": "moraine-active-liner",
+    "name": "Moraine Active Liner",
+    "category": "clothing",
+    "type": "Jackets",
+    "color": "Umber",
+    "colorHex": "#574b40",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/moraine-active-liner.jpg",
+        "alt": "Moraine Active Liner in umber — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "03",
+      "intro": "Deep taupe-brown liner, original slim diamond quilting and easy straight body. Match flexible side zones closely to the quilted face; retain textural contrast only. Hood and cuff proportions remain as in the first study.",
+      "description": "Deep taupe-brown liner, original slim diamond quilting and easy straight body. Match flexible side zones closely to the quilted face; retain textural contrast only. Hood and cuff proportions remain as in the first study. Use Deviator and Shadow Hybrid as evidence for putting insulation at the front and hood while leaving selected side and back zones less insulated. Preserve the first liner's small diamond quilting and continuous front. Quilt and stretch fabrics share one taupe-brown dye family, allowing texture to express the difference quietly. Study Deviator's underarm movement construction while matching any flexible insert to the main face. Keep existing boundaries and avoid adding long graphic contrast strips. Study SuperStrand’s lightweight synthetic-insulation approach for easy packing, while choosing the actual insulation by loft recovery and moisture behavior rather than a borrowed trade name. A shallow hood, low-profile cuffs and a smooth inner front should sit beneath Basalt; small secure pockets follow Shadow’s accessible storage logic.",
+      "fit": "More ease than the OR active-insulation references; enough room for a base layer without sagging air gaps.",
+      "validation": "Compare drying, wind exposure, pack abrasion and temperature comfort during sustained climbs and stops.",
+      "features": [
+        {
+          "name": "Mapped insulation",
+          "text": "Use Deviator and Shadow Hybrid as evidence for putting insulation at the front and hood while leaving selected side and back zones less insulated.",
+          "sources": [
+            "OR-443",
+            "OR-203"
+          ]
+        },
+        {
+          "name": "Original quilt rhythm",
+          "text": "Preserve the first liner's small diamond quilting and continuous front. Quilt and stretch fabrics share one taupe-brown dye family, allowing texture to express the difference quietly.",
+          "sources": [
+            "ROA-061",
+            "ROA-067"
+          ]
+        },
+        {
+          "name": "Concealed mobility",
+          "text": "Study Deviator's underarm movement construction while matching any flexible insert to the main face. Keep existing boundaries and avoid adding long graphic contrast strips.",
+          "sources": [
+            "OR-443",
+            "ROA-069"
+          ]
+        },
+        {
+          "name": "Compressible construction",
+          "text": "Study SuperStrand’s lightweight synthetic-insulation approach for easy packing, while choosing the actual insulation by loft recovery and moisture behavior rather than a borrowed trade name.",
+          "sources": [
+            "OR-500"
+          ]
+        },
+        {
+          "name": "Layering interfaces",
+          "text": "A shallow hood, low-profile cuffs and a smooth inner front should sit beneath Basalt; small secure pockets follow Shadow’s accessible storage logic.",
+          "sources": [
+            "OR-203",
+            "ROA-069"
+          ]
+        }
+      ],
+      "kind": "Active insulated liner"
+    }
+  },
+  {
+    "id": "pass-wind-jacket",
+    "name": "Pass Wind Jacket",
+    "category": "clothing",
+    "type": "Jackets",
+    "color": "Lichen",
+    "colorHex": "#777c6b",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/pass-wind-jacket.jpg",
+        "alt": "Pass Wind Jacket in lichen — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "04",
+      "intro": "Muted grey-olive wind layer, broad crinkled body and easy sleeves. Make existing underarm inserts the same shade as the body. Fine translucent-looking ripstop depth, dark discreet zip, quiet hem and hood adjustment.",
+      "description": "Muted grey-olive wind layer, broad crinkled body and easy sleeves. Make existing underarm inserts the same shade as the body. Fine translucent-looking ripstop depth, dark discreet zip, quiet hem and hood adjustment. Use a light stretch-woven front and shoulder field, following Deviator Wind’s mapped construction, rather than covering the whole garment in an equally closed fabric. Place discreet perforated or more open fabric at the upper back and underarms, using OR’s ventilation placement with the ROA reference’s continuous rear silhouette. Retain Hue and Tenna’s ease through the torso and sleeve, with an underarm insertion that permits reaching while the waist stays settled. A secure hand pocket may double as a pack-away compartment, as seen on Ferrosi and Deviator Wind, provided the chosen fabric survives repeated stuffing. Retain the original hood, narrow cuffs and gathered lower edge. Keep every face panel grey-olive; ventilation and adjustment belong within existing seams and folds.",
+      "fit": "Loose torso and upper sleeves; a restrained hem adjustment prevents ballooning in wind.",
+      "validation": "Test wind resistance against air permeability, pocket packing, hood stability and tear resistance.",
+      "features": [
+        {
+          "name": "Wind-facing structure",
+          "text": "Use a light stretch-woven front and shoulder field, following Deviator Wind’s mapped construction, rather than covering the whole garment in an equally closed fabric.",
+          "sources": [
+            "OR-276"
+          ]
+        },
+        {
+          "name": "Ventilated rear field",
+          "text": "Place discreet perforated or more open fabric at the upper back and underarms, using OR’s ventilation placement with the ROA reference’s continuous rear silhouette.",
+          "sources": [
+            "OR-276",
+            "ROA-079"
+          ]
+        },
+        {
+          "name": "Broad mobile cut",
+          "text": "Retain Hue and Tenna’s ease through the torso and sleeve, with an underarm insertion that permits reaching while the waist stays settled.",
+          "sources": [
+            "ROA-081",
+            "ROA-077",
+            "OR-392"
+          ]
+        },
+        {
+          "name": "Pocket packing",
+          "text": "A secure hand pocket may double as a pack-away compartment, as seen on Ferrosi and Deviator Wind, provided the chosen fabric survives repeated stuffing.",
+          "sources": [
+            "OR-276",
+            "OR-307"
+          ]
+        },
+        {
+          "name": "Restrained wind interfaces",
+          "text": "Retain the original hood, narrow cuffs and gathered lower edge. Keep every face panel grey-olive; ventilation and adjustment belong within existing seams and folds.",
+          "sources": [
+            "OR-307",
+            "ROA-079"
+          ]
+        }
+      ],
+      "kind": "Wind jacket"
+    }
+  },
+  {
+    "id": "timber-work-jacket",
+    "name": "Timber Work Jacket",
+    "category": "clothing",
+    "type": "Jackets",
+    "color": "Peat",
+    "colorHex": "#2d2925",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/timber-work-jacket.jpg",
+        "alt": "Timber Work Jacket in peat — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "05",
+      "intro": "Deep washed charcoal-brown work jacket. Preserve the exact short broad silhouette, horizontal chest seam, hood, large divided low pockets and substantial sleeves of the first Timber. Continuous dry canvas-like face, faint mineral fading on seams; reinforcement is internal or tonal.",
+      "description": "Deep washed charcoal-brown work jacket. Preserve the exact short broad silhouette, horizontal chest seam, hood, large divided low pockets and substantial sleeves of the first Timber. Continuous dry canvas-like face, faint mineral fading on seams; reinforcement is internal or tonal. Use Ranger's reinforcement logic at the shoulder and elbow, but place support internally or in matching cloth within existing seams. Preserve Timber's uninterrupted workwear face. Evaluate a dense stretch woven or wool-blend candidate against Ranger and Pilot. Preserve Timber's dry canvas-like hand, matte surface and natural fold rather than prescribing a shiny shell textile. Keep the dropped shoulder, then add an underarm gusset and controlled elbow shaping; the broad sleeve must move over a fleece without lifting the short hem. Retain the large divided lower pockets you liked, with concealed secure entry informed by Vesper; reinforce their attachment points without adding exposed cargo hardware. A high zipped neck, adjustable hood and firm cuffs keep the original character; use a clean inner wind flap and dark hardware consistent with the trousers.",
+      "fit": "Keep the first study’s broad body and sleeve. Add movement through pattern shaping rather than extra overall length.",
+      "validation": "Abrade shoulder and elbow assemblies, load pocket corners, cycle closures and test reach while wearing a pack.",
+      "features": [
+        {
+          "name": "Hidden wear support",
+          "text": "Use Ranger's reinforcement logic at the shoulder and elbow, but place support internally or in matching cloth within existing seams. Preserve Timber's uninterrupted workwear face.",
+          "sources": [
+            "OR-211",
+            "ROA-005"
+          ]
+        },
+        {
+          "name": "Dry substantial textile",
+          "text": "Evaluate a dense stretch woven or wool-blend candidate against Ranger and Pilot. Preserve Timber's dry canvas-like hand, matte surface and natural fold rather than prescribing a shiny shell textile.",
+          "sources": [
+            "OR-211",
+            "ROA-073"
+          ]
+        },
+        {
+          "name": "Unrestricted sleeve",
+          "text": "Keep the dropped shoulder, then add an underarm gusset and controlled elbow shaping; the broad sleeve must move over a fleece without lifting the short hem.",
+          "sources": [
+            "ROA-005",
+            "OR-179"
+          ]
+        },
+        {
+          "name": "Secure familiar pockets",
+          "text": "Retain the large divided lower pockets you liked, with concealed secure entry informed by Vesper; reinforce their attachment points without adding exposed cargo hardware.",
+          "sources": [
+            "ROA-005",
+            "OR-057"
+          ]
+        },
+        {
+          "name": "Calm weather interfaces",
+          "text": "A high zipped neck, adjustable hood and firm cuffs keep the original character; use a clean inner wind flap and dark hardware consistent with the trousers.",
+          "sources": [
+            "ROA-073",
+            "OR-179"
+          ]
+        }
+      ],
+      "kind": "Work jacket"
+    }
+  },
+  {
+    "id": "cirque-vest",
+    "name": "Cirque Vest",
+    "category": "clothing",
+    "type": "Vests",
+    "color": "Umber",
+    "colorHex": "#574b40",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/cirque-vest.jpg",
+        "alt": "Cirque Vest in umber — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "06",
+      "intro": "Deep earthy taupe hooded vest. Preserve the first study's irregular large diagonal quilting, roomy arm openings and straight lower edge. Tonal fabric, zip and bindings; the quilted volume itself supplies the visual interest.",
+      "description": "Deep earthy taupe hooded vest. Preserve the first study's irregular large diagonal quilting, roomy arm openings and straight lower edge. Tonal fabric, zip and bindings; the quilted volume itself supplies the visual interest. Use Tradecraft as the direct OR insulated-vest reference, proposing a synthetic insulated torso whose warmth is chosen for camp transitions rather than an unsupported expedition claim. Retain Nuna’s enveloping hood and broad arm openings, leaving sufficient clearance for the larger sleeves of Trailhead without forcing the shoulders upward. Keep the first vest's large irregular diagonal quilting and broad hood. Develop chambers around insulation requirements while retaining the approved visual rhythm and restrained tonal finish. Study Deming and Crescent vest pocket placement for accessible zip hand storage and an internal pocket, keeping pocket bags separate from the insulation chambers. Use a dark inner neck, soft armhole binding and a subtle dropped rear hem; tonal grey remains the dominant field and charcoal frames the openings.",
+      "fit": "Roomy over a hoodie; check armhole gaps and hem balance with several body shapes.",
+      "validation": "Validate insulation distribution, armhole heat loss, pocket access and layered reach.",
+      "features": [
+        {
+          "name": "Insulated core",
+          "text": "Use Tradecraft as the direct OR insulated-vest reference, proposing a synthetic insulated torso whose warmth is chosen for camp transitions rather than an unsupported expedition claim.",
+          "sources": [
+            "OR-163"
+          ]
+        },
+        {
+          "name": "Generous hooded form",
+          "text": "Retain Nuna’s enveloping hood and broad arm openings, leaving sufficient clearance for the larger sleeves of Trailhead without forcing the shoulders upward.",
+          "sources": [
+            "ROA-045",
+            "ROA-047"
+          ]
+        },
+        {
+          "name": "Preserved quilt geometry",
+          "text": "Keep the first vest's large irregular diagonal quilting and broad hood. Develop chambers around insulation requirements while retaining the approved visual rhythm and restrained tonal finish.",
+          "sources": [
+            "ROA-045",
+            "ROA-047"
+          ]
+        },
+        {
+          "name": "Secure low-bulk storage",
+          "text": "Study Deming and Crescent vest pocket placement for accessible zip hand storage and an internal pocket, keeping pocket bags separate from the insulation chambers.",
+          "sources": [
+            "OR-033",
+            "OR-200"
+          ]
+        },
+        {
+          "name": "Refined edge finish",
+          "text": "Use a dark inner neck, soft armhole binding and a subtle dropped rear hem; tonal grey remains the dominant field and charcoal frames the openings.",
+          "sources": [
+            "OR-033",
+            "ROA-047"
+          ]
+        }
+      ],
+      "kind": "Insulated vest"
+    }
+  },
+  {
+    "id": "boulder-fleece",
+    "name": "Boulder Fleece",
+    "category": "clothing",
+    "type": "Fleece & knits",
+    "color": "Heather",
+    "colorHex": "#625d59",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/boulder-fleece.jpg",
+        "alt": "Boulder Fleece in heather — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "07",
+      "intro": "Boulder keeps its voluminous hooded fleece shape and subtle curved seam lines. Replace the brown camouflage with an irregular brushed charcoal, ash and muted taupe yarn mélange: cloudy, low contrast, uneven in scale, softly fuzzy, never spotty confetti or a printed camouflage repeat.",
+      "description": "Boulder keeps its voluminous hooded fleece shape and subtle curved seam lines. Replace the brown camouflage with an irregular brushed charcoal, ash and muted taupe yarn mélange: cloudy, low contrast, uneven in scale, softly fuzzy, never spotty confetti or a printed camouflage repeat. Study Deming's polyester-and-wool fleece as a material benchmark. Develop an uneven charcoal, ash and taupe yarn mélange with soft brushed depth, avoiding discrete colored speckles or camouflage motifs. Study Crescent’s stretch fleece construction while keeping Drowi’s loose volume; flexibility must come from the knit and pattern, without making the whole garment cling. Place stabilizing facings inside pocket mouths and cuff edges. Any exposed facing must match the pile closely so the original broad fleece surface and seam language remain dominant. Use Trail Mix’s zip hand-pocket logic within the original low pocket position; dark zip tape disappears into the pile and avoids a decorative chest badge. Preserve the first Boulder hood, full sleeves and gently gathered hem. Finish the chin and inner neck smoothly, using tonal binding that disappears into the irregular pile.",
+      "fit": "Retain the approved generous torso and upper arm; trim only unnecessary fabric at the wrist.",
+      "validation": "Test pile shedding, pilling, drying, compression under pack straps and sleeve mobility.",
+      "features": [
+        {
+          "name": "Quiet yarn depth",
+          "text": "Study Deming's polyester-and-wool fleece as a material benchmark. Develop an uneven charcoal, ash and taupe yarn mélange with soft brushed depth, avoiding discrete colored speckles or camouflage motifs.",
+          "sources": [
+            "OR-003",
+            "ROA-075"
+          ]
+        },
+        {
+          "name": "Mobile fleece structure",
+          "text": "Study Crescent’s stretch fleece construction while keeping Drowi’s loose volume; flexibility must come from the knit and pattern, without making the whole garment cling.",
+          "sources": [
+            "OR-199",
+            "ROA-237"
+          ]
+        },
+        {
+          "name": "Discreet wear facings",
+          "text": "Place stabilizing facings inside pocket mouths and cuff edges. Any exposed facing must match the pile closely so the original broad fleece surface and seam language remain dominant.",
+          "sources": [
+            "OR-003"
+          ]
+        },
+        {
+          "name": "Secure integrated storage",
+          "text": "Use Trail Mix’s zip hand-pocket logic within the original low pocket position; dark zip tape disappears into the pile and avoids a decorative chest badge.",
+          "sources": [
+            "OR-228",
+            "ROA-231"
+          ]
+        },
+        {
+          "name": "Enclosing soft edges",
+          "text": "Preserve the first Boulder hood, full sleeves and gently gathered hem. Finish the chin and inner neck smoothly, using tonal binding that disappears into the irregular pile.",
+          "sources": [
+            "ROA-231",
+            "OR-003"
+          ]
+        }
+      ],
+      "kind": "Pile fleece"
+    }
+  },
+  {
+    "id": "trailhead-hoodie",
+    "name": "Trailhead Hoodie",
+    "category": "clothing",
+    "type": "Hoodies",
+    "color": "Peat",
+    "colorHex": "#2d2925",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/trailhead-hoodie.jpg",
+        "alt": "Trailhead Hoodie in peat — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "08",
+      "intro": "Trailhead retains its wide dropped shoulders, full sleeves, high closing hood and split kangaroo pocket. A fine substantial waffle face in washed peat-black supplies mineral depth, with tonal ribbing and a subdued two-way zip. The back remains uninterrupted.",
+      "description": "Trailhead retains its wide dropped shoulders, full sleeves, high closing hood and split kangaroo pocket. A fine substantial waffle face in washed peat-black supplies mineral depth, with tonal ribbing and a subdued two-way zip. The back remains uninterrupted. Use Eclipse Waffle’s polyester, lyocell and elastane construction as a reference for a supple textured body, retaining Bee’s washed depth without artificially distressed holes. Develop a small same-fabric underarm gusset after Vigor Plus movement principles. Preserve the original dropped shoulder and eliminate visible contrasting side panels from the design. Move the seam away from the pack strap’s pressure line, informed by Vigor LT’s forward shoulder treatment, while preserving the dropped visual shoulder. Keep the divided kangaroo pocket and conceal a small zip compartment within one side; stabilize the pocket edge so it does not stretch open under load. Retain Awi's high-neck influence and the original generous hood. Use a discreet two-way zip, a soft internal guard and tonal finishing throughout the peat-black waffle body.",
+      "fit": "Preserve the approved relaxed shape; keep the hem band settled rather than tight.",
+      "validation": "Check drying, snagging, rib recovery, pocket sag and overhead reach through repeated wash cycles.",
+      "features": [
+        {
+          "name": "Waffle with purpose",
+          "text": "Use Eclipse Waffle’s polyester, lyocell and elastane construction as a reference for a supple textured body, retaining Bee’s washed depth without artificially distressed holes.",
+          "sources": [
+            "OR-159",
+            "ROA-173"
+          ]
+        },
+        {
+          "name": "Underarm mobility",
+          "text": "Develop a small same-fabric underarm gusset after Vigor Plus movement principles. Preserve the original dropped shoulder and eliminate visible contrasting side panels from the design.",
+          "sources": [
+            "OR-075"
+          ]
+        },
+        {
+          "name": "Protected shoulder contact",
+          "text": "Move the seam away from the pack strap’s pressure line, informed by Vigor LT’s forward shoulder treatment, while preserving the dropped visual shoulder.",
+          "sources": [
+            "OR-030",
+            "ROA-177"
+          ]
+        },
+        {
+          "name": "Reliable kangaroo storage",
+          "text": "Keep the divided kangaroo pocket and conceal a small zip compartment within one side; stabilize the pocket edge so it does not stretch open under load.",
+          "sources": [
+            "ROA-173",
+            "OR-075"
+          ]
+        },
+        {
+          "name": "High soft closure",
+          "text": "Retain Awi's high-neck influence and the original generous hood. Use a discreet two-way zip, a soft internal guard and tonal finishing throughout the peat-black waffle body.",
+          "sources": [
+            "ROA-233",
+            "OR-030"
+          ]
+        }
+      ],
+      "kind": "Waffle hoodie"
+    }
+  },
+  {
+    "id": "heather-zip-knit",
+    "name": "Heather Zip Knit",
+    "category": "clothing",
+    "type": "Fleece & knits",
+    "color": "Heather",
+    "colorHex": "#625d59",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/heather-zip-knit.jpg",
+        "alt": "Heather Zip Knit in heather — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "09",
+      "intro": "A generous zip sweater in smoky grey-taupe with barely visible dusty mauve yarn undertones. Preserve the original funnel collar, full sleeves, deep rib cuffs and irregular mottled knit. Texture should resemble weathered stone at close range, without regular blocks or graphic prints.",
+      "description": "A generous zip sweater in smoky grey-taupe with barely visible dusty mauve yarn undertones. Preserve the original funnel collar, full sleeves, deep rib cuffs and irregular mottled knit. Texture should resemble weathered stone at close range, without regular blocks or graphic prints. Carry Dropstitch’s easy shoulder and Tasna’s full zipper into a longer, wider body; the collar stands gently instead of closing tightly against the neck. Carry Shrub's irregular mottled language into smoky grey-taupe yarns with only a subdued mauve undertone. Keep the full sweater monochrome at a distance and avoid repeated geometric patterns. Use Deming’s wool-blend fleece and Crescent’s stretch construction as adjacent comfort references; OR does not supply a direct loose fashion-knit equivalent in this catalog. Study Ranger's selective reinforcement logic for the inner elbow and pocket attachments. Keep reinforcement off the visible face where it would interrupt the sweater's loose drape. A narrow resilient cuff, supported center zip and quiet hand pockets should retain shape through use; sample recovery before selecting the final yarn and knit gauge.",
+      "fit": "Straight torso, high hip length, ample sleeves; no cropped or fitted waist.",
+      "validation": "Measure pilling, snag resistance, seam stability, wash shrinkage and friction beneath straps.",
+      "features": [
+        {
+          "name": "Relaxed knit silhouette",
+          "text": "Carry Dropstitch’s easy shoulder and Tasna’s full zipper into a longer, wider body; the collar stands gently instead of closing tightly against the neck.",
+          "sources": [
+            "ROA-243",
+            "ROA-245"
+          ]
+        },
+        {
+          "name": "Weathered yarn depth",
+          "text": "Carry Shrub's irregular mottled language into smoky grey-taupe yarns with only a subdued mauve undertone. Keep the full sweater monochrome at a distance and avoid repeated geometric patterns.",
+          "sources": [
+            "ROA-247"
+          ]
+        },
+        {
+          "name": "Material benchmark",
+          "text": "Use Deming’s wool-blend fleece and Crescent’s stretch construction as adjacent comfort references; OR does not supply a direct loose fashion-knit equivalent in this catalog.",
+          "sources": [
+            "OR-034",
+            "OR-199"
+          ]
+        },
+        {
+          "name": "Internal contact support",
+          "text": "Study Ranger's selective reinforcement logic for the inner elbow and pocket attachments. Keep reinforcement off the visible face where it would interrupt the sweater's loose drape.",
+          "sources": [
+            "OR-211"
+          ]
+        },
+        {
+          "name": "Stable finished edges",
+          "text": "A narrow resilient cuff, supported center zip and quiet hand pockets should retain shape through use; sample recovery before selecting the final yarn and knit gauge.",
+          "sources": [
+            "OR-199",
+            "ROA-245"
+          ]
+        }
+      ],
+      "kind": "Textured zip midlayer"
+    }
+  },
+  {
+    "id": "ridge-half-zip",
+    "name": "Ridge Half-Zip",
+    "category": "clothing",
+    "type": "Fleece & knits",
+    "color": "Fog",
+    "colorHex": "#b9b8af",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/ridge-half-zip.jpg",
+        "alt": "Ridge Half-Zip in fog — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "10",
+      "intro": "A broad half-zip in warm fog grey, retaining the clean original front without adding a chest pocket. Preserve its standing collar, diagonal shoulder seam, relaxed sleeve and settled lower band. Let a dry dense fleece surface and monochrome construction establish the shape.",
+      "description": "A broad half-zip in warm fog grey, retaining the clean original front without adding a chest pocket. Preserve its standing collar, diagonal shoulder seam, relaxed sleeve and settled lower band. Let a dry dense fleece surface and monochrome construction establish the shape. Lengthen the front zip enough for deliberate heat release, following Deviator and Trail Mix proportions, while retaining Kimo’s clean vertical center line. Place stretch fleece at the arms and underarms after Deviator, allowing a larger Logo Half Zip body to move without thick fabric bunching beneath the shoulder. Evaluate Ceramik’s abrasion-oriented face treatment as a research benchmark, without assuming its proprietary finish can be transferred to the selected Odle fabric. Preserve the first Ridge's uninterrupted half-zip front. If secure storage is needed, conceal a small pocket in a side seam rather than adding an external chest opening. Retain the first study's standing collar, diagonal shoulder seams and softly resting lower band. Warm fog grey continues through all visible fabric, leaving shape and surface to carry the design.",
+      "fit": "Boxy through chest, with room at the biceps and a straight high-hip hem.",
+      "validation": "Check zipper comfort, underarm mobility, fabric pilling and the balance between insulation and venting.",
+      "features": [
+        {
+          "name": "Useful deep opening",
+          "text": "Lengthen the front zip enough for deliberate heat release, following Deviator and Trail Mix proportions, while retaining Kimo’s clean vertical center line.",
+          "sources": [
+            "OR-322",
+            "OR-229",
+            "ROA-185"
+          ]
+        },
+        {
+          "name": "Mapped stretch",
+          "text": "Place stretch fleece at the arms and underarms after Deviator, allowing a larger Logo Half Zip body to move without thick fabric bunching beneath the shoulder.",
+          "sources": [
+            "OR-322",
+            "ROA-181"
+          ]
+        },
+        {
+          "name": "Durable face study",
+          "text": "Evaluate Ceramik’s abrasion-oriented face treatment as a research benchmark, without assuming its proprietary finish can be transferred to the selected Odle fabric.",
+          "sources": [
+            "OR-035"
+          ]
+        },
+        {
+          "name": "Invisible secure storage",
+          "text": "Preserve the first Ridge's uninterrupted half-zip front. If secure storage is needed, conceal a small pocket in a side seam rather than adding an external chest opening.",
+          "sources": [
+            "OR-229"
+          ]
+        },
+        {
+          "name": "Original collar and hem",
+          "text": "Retain the first study's standing collar, diagonal shoulder seams and softly resting lower band. Warm fog grey continues through all visible fabric, leaving shape and surface to carry the design.",
+          "sources": [
+            "ROA-249",
+            "OR-035"
+          ]
+        }
+      ],
+      "kind": "Half-zip fleece"
+    }
+  },
+  {
+    "id": "camp-melange-shirt",
+    "name": "Camp Melange Shirt",
+    "category": "clothing",
+    "type": "Shirts",
+    "color": "Heather",
+    "colorHex": "#625d59",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/camp-melange-shirt.jpg",
+        "alt": "Camp Melange Shirt in heather — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "11",
+      "intro": "Keep Camp's original hooded overshirt shape, paired flap chest pockets, button rhythm and generous sleeves. Replace all checks with an irregular brushed yarn mélange of charcoal, warm ash and faint peat. Soft cloudy density changes, no squares, no bars, no stripes, no repeated plaid grid.",
+      "description": "Keep Camp's original hooded overshirt shape, paired flap chest pockets, button rhythm and generous sleeves. Replace all checks with an irregular brushed yarn mélange of charcoal, warm ash and faint peat. Soft cloudy density changes, no squares, no bars, no stripes, no repeated plaid grid. Study Feedback's twill as a textile benchmark. Develop a brushed charcoal and warm-ash yarn mélange with uneven density and faint peat depth, avoiding squares, stripes or a regular check repeat. Keep Logger’s generous hood, button-front rhythm and two flap chest pockets, making this an evolution of the favored shirt rather than a different garment. Add a quiet rear expansion pleat informed by Ravenna, allowing the relaxed body to reach around a pack without requiring a much wider hem. Retain Logger's visible button rhythm and paired flap proportions. Conceal a security pocket behind one flap, borrowing Astroman's clean storage approach without converting the front to a shell placket. Keep adjustable cuffs and the first study's hem shape. Use dark tonal buttons and quiet thread, so irregular yarn texture supplies interest without a bright trim or a repeated motif.",
+      "fit": "Loose chest and upper sleeve; preserve the original high-hip proportion and useful cuff adjustment.",
+      "validation": "Check pattern repeat at garment scale, yarn snagging, drying, shoulder reach and pocket stability.",
+      "features": [
+        {
+          "name": "Irregular woven surface",
+          "text": "Study Feedback's twill as a textile benchmark. Develop a brushed charcoal and warm-ash yarn mélange with uneven density and faint peat depth, avoiding squares, stripes or a regular check repeat.",
+          "sources": [
+            "OR-442",
+            "ROA-167",
+            "ROA-247"
+          ]
+        },
+        {
+          "name": "Preserved hooded shirt",
+          "text": "Keep Logger’s generous hood, button-front rhythm and two flap chest pockets, making this an evolution of the favored shirt rather than a different garment.",
+          "sources": [
+            "ROA-187"
+          ]
+        },
+        {
+          "name": "Freedom across the back",
+          "text": "Add a quiet rear expansion pleat informed by Ravenna, allowing the relaxed body to reach around a pack without requiring a much wider hem.",
+          "sources": [
+            "OR-344"
+          ]
+        },
+        {
+          "name": "Preserved shirt opening",
+          "text": "Retain Logger's visible button rhythm and paired flap proportions. Conceal a security pocket behind one flap, borrowing Astroman's clean storage approach without converting the front to a shell placket.",
+          "sources": [
+            "OR-147",
+            "ROA-187"
+          ]
+        },
+        {
+          "name": "Tonal shirt finishing",
+          "text": "Keep adjustable cuffs and the first study's hem shape. Use dark tonal buttons and quiet thread, so irregular yarn texture supplies interest without a bright trim or a repeated motif.",
+          "sources": [
+            "OR-442",
+            "ROA-187"
+          ]
+        }
+      ],
+      "kind": "Hooded overshirt"
+    }
+  },
+  {
+    "id": "field-tee",
+    "name": "Field Tee",
+    "category": "clothing",
+    "type": "Shirts",
+    "color": "Peat",
+    "colorHex": "#2d2925",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/field-tee.jpg",
+        "alt": "Field Tee in peat — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "12",
+      "intro": "A broad, compact tee in washed dark peat with gentle mineral depth. Retain the first study's dropped shoulder, open sleeve and substantial crew neckline. Fine jersey drape, softly aged-looking seams, no graphics and no extra panels.",
+      "description": "A broad, compact tee in washed dark peat with gentle mineral depth. Retain the first study's dropped shoulder, open sleeve and substantial crew neckline. Fine jersey drape, softly aged-looking seams, no graphics and no extra panels. Keep the Logo Tee’s boxy body and Gear Shadow’s compact length, extending only enough to maintain waist coverage when bending or shouldering a pack. Study Eclipse’s soft technical jersey and ActiveIce’s moisture-management approach, then choose a fabric by touch, drying and opacity rather than by a printed performance label. Use Freewheel’s movement-oriented jersey as an adjacent reference for shoulder and sleeve ease, while keeping the short sleeve visually broad and unstructured. Place smooth, low-bulk seams away from concentrated rubbing and reinforce the collar junction; this gives a simple tee a measurable construction standard. Translate Lava Mountain’s faded character into an uneven taupe-brown yarn shade with a quiet warm grey cast; omit graphics, big patches and artificial abrasion damage.",
+      "fit": "Boxy torso, dropped shoulder and an open upper sleeve; avoid a clingy waist.",
+      "validation": "Assess wet cling, collar recovery, pilling, seam chafe and color change after laundering.",
+      "features": [
+        {
+          "name": "Broad balanced shape",
+          "text": "Keep the Logo Tee’s boxy body and Gear Shadow’s compact length, extending only enough to maintain waist coverage when bending or shouldering a pack.",
+          "sources": [
+            "ROA-199",
+            "ROA-135"
+          ]
+        },
+        {
+          "name": "Comfort-led jersey",
+          "text": "Study Eclipse’s soft technical jersey and ActiveIce’s moisture-management approach, then choose a fabric by touch, drying and opacity rather than by a printed performance label.",
+          "sources": [
+            "OR-152",
+            "OR-300"
+          ]
+        },
+        {
+          "name": "Shoulder clearance",
+          "text": "Use Freewheel’s movement-oriented jersey as an adjacent reference for shoulder and sleeve ease, while keeping the short sleeve visually broad and unstructured.",
+          "sources": [
+            "OR-387"
+          ]
+        },
+        {
+          "name": "Stable contact seams",
+          "text": "Place smooth, low-bulk seams away from concentrated rubbing and reinforce the collar junction; this gives a simple tee a measurable construction standard.",
+          "sources": [
+            "OR-300"
+          ]
+        },
+        {
+          "name": "Subtle surface depth",
+          "text": "Translate Lava Mountain’s faded character into an uneven taupe-brown yarn shade with a quiet warm grey cast; omit graphics, big patches and artificial abrasion damage.",
+          "sources": [
+            "ROA-133"
+          ]
+        }
+      ],
+      "kind": "Everyday tee"
+    }
+  },
+  {
+    "id": "approach-base-tee",
+    "name": "Approach Base Tee",
+    "category": "clothing",
+    "type": "Base layers",
+    "color": "Lichen",
+    "colorHex": "#777c6b",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/approach-base-tee.jpg",
+        "alt": "Approach Base Tee in lichen — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "13",
+      "intro": "A light base tee in muted grey-green lichen, with a clean crew neck, slightly easier chest and open sleeve. Preserve the original simple silhouette. Fine tonal yarn texture and a smooth matte surface; no contrasting collar or mapped graphic zones.",
+      "description": "A light base tee in muted grey-green lichen, with a clean crew neck, slightly easier chest and open sleeve. Preserve the original simple silhouette. Fine tonal yarn texture and a smooth matte surface; no contrasting collar or mapped graphic zones. Use Echo’s lightweight recycled-polyester construction as a breathability benchmark, preserving Ashi’s fine surface rather than copying the heavier drape of the Field Tee. Open the chest and sleeve slightly compared with the reference baselayer, maintaining a clean shoulder and avoiding stretched fabric across the upper back. Use low-bulk seams and a soft neck binding informed by Echo and ActiveIce, so the garment remains comfortable beneath straps over a long approach. Choose a knit and finish through drying and wear trials; source odor-control and cooling claims remain attributed to OR and are not promised for this concept. Use one muted grey-green shade across the body and neckline. Keep all facings narrow and tonal, preserving the original simple shape and uninterrupted lightweight textile.",
+      "fit": "Easy next-to-skin fit; enough clearance to reduce wet cling, without loose folds beneath a shell.",
+      "validation": "Test drying, air permeability, seam comfort and any proposed sun-protection claim on the finished fabric.",
+      "features": [
+        {
+          "name": "Air-moving knit",
+          "text": "Use Echo’s lightweight recycled-polyester construction as a breathability benchmark, preserving Ashi’s fine surface rather than copying the heavier drape of the Field Tee.",
+          "sources": [
+            "OR-503",
+            "ROA-147"
+          ]
+        },
+        {
+          "name": "Gentle body ease",
+          "text": "Open the chest and sleeve slightly compared with the reference baselayer, maintaining a clean shoulder and avoiding stretched fabric across the upper back.",
+          "sources": [
+            "ROA-197",
+            "OR-152"
+          ]
+        },
+        {
+          "name": "Smooth contact construction",
+          "text": "Use low-bulk seams and a soft neck binding informed by Echo and ActiveIce, so the garment remains comfortable beneath straps over a long approach.",
+          "sources": [
+            "OR-503",
+            "OR-300"
+          ]
+        },
+        {
+          "name": "Moisture-management target",
+          "text": "Choose a knit and finish through drying and wear trials; source odor-control and cooling claims remain attributed to OR and are not promised for this concept.",
+          "sources": [
+            "OR-503",
+            "OR-300"
+          ]
+        },
+        {
+          "name": "Continuous quiet color",
+          "text": "Use one muted grey-green shade across the body and neckline. Keep all facings narrow and tonal, preserving the original simple shape and uninterrupted lightweight textile.",
+          "sources": [
+            "ROA-147"
+          ]
+        }
+      ],
+      "kind": "Lightweight base tee"
+    }
+  },
+  {
+    "id": "scree-long-sleeve",
+    "name": "Scree Long Sleeve",
+    "category": "clothing",
+    "type": "Shirts",
+    "color": "Slate",
+    "colorHex": "#596367",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/scree-long-sleeve.jpg",
+        "alt": "Scree Long Sleeve in slate — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "14",
+      "intro": "Scree retains its wide dropped shoulder, long full sleeve and plain crew neck. Replace the original high-contrast mottling with a muted slate-grey and weathered charcoal mineral bloom, irregular and softly dispersed. Texture is restrained and substantial, with tonal cuffs and no sharp printed patches.",
+      "description": "Scree retains its wide dropped shoulder, long full sleeve and plain crew neck. Replace the original high-contrast mottling with a muted slate-grey and weathered charcoal mineral bloom, irregular and softly dispersed. Texture is restrained and substantial, with tonal cuffs and no sharp printed patches. Study Eclipse Waffle’s polyester, lyocell and elastane blend for a flexible textured body, keeping the visibly substantial surface of the first Scree design. Translate Fuzzy Print's irregular texture into slate-grey and weathered-charcoal tonal bloom. Keep differences soft and uneven in scale, avoiding high-contrast camouflage or a repeated all-over pattern. Move the seam clear of the main pack-contact line after Vigor LT, while maintaining the dropped shoulder position that gives the garment its relaxed stance. Study Freewheel’s active jersey fit for movement clearance through the elbow and upper back, without adopting its graphics or narrowing the body into a racing shape. Support the crew collar and cuffs with resilient binding, keeping all edges tonal; the inner seam finish should remain smooth during sustained layered wear.",
+      "fit": "Keep the approved broad torso and relaxed sleeve, with a cuff that settles without tightening the forearm.",
+      "validation": "Check texture after washing, pack abrasion, cuff recovery and whether the proposed finish harms wicking.",
+      "features": [
+        {
+          "name": "Waffle with flexibility",
+          "text": "Study Eclipse Waffle’s polyester, lyocell and elastane blend for a flexible textured body, keeping the visibly substantial surface of the first Scree design.",
+          "sources": [
+            "OR-156",
+            "ROA-001"
+          ]
+        },
+        {
+          "name": "Dispersed mineral grain",
+          "text": "Translate Fuzzy Print's irregular texture into slate-grey and weathered-charcoal tonal bloom. Keep differences soft and uneven in scale, avoiding high-contrast camouflage or a repeated all-over pattern.",
+          "sources": [
+            "ROA-167",
+            "ROA-213"
+          ]
+        },
+        {
+          "name": "Shifted shoulder seam",
+          "text": "Move the seam clear of the main pack-contact line after Vigor LT, while maintaining the dropped shoulder position that gives the garment its relaxed stance.",
+          "sources": [
+            "OR-031"
+          ]
+        },
+        {
+          "name": "Unrestricted upper arm",
+          "text": "Study Freewheel’s active jersey fit for movement clearance through the elbow and upper back, without adopting its graphics or narrowing the body into a racing shape.",
+          "sources": [
+            "OR-295"
+          ]
+        },
+        {
+          "name": "Stable soft edges",
+          "text": "Support the crew collar and cuffs with resilient binding, keeping all edges tonal; the inner seam finish should remain smooth during sustained layered wear.",
+          "sources": [
+            "OR-156",
+            "ROA-001"
+          ]
+        }
+      ],
+      "kind": "Textured long-sleeve jersey"
+    }
+  },
+  {
+    "id": "contour-base-crew",
+    "name": "Contour Base Crew",
+    "category": "clothing",
+    "type": "Base layers",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/contour-base-crew.jpg",
+        "alt": "Contour Base Crew in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "15",
+      "intro": "A relaxed base crew in charcoal basalt. Preserve the first study's shoulder shape and sleeve length, but make all body-mapping zones the same color. Long seam lines and subtle knit density supply structure; no contrasting shoulder armor or curved color islands.",
+      "description": "A relaxed base crew in charcoal basalt. Preserve the first study's shoulder shape and sleeve length, but make all body-mapping zones the same color. Long seam lines and subtle knit density supply structure; no contrasting shoulder armor or curved color islands. Study Alpine Onset’s wool, polyester and elastane blend as a moisture and comfort reference; select the actual yarn mix through wear testing and supplier evidence. Retain Wama and Daze construction as a pattern study while matching all face colors. Articulation and knit-density changes should support movement without producing decorative shoulder armor. Use Alpine Onset’s flat-seam approach and Vigor LT’s shoulder placement as starting points for avoiding repeated rubbing beneath the backpack and outer layers. Develop optional low-profile thumb openings informed by ActiveIce, keeping the sleeve sufficiently long for reaching but easy to push back when the wearer heats up. Let the knit texture carry Ashi’s technical character, with tonal grey and charcoal closely matched in value and no extra neck covering implied by the styling photographs.",
+      "fit": "Easy next-to-skin torso; preserve useful sleeve length without long loose folds at the wrist.",
+      "validation": "Test seam chafe, drying, wet opacity, wash stability and stretch recovery.",
+      "features": [
+        {
+          "name": "Balanced base textile",
+          "text": "Study Alpine Onset’s wool, polyester and elastane blend as a moisture and comfort reference; select the actual yarn mix through wear testing and supplier evidence.",
+          "sources": [
+            "OR-080"
+          ]
+        },
+        {
+          "name": "Tonal body mapping",
+          "text": "Retain Wama and Daze construction as a pattern study while matching all face colors. Articulation and knit-density changes should support movement without producing decorative shoulder armor.",
+          "sources": [
+            "ROA-207",
+            "ROA-209"
+          ]
+        },
+        {
+          "name": "Low-bulk seams",
+          "text": "Use Alpine Onset’s flat-seam approach and Vigor LT’s shoulder placement as starting points for avoiding repeated rubbing beneath the backpack and outer layers.",
+          "sources": [
+            "OR-080",
+            "OR-031"
+          ]
+        },
+        {
+          "name": "Controlled hand coverage",
+          "text": "Develop optional low-profile thumb openings informed by ActiveIce, keeping the sleeve sufficiently long for reaching but easy to push back when the wearer heats up.",
+          "sources": [
+            "OR-301"
+          ]
+        },
+        {
+          "name": "Understated finish",
+          "text": "Let the knit texture carry Ashi’s technical character, with tonal grey and charcoal closely matched in value and no extra neck covering implied by the styling photographs.",
+          "sources": [
+            "ROA-215"
+          ]
+        }
+      ],
+      "kind": "Long-sleeve base layer"
+    }
+  },
+  {
+    "id": "ascent-half-zip-tank",
+    "name": "Ascent Half-Zip Tank",
+    "category": "clothing",
+    "type": "Shirts",
+    "color": "Fog",
+    "colorHex": "#b9b8af",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/ascent-half-zip-tank.jpg",
+        "alt": "Ascent Half-Zip Tank in fog — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "16",
+      "intro": "A pale warm-grey sleeveless half-zip with a clean high collar and straight relaxed body. Preserve the original long center opening and modest armholes. All panels and bindings share the same shade, with only dark recessed zip teeth.",
+      "description": "A pale warm-grey sleeveless half-zip with a clean high collar and straight relaxed body. Preserve the original long center opening and modest armholes. All panels and bindings share the same shade, with only dark recessed zip teeth. Keep the Gator half-zip tank’s upright neck and long opening, widening the body modestly so the front hangs straight instead of tracing the waist. Study Echo and Eclipse tanks for a breathable knit body that remains opaque enough at this pale color; settle the textile through wet and dry assessment. Use Astroman Air’s stretch and sun-layer logic as a material reference, with a soft zipper guard preventing the taller collar from rubbing the throat. A narrow self-fabric binding and low-bulk side seam follow Echo’s construction logic, preserving movement without excessive openings or visibly tight binding. Use warm fog grey through the body, collar and bindings. Recess the darker zipper within its opening so the original high neck and straight silhouette remain visually clear.",
+      "fit": "Straight torso, controlled armholes and generous upper chest; no oversized armhole exposing the whole side body.",
+      "validation": "Check armhole gaping, zipper comfort, drying and neckline shape after use.",
+      "features": [
+        {
+          "name": "High-neck silhouette",
+          "text": "Keep the Gator half-zip tank’s upright neck and long opening, widening the body modestly so the front hangs straight instead of tracing the waist.",
+          "sources": [
+            "ROA-193",
+            "ROA-195"
+          ]
+        },
+        {
+          "name": "Light active body",
+          "text": "Study Echo and Eclipse tanks for a breathable knit body that remains opaque enough at this pale color; settle the textile through wet and dry assessment.",
+          "sources": [
+            "OR-134",
+            "OR-154"
+          ]
+        },
+        {
+          "name": "Flexible neckline",
+          "text": "Use Astroman Air’s stretch and sun-layer logic as a material reference, with a soft zipper guard preventing the taller collar from rubbing the throat.",
+          "sources": [
+            "OR-149"
+          ]
+        },
+        {
+          "name": "Clean armhole finish",
+          "text": "A narrow self-fabric binding and low-bulk side seam follow Echo’s construction logic, preserving movement without excessive openings or visibly tight binding.",
+          "sources": [
+            "OR-134"
+          ]
+        },
+        {
+          "name": "Monochrome form",
+          "text": "Use warm fog grey through the body, collar and bindings. Recess the darker zipper within its opening so the original high neck and straight silhouette remain visually clear.",
+          "sources": [
+            "ROA-195"
+          ]
+        }
+      ],
+      "kind": "Sleeveless active top"
+    }
+  },
+  {
+    "id": "talus-technical-trouser",
+    "name": "Talus Technical Trouser",
+    "category": "clothing",
+    "type": "Pants",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/talus-technical-trouser.jpg",
+        "alt": "Talus Technical Trouser in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "17",
+      "intro": "A broad straight technical trouser in charcoal basalt with no contrasting oval knee patches. Replace the original ovals with long same-color double-knee fields: crisp diagonal top edge, straight sides, flat angular bottom edge. Articulation comes from discreet darts, not rounded graphic panels. Keep the original full leg and quiet waist.",
+      "description": "A broad straight technical trouser in charcoal basalt with no contrasting oval knee patches. Replace the original ovals with long same-color double-knee fields: crisp diagonal top edge, straight sides, flat angular bottom edge. Articulation comes from discreet darts, not rounded graphic panels. Keep the original full leg and quiet waist. The rear leg remains plain below the seat. Replace the first study's oval patches with long same-color knee fields: diagonal top, straight sides and a flat angular base. Use darts for flexion without rounding the visible reinforcement outline. The rear remains plain through the knee. Use Cirque III’s documented double-weave construction as the main technical benchmark, balancing stretch and abrasion targets rather than assuming a higher denier alone solves durability. Shape the knee with darts and a gusseted crotch, following OR’s mobility approach; the surface can look angular while the actual joint still bends naturally. Study Trailbreaker’s thigh vents and adjustable lower-leg interface, integrating a straight side vent and compact cuff opening that remain accessible beside the reinforcement panels. Retain a clean adjustable waistband and low-profile zip pockets. Match reinforcement, body and hardware closely in charcoal; the new sharp geometry reads through seams rather than colored islands.",
+      "fit": "Relaxed seat and thigh, full straight lower leg; keep cuffs adjustable around actual footwear.",
+      "validation": "Test high steps, kneeling, seam abrasion, cuff snagging and boot compatibility; panel geometry must support articulation.",
+      "features": [
+        {
+          "name": "Sharp tonal double knees",
+          "text": "Replace the first study's oval patches with long same-color knee fields: diagonal top, straight sides and a flat angular base. Use darts for flexion without rounding the visible reinforcement outline. The rear remains plain through the knee.",
+          "sources": [
+            "ROA-251",
+            "ROA-253",
+            "ROA-257"
+          ]
+        },
+        {
+          "name": "Stretch double-weave body",
+          "text": "Use Cirque III’s documented double-weave construction as the main technical benchmark, balancing stretch and abrasion targets rather than assuming a higher denier alone solves durability.",
+          "sources": [
+            "OR-346"
+          ]
+        },
+        {
+          "name": "Articulation through pattern",
+          "text": "Shape the knee with darts and a gusseted crotch, following OR’s mobility approach; the surface can look angular while the actual joint still bends naturally.",
+          "sources": [
+            "OR-346",
+            "OR-473"
+          ]
+        },
+        {
+          "name": "Vent and boot control",
+          "text": "Study Trailbreaker’s thigh vents and adjustable lower-leg interface, integrating a straight side vent and compact cuff opening that remain accessible beside the reinforcement panels.",
+          "sources": [
+            "OR-262"
+          ]
+        },
+        {
+          "name": "Quiet secure waist",
+          "text": "Retain a clean adjustable waistband and low-profile zip pockets. Match reinforcement, body and hardware closely in charcoal; the new sharp geometry reads through seams rather than colored islands.",
+          "sources": [
+            "OR-346",
+            "OR-473"
+          ]
+        }
+      ],
+      "kind": "Alpine softshell trouser"
+    }
+  },
+  {
+    "id": "talus-work-trouser",
+    "name": "Talus Work Trouser",
+    "category": "clothing",
+    "type": "Pants",
+    "color": "Umber",
+    "colorHex": "#574b40",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/talus-work-trouser.jpg",
+        "alt": "Talus Work Trouser in umber — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "18",
+      "intro": "Retain the approved first Talus Work Trouser image and brown color. Its generous straight leg, long angular double knees, low flat cargo pockets and quiet rear patch pockets already establish the desired character. All construction refinements belong inside this existing silhouette.",
+      "description": "Retain the approved first Talus Work Trouser image and brown color. Its generous straight leg, long angular double knees, low flat cargo pockets and quiet rear patch pockets already establish the desired character. All construction refinements belong inside this existing silhouette. Keep the approved angular reinforcement proportions from the Wrangler, Crimp and Fomes synthesis; the rear stays plain through the leg with useful upper patch pockets. Use Field Outdoor’s separately specified body and reinforcement fabrics as the construction benchmark, concentrating the stronger material at knees, pocket mouths and inner hems. Add a properly shaped crotch gusset and knee articulation after Timberline Utility, keeping their functional effect within the generous original trouser silhouette. Keep cargo pockets flat against the thigh and secure their contents with quiet zips beneath the flaps; locate bulky items away from knee flexion. Keep the first Talus Work brown face, angular double knees and understated fading. Use matching reinforcement cloth and dark hardware; internal changes must not alter the favored silhouette.",
+      "fit": "Preserve the first study’s roomy seat, thigh and leg opening; shape the knee without reducing the leg volume.",
+      "validation": "Test knee and seat abrasion, cargo-pocket load, crotch seam strength, cuff wear and repeated crouching.",
+      "features": [
+        {
+          "name": "Long double-knee fronts",
+          "text": "Keep the approved angular reinforcement proportions from the Wrangler, Crimp and Fomes synthesis; the rear stays plain through the leg with useful upper patch pockets.",
+          "sources": [
+            "ROA-007",
+            "ROA-151",
+            "ROA-155"
+          ]
+        },
+        {
+          "name": "Durable mapped textile",
+          "text": "Use Field Outdoor’s separately specified body and reinforcement fabrics as the construction benchmark, concentrating the stronger material at knees, pocket mouths and inner hems.",
+          "sources": [
+            "OR-208"
+          ]
+        },
+        {
+          "name": "Hidden movement allowance",
+          "text": "Add a properly shaped crotch gusset and knee articulation after Timberline Utility, keeping their functional effect within the generous original trouser silhouette.",
+          "sources": [
+            "OR-144"
+          ]
+        },
+        {
+          "name": "Stable cargo storage",
+          "text": "Keep cargo pockets flat against the thigh and secure their contents with quiet zips beneath the flaps; locate bulky items away from knee flexion.",
+          "sources": [
+            "OR-144",
+            "OR-326"
+          ]
+        },
+        {
+          "name": "Preserved rugged finish",
+          "text": "Keep the first Talus Work brown face, angular double knees and understated fading. Use matching reinforcement cloth and dark hardware; internal changes must not alter the favored silhouette.",
+          "sources": [
+            "ROA-151",
+            "OR-208"
+          ]
+        }
+      ],
+      "kind": "Work and cargo trouser"
+    }
+  },
+  {
+    "id": "camp-fleece-trouser",
+    "name": "Camp Fleece Trouser",
+    "category": "clothing",
+    "type": "Pants",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/camp-fleece-trouser.jpg",
+        "alt": "Camp Fleece Trouser in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "19",
+      "intro": "A voluminous camp fleece trouser in charcoal-black with irregular pebbled pile. Preserve the original loose seat, broad leg and gently gathered ankles. A quiet elastic waist and submerged pocket openings keep the substantial fleece surface continuous.",
+      "description": "A voluminous camp fleece trouser in charcoal-black with irregular pebbled pile. Preserve the original loose seat, broad leg and gently gathered ankles. A quiet elastic waist and submerged pocket openings keep the substantial fleece surface continuous. Retain Drowi’s pebbled fleece surface and broaden the seat slightly, allowing the fabric to fall vertically instead of creating a tight jogger profile. Use Vigor Grid bottoms as a benchmark for flexible insulation and moisture transport, while proposing a more substantial exterior suited to the approved camp silhouette. Develop a comfortable elastic waist with internal adjustment, distributing tension across the waistband so added trouser volume does not require a harshly tight top edge. Use a low-profile woven pocket facing informed by Vigor’s bonded hip pocket; keep heavier contents high enough that they do not swing against the knee. Study Rialto’s lined-trouser approach only as an adjacent comfort reference, keeping this garment explicitly fleece rather than describing the soft exterior as a rock-resistant shell.",
+      "fit": "Loose seat and thigh; softly gathered ankle with enough opening to pass the foot comfortably.",
+      "validation": "Check seat pilling, knee bagging, pocket sag, drying and waistband recovery.",
+      "features": [
+        {
+          "name": "Textured loose leg",
+          "text": "Retain Drowi’s pebbled fleece surface and broaden the seat slightly, allowing the fabric to fall vertically instead of creating a tight jogger profile.",
+          "sources": [
+            "ROA-227"
+          ]
+        },
+        {
+          "name": "Grid interior study",
+          "text": "Use Vigor Grid bottoms as a benchmark for flexible insulation and moisture transport, while proposing a more substantial exterior suited to the approved camp silhouette.",
+          "sources": [
+            "OR-441",
+            "OR-433"
+          ]
+        },
+        {
+          "name": "Stable waist",
+          "text": "Develop a comfortable elastic waist with internal adjustment, distributing tension across the waistband so added trouser volume does not require a harshly tight top edge.",
+          "sources": [
+            "OR-441"
+          ]
+        },
+        {
+          "name": "Secure side storage",
+          "text": "Use a low-profile woven pocket facing informed by Vigor’s bonded hip pocket; keep heavier contents high enough that they do not swing against the knee.",
+          "sources": [
+            "OR-441"
+          ]
+        },
+        {
+          "name": "Warm contact zones",
+          "text": "Study Rialto’s lined-trouser approach only as an adjacent comfort reference, keeping this garment explicitly fleece rather than describing the soft exterior as a rock-resistant shell.",
+          "sources": [
+            "OR-187"
+          ]
+        }
+      ],
+      "kind": "Fleece trouser"
+    }
+  },
+  {
+    "id": "traverse-layer-legging",
+    "name": "Traverse Layer Legging",
+    "category": "clothing",
+    "type": "Base layers",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/traverse-layer-legging.jpg",
+        "alt": "Traverse Layer Legging in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "20",
+      "intro": "A relaxed straight layering legging in dark charcoal, preserving the original broad soft waistband and unforced lower leg. Make mapped zones monochrome and simplify their boundaries into long low-contrast seams. Avoid a compression fit or bright ankle blocks.",
+      "description": "A relaxed straight layering legging in dark charcoal, preserving the original broad soft waistband and unforced lower leg. Make mapped zones monochrome and simplify their boundaries into long low-contrast seams. Avoid a compression fit or bright ankle blocks. Study Alpine Onset’s wool-blend base fabric and Vigor’s grid fleece as separate weight options, selecting one coherent textile for the intended season rather than stacking both. Use a full gusset inspired by Alpine Onset so the seat and upper thigh can move during high steps without relying on excessive waistband tension. Simplify the ROA Gator and Tenna fields into long straight side lines and restrained knee shaping, removing circular panels that would interrupt the clean leg. A broad soft waistband with smooth inner construction follows the OR base-layer references, using tonal grey only on the inside and avoiding a large branded elastic band. Keep Ashi’s uninterrupted lower leg with a low-bulk ankle finish, preventing doubled seams from building pressure where the sock and boot overlap.",
+      "fit": "Easy close fit without compression intent; generous enough at seat and thigh to squat freely.",
+      "validation": "Test crotch comfort, waistband pressure, seam rubbing, drying and stretch recovery.",
+      "features": [
+        {
+          "name": "Layering textile",
+          "text": "Study Alpine Onset’s wool-blend base fabric and Vigor’s grid fleece as separate weight options, selecting one coherent textile for the intended season rather than stacking both.",
+          "sources": [
+            "OR-184",
+            "OR-441"
+          ]
+        },
+        {
+          "name": "Shaped crotch",
+          "text": "Use a full gusset inspired by Alpine Onset so the seat and upper thigh can move during high steps without relying on excessive waistband tension.",
+          "sources": [
+            "OR-184",
+            "OR-185"
+          ]
+        },
+        {
+          "name": "Quiet seam mapping",
+          "text": "Simplify the ROA Gator and Tenna fields into long straight side lines and restrained knee shaping, removing circular panels that would interrupt the clean leg.",
+          "sources": [
+            "ROA-153",
+            "ROA-159"
+          ]
+        },
+        {
+          "name": "Comfortable waist",
+          "text": "A broad soft waistband with smooth inner construction follows the OR base-layer references, using tonal grey only on the inside and avoiding a large branded elastic band.",
+          "sources": [
+            "OR-184",
+            "OR-185"
+          ]
+        },
+        {
+          "name": "Clean ankle interface",
+          "text": "Keep Ashi’s uninterrupted lower leg with a low-bulk ankle finish, preventing doubled seams from building pressure where the sock and boot overlap.",
+          "sources": [
+            "ROA-163",
+            "OR-441"
+          ]
+        }
+      ],
+      "kind": "Base-layer legging"
+    }
+  },
+  {
+    "id": "switchback-running-short",
+    "name": "Switchback Running Short",
+    "category": "clothing",
+    "type": "Shorts",
+    "color": "Umber",
+    "colorHex": "#574b40",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/switchback-running-short.jpg",
+        "alt": "Switchback Running Short in umber — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "21",
+      "intro": "A deep taupe-grey running short with a generous floating outer leg and charcoal liner visible below. Preserve the first study's two-layer proportion. Outer side zones match the body; the liner is the only clear tonal difference. No decorative striping.",
+      "description": "A deep taupe-grey running short with a generous floating outer leg and charcoal liner visible below. Preserve the first study's two-layer proportion. Outer side zones match the body; the liner is the only clear tonal difference. No decorative striping. Keep Helder’s layered silhouette and widen the outer short slightly, maintaining a clear difference between the floating outer leg and the close inner liner. Study Swift Lite’s boxer-style liner and gusset construction for support that follows the stride rather than relying on an overly tight opening at the thigh. Place small ventilation zones at the rear yoke, following Swift Lite, keeping the front surface mostly continuous and avoiding excessive all-over perforation. Use a close rear security pocket and restrained side storage, positioning contents near the body so the generous outer short does not amplify bounce. Retain the original adjustable waist and modest side openings. Keep the broad outer short taupe-grey and the inner liner charcoal, with no contrasting outer side panels.",
+      "fit": "Wider outer leg; liner fitted for support without claiming compression.",
+      "validation": "Test liner chafe, pocket bounce, waistband stability, drying and hem freedom on steep steps.",
+      "features": [
+        {
+          "name": "Two-layer proportion",
+          "text": "Keep Helder’s layered silhouette and widen the outer short slightly, maintaining a clear difference between the floating outer leg and the close inner liner.",
+          "sources": [
+            "ROA-161",
+            "ROA-219",
+            "ROA-221"
+          ]
+        },
+        {
+          "name": "Gusseted liner",
+          "text": "Study Swift Lite’s boxer-style liner and gusset construction for support that follows the stride rather than relying on an overly tight opening at the thigh.",
+          "sources": [
+            "OR-282"
+          ]
+        },
+        {
+          "name": "Directed ventilation",
+          "text": "Place small ventilation zones at the rear yoke, following Swift Lite, keeping the front surface mostly continuous and avoiding excessive all-over perforation.",
+          "sources": [
+            "OR-282",
+            "OR-279"
+          ]
+        },
+        {
+          "name": "Stable small storage",
+          "text": "Use a close rear security pocket and restrained side storage, positioning contents near the body so the generous outer short does not amplify bounce.",
+          "sources": [
+            "OR-282",
+            "OR-278"
+          ]
+        },
+        {
+          "name": "Soft restrained edges",
+          "text": "Retain the original adjustable waist and modest side openings. Keep the broad outer short taupe-grey and the inner liner charcoal, with no contrasting outer side panels.",
+          "sources": [
+            "OR-279",
+            "ROA-221"
+          ]
+        }
+      ],
+      "kind": "Running short"
+    }
+  },
+  {
+    "id": "strata-skort-trouser",
+    "name": "Strata Skort Trouser",
+    "category": "clothing",
+    "type": "Pants",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/strata-skort-trouser.jpg",
+        "alt": "Strata Skort Trouser in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "22",
+      "intro": "A charcoal skort trouser with the original architectural overlapping apron, full straight leg and compact belt. Use one continuous dry matte fabric color across wrap and trouser. A sharp wrap edge and supple movement create the distinction, without contrast panels.",
+      "description": "A charcoal skort trouser with the original architectural overlapping apron, full straight leg and compact belt. Use one continuous dry matte fabric color across wrap and trouser. A sharp wrap edge and supple movement create the distinction, without contrast panels. Retain Simi’s overlapping front and full trouser beneath, straightening the visible wrap edge so the garment reads as a single deliberate vertical shape. Study the Ferrosi Skort’s stretch-woven construction as the closest OR material reference, keeping its reported performance separate from the proposed full-length garment. Allow the apron and trouser leg to move separately, with enough overlap for coverage and a concealed release point that prevents restriction on a high step. Place one low-profile zipped pocket in the trouser beneath the wrap, using the skort’s secure-storage principle without adding a large pocket to the front apron. Preserve Simi's compact belt and use plain matching hardware. Wrap and trouser share one charcoal textile, making the overlapping silhouette the principal design feature.",
+      "fit": "Loose leg and seat; wrap clearance must permit a long stride without catching the knee.",
+      "validation": "Assess step height, wrap snagging, pocket access and whether the extra layer creates unwanted heat.",
+      "features": [
+        {
+          "name": "Architectural wrap",
+          "text": "Retain Simi’s overlapping front and full trouser beneath, straightening the visible wrap edge so the garment reads as a single deliberate vertical shape.",
+          "sources": [
+            "ROA-157"
+          ]
+        },
+        {
+          "name": "Stretch woven body",
+          "text": "Study the Ferrosi Skort’s stretch-woven construction as the closest OR material reference, keeping its reported performance separate from the proposed full-length garment.",
+          "sources": [
+            "OR-427"
+          ]
+        },
+        {
+          "name": "Independent movement",
+          "text": "Allow the apron and trouser leg to move separately, with enough overlap for coverage and a concealed release point that prevents restriction on a high step.",
+          "sources": [
+            "ROA-157",
+            "OR-427"
+          ]
+        },
+        {
+          "name": "Hidden secure storage",
+          "text": "Place one low-profile zipped pocket in the trouser beneath the wrap, using the skort’s secure-storage principle without adding a large pocket to the front apron.",
+          "sources": [
+            "OR-427"
+          ]
+        },
+        {
+          "name": "Unified waist and cloth",
+          "text": "Preserve Simi's compact belt and use plain matching hardware. Wrap and trouser share one charcoal textile, making the overlapping silhouette the principal design feature.",
+          "sources": [
+            "ROA-157"
+          ]
+        }
+      ],
+      "kind": "Skort trouser"
+    }
+  },
+  {
+    "id": "ridgeline-cap",
+    "name": "Ridgeline Cap",
+    "category": "accessories",
+    "type": "Headwear",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/ridgeline-cap.jpg",
+        "alt": "Ridgeline Cap in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "23",
+      "intro": "Retain the approved first Ridgeline Cap exactly: low dark crown, curved brim, sparse side perforations and a very fine muted olive piping line. Keep its quiet rear closure and existing proportions.",
+      "description": "Retain the approved first Ridgeline Cap exactly: low dark crown, curved brim, sparse side perforations and a very fine muted olive piping line. Keep its quiet rear closure and existing proportions. Keep the shallow Aair and Pursuit shape and the original curved seam rhythm; the requested sharper language applies chiefly to trouser reinforcement, not this approved cap. Use Swift’s mesh-panel placement as a benchmark for discreet ventilation, retaining the original sparse perforated appearance rather than exposing a large trucker mesh field. Study Radar’s folding brim for recoverable packability, retaining a clean shallow curve when worn; the fold mechanism must not leave a permanent center crease. Develop a quick-drying sweatband and dark underside informed by Swift, keeping the inside comfortable and limiting glare beneath the restrained front brim. Keep the original dark crown, narrow muted olive piping and compact rear closure. Technical sweatband and brim improvements must preserve this already favored appearance.",
+      "fit": "Preserve the approved crown volume; offer adjustment without squeezing at the temple.",
+      "validation": "Check sweatband drying, brim recovery, wind retention and pressure under compatible helmets.",
+      "features": [
+        {
+          "name": "Preserved crown",
+          "text": "Keep the shallow Aair and Pursuit shape and the original curved seam rhythm; the requested sharper language applies chiefly to trouser reinforcement, not this approved cap.",
+          "sources": [
+            "ROA-307",
+            "ROA-313"
+          ]
+        },
+        {
+          "name": "Breathable side zones",
+          "text": "Use Swift’s mesh-panel placement as a benchmark for discreet ventilation, retaining the original sparse perforated appearance rather than exposing a large trucker mesh field.",
+          "sources": [
+            "OR-496",
+            "ROA-309"
+          ]
+        },
+        {
+          "name": "Packable brim study",
+          "text": "Study Radar’s folding brim for recoverable packability, retaining a clean shallow curve when worn; the fold mechanism must not leave a permanent center crease.",
+          "sources": [
+            "OR-499"
+          ]
+        },
+        {
+          "name": "Soft moisture contact",
+          "text": "Develop a quick-drying sweatband and dark underside informed by Swift, keeping the inside comfortable and limiting glare beneath the restrained front brim.",
+          "sources": [
+            "OR-496"
+          ]
+        },
+        {
+          "name": "Preserved cap finish",
+          "text": "Keep the original dark crown, narrow muted olive piping and compact rear closure. Technical sweatband and brim improvements must preserve this already favored appearance.",
+          "sources": [
+            "OR-065",
+            "ROA-313"
+          ]
+        }
+      ],
+      "kind": "Soft cap"
+    }
+  },
+  {
+    "id": "hearth-beanie",
+    "name": "Hearth Beanie",
+    "category": "accessories",
+    "type": "Headwear",
+    "color": "Umber",
+    "colorHex": "#574b40",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/hearth-beanie.jpg",
+        "alt": "Hearth Beanie in umber — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "24",
+      "intro": "Retain the approved first Hearth Beanie exactly: soft dark brown melange, low rounded crown, subtle seam lines, no tall cuff and no logo. Internal warmth improvements must leave this exterior unchanged.",
+      "description": "Retain the approved first Hearth Beanie exactly: soft dark brown melange, low rounded crown, subtle seam lines, no tall cuff and no logo. Internal warmth improvements must leave this exterior unchanged. Retain the Vortex and Ashi low, rounded crown with no tall cuff, preserving the original hat’s simple outline and gentle volume at the top. Study Alpine Onset’s doubled ear band and apply that idea internally, adding warmth where needed while leaving the exterior silhouette uninterrupted. Use Deming’s wool-blend fleece as one material benchmark for the soft halo, then develop a stable knit or fleece face that resists excessive shedding. Study Polartec 200’s close, simple construction for comfortable crown seams, avoiding thick seam intersections that press into the head under a hood. Keep the original soft dark brown mélange and low dome exactly. Add no new stripes, contrast ear band, logo patch or colored yarn accents to the exterior.",
+      "fit": "Preserve the slightly roomy dome; secure at the ear without a tight folded cuff.",
+      "validation": "Test stretch recovery, ear coverage, seam bulk, pilling and drying after sweat exposure.",
+      "features": [
+        {
+          "name": "Recognizable dome",
+          "text": "Retain the Vortex and Ashi low, rounded crown with no tall cuff, preserving the original hat’s simple outline and gentle volume at the top.",
+          "sources": [
+            "ROA-283",
+            "ROA-299"
+          ]
+        },
+        {
+          "name": "Protective ear zone",
+          "text": "Study Alpine Onset’s doubled ear band and apply that idea internally, adding warmth where needed while leaving the exterior silhouette uninterrupted.",
+          "sources": [
+            "OR-362"
+          ]
+        },
+        {
+          "name": "Soft wool-like face",
+          "text": "Use Deming’s wool-blend fleece as one material benchmark for the soft halo, then develop a stable knit or fleece face that resists excessive shedding.",
+          "sources": [
+            "OR-072",
+            "ROA-287"
+          ]
+        },
+        {
+          "name": "Low-bulk seams",
+          "text": "Study Polartec 200’s close, simple construction for comfortable crown seams, avoiding thick seam intersections that press into the head under a hood.",
+          "sources": [
+            "OR-218"
+          ]
+        },
+        {
+          "name": "Preserved yarn color",
+          "text": "Keep the original soft dark brown mélange and low dome exactly. Add no new stripes, contrast ear band, logo patch or colored yarn accents to the exterior.",
+          "sources": [
+            "ROA-283",
+            "ROA-287"
+          ]
+        }
+      ],
+      "kind": "Beanie"
+    }
+  },
+  {
+    "id": "shelter-earflap-hat",
+    "name": "Shelter Earflap Hat",
+    "category": "accessories",
+    "type": "Headwear",
+    "color": "Umber",
+    "colorHex": "#574b40",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/shelter-earflap-hat.jpg",
+        "alt": "Shelter Earflap Hat in umber — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "25",
+      "intro": "A dark earthy brown fleece earflap hat, retaining the original soft enclosing crown, deep ear coverage and short flexible brow. Keep the original textured face rather than replacing it with a contrasting shell. Minimal dark chin adjustment and tonal interior.",
+      "description": "A dark earthy brown fleece earflap hat, retaining the original soft enclosing crown, deep ear coverage and short flexible brow. Keep the original textured face rather than replacing it with a contrasting shell. Minimal dark chin adjustment and tonal interior. Retain the broad ear coverage of Bonnet and Kogi, keeping a soft crown and generous side coverage instead of converting the hat into a rigid helmet shape. Use Yukon’s wool-blend interior as a benchmark for the ear-facing surface, choosing a low-scratch material that remains comfortable when damp. Study Timberline Trapper's lining and weather-facing construction as adjacent research. Preserve the original soft fleece exterior; any barrier layer belongs inside and requires separate breathability assessment. Retain the original shallow flexible brow rather than adding a projecting shell-hat brim. Study Yukon and Whitefish for recoverable support within that existing soft silhouette. Retain the original minimal chin adjustment and enclosing ear coverage. Match lining and hardware to the brown face so the hat continues to read as one soft form.",
+      "fit": "Room around ears and temples; adjustable under the chin without a long loose cord.",
+      "validation": "Test ear coverage, wind entry, brim folding and chin-fastener comfort under an outer hood.",
+      "features": [
+        {
+          "name": "Enclosing silhouette",
+          "text": "Retain the broad ear coverage of Bonnet and Kogi, keeping a soft crown and generous side coverage instead of converting the hat into a rigid helmet shape.",
+          "sources": [
+            "ROA-295",
+            "ROA-297",
+            "ROA-301"
+          ]
+        },
+        {
+          "name": "Comfortable lining",
+          "text": "Use Yukon’s wool-blend interior as a benchmark for the ear-facing surface, choosing a low-scratch material that remains comfortable when damp.",
+          "sources": [
+            "OR-062"
+          ]
+        },
+        {
+          "name": "Soft crown continuity",
+          "text": "Study Timberline Trapper's lining and weather-facing construction as adjacent research. Preserve the original soft fleece exterior; any barrier layer belongs inside and requires separate breathability assessment.",
+          "sources": [
+            "OR-205"
+          ]
+        },
+        {
+          "name": "Foldable short brim",
+          "text": "Retain the original shallow flexible brow rather than adding a projecting shell-hat brim. Study Yukon and Whitefish for recoverable support within that existing soft silhouette.",
+          "sources": [
+            "OR-062",
+            "OR-364"
+          ]
+        },
+        {
+          "name": "Quiet retention",
+          "text": "Retain the original minimal chin adjustment and enclosing ear coverage. Match lining and hardware to the brown face so the hat continues to read as one soft form.",
+          "sources": [
+            "OR-364",
+            "ROA-301"
+          ]
+        }
+      ],
+      "kind": "Earflap hat"
+    }
+  },
+  {
+    "id": "contour-balaclava",
+    "name": "Contour Balaclava",
+    "category": "accessories",
+    "type": "Headwear",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/contour-balaclava.jpg",
+        "alt": "Contour Balaclava in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "26",
+      "intro": "A charcoal balaclava with the original long neck and shaped crown. Use one color through all zones, with only slight knit-density changes revealing construction. A restrained face opening and soft folds maintain the first study's quietly sculptural character.",
+      "description": "A charcoal balaclava with the original long neck and shaped crown. Use one color through all zones, with only slight knit-density changes revealing construction. A restrained face opening and soft folds maintain the first study's quietly sculptural character. Keep Daze’s simple enclosing crown and long neck, using only a few contour lines so the small accessory does not become a field of decorative paneling. Study Alpine Onset and Vigor Plus hinge construction so the face opening can lower without dragging the whole hood backward or tightening at the throat. Use Alpine Onset’s wool-blend knit as a comfort benchmark for the face and neck, with the final fabric chosen for drying, stretch and softness. Polarverse informs the option of a more protective forehead or face panel, but any added barrier must preserve breathing comfort and avoid trapping condensation. Keep crown, face edge and long neck in one charcoal family. Use low-bulk seams and smooth hems, checking the overlap beneath the shell without introducing a colored forehead panel.",
+      "fit": "Close around face, relaxed enough at crown and neck to move without pulling the eye opening.",
+      "validation": "Check breathing moisture, visibility, hinge recovery, helmet pressure and seam chafe.",
+      "features": [
+        {
+          "name": "Controlled head shape",
+          "text": "Keep Daze’s simple enclosing crown and long neck, using only a few contour lines so the small accessory does not become a field of decorative paneling.",
+          "sources": [
+            "ROA-319"
+          ]
+        },
+        {
+          "name": "Hinged face coverage",
+          "text": "Study Alpine Onset and Vigor Plus hinge construction so the face opening can lower without dragging the whole hood backward or tightening at the throat.",
+          "sources": [
+            "OR-014",
+            "OR-011"
+          ]
+        },
+        {
+          "name": "Breathable contact textile",
+          "text": "Use Alpine Onset’s wool-blend knit as a comfort benchmark for the face and neck, with the final fabric chosen for drying, stretch and softness.",
+          "sources": [
+            "OR-014"
+          ]
+        },
+        {
+          "name": "Targeted wind study",
+          "text": "Polarverse informs the option of a more protective forehead or face panel, but any added barrier must preserve breathing comfort and avoid trapping condensation.",
+          "sources": [
+            "OR-005"
+          ]
+        },
+        {
+          "name": "Flat tonal edges",
+          "text": "Keep crown, face edge and long neck in one charcoal family. Use low-bulk seams and smooth hems, checking the overlap beneath the shell without introducing a colored forehead panel.",
+          "sources": [
+            "OR-011",
+            "ROA-319"
+          ]
+        }
+      ],
+      "kind": "Balaclava"
+    }
+  },
+  {
+    "id": "hearth-ear-warmer",
+    "name": "Hearth Ear Warmer",
+    "category": "accessories",
+    "type": "Headwear",
+    "color": "Umber",
+    "colorHex": "#574b40",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/hearth-ear-warmer.jpg",
+        "alt": "Hearth Ear Warmer in umber — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "27",
+      "intro": "A dark brown rib-knit ear warmer with the original deep ear shapes and open crown. Preserve substantial vertical rib and soft yarn depth. The entire accessory remains tonal, with the wind-facing layer concealed inside.",
+      "description": "A dark brown rib-knit ear warmer with the original deep ear shapes and open crown. Preserve substantial vertical rib and soft yarn depth. The entire accessory remains tonal, with the wind-facing layer concealed inside. Preserve Hawk’s deeper ear coverage and open crown, allowing heat to escape above while keeping the band broad enough at the sides. Use Newhalem’s wind-blocking construction as a benchmark for the front and ear zones, assessing whether a full barrier is necessary for the intended activity. Study the OR knit headband’s differentiated inner yarn system, selecting a smooth, quick-drying contact layer rather than assuming the exterior rib alone manages sweat. Use Deviator’s flat-seam construction to place the closure where it will not press behind the ear or beneath eyewear during long movement. Retain the original dark brown rib, shaped ear coverage and subtle yarn depth. Wind and moisture layers remain inside, allowing the exterior to stay familiar and visually simple.",
+      "fit": "Secure without compressing ears or creating pressure behind the temple.",
+      "validation": "Test wind protection, sweat drying, stretch recovery and fit during head movement.",
+      "features": [
+        {
+          "name": "Shaped ear depth",
+          "text": "Preserve Hawk’s deeper ear coverage and open crown, allowing heat to escape above while keeping the band broad enough at the sides.",
+          "sources": [
+            "ROA-321"
+          ]
+        },
+        {
+          "name": "Selective wind layer",
+          "text": "Use Newhalem’s wind-blocking construction as a benchmark for the front and ear zones, assessing whether a full barrier is necessary for the intended activity.",
+          "sources": [
+            "OR-127"
+          ]
+        },
+        {
+          "name": "Moisture-facing inner",
+          "text": "Study the OR knit headband’s differentiated inner yarn system, selecting a smooth, quick-drying contact layer rather than assuming the exterior rib alone manages sweat.",
+          "sources": [
+            "OR-213"
+          ]
+        },
+        {
+          "name": "Flat seam junction",
+          "text": "Use Deviator’s flat-seam construction to place the closure where it will not press behind the ear or beneath eyewear during long movement.",
+          "sources": [
+            "OR-219"
+          ]
+        },
+        {
+          "name": "Preserved rib character",
+          "text": "Retain the original dark brown rib, shaped ear coverage and subtle yarn depth. Wind and moisture layers remain inside, allowing the exterior to stay familiar and visually simple.",
+          "sources": [
+            "ROA-321",
+            "OR-213"
+          ]
+        }
+      ],
+      "kind": "Ear band"
+    }
+  },
+  {
+    "id": "talus-liner-glove",
+    "name": "Talus Liner Glove",
+    "category": "accessories",
+    "type": "Gloves & mitts",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/talus-liner-glove.jpg",
+        "alt": "Talus Liner Glove in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "28",
+      "intro": "A narrow charcoal five-finger liner glove with a short quiet cuff. Retain the original hand shape; keep the palm and back in closely related dark shades, with tonal fingertips and no conspicuous graphic patches. Show dorsal and palm views of one coherent design.",
+      "description": "A narrow charcoal five-finger liner glove with a short quiet cuff. Retain the original hand shape; keep the palm and back in closely related dark shades, with tonal fingertips and no conspicuous graphic patches. Show dorsal and palm views of one coherent design. Retain Andie’s narrow five-finger shape and quiet cuff, avoiding oversized reinforcement patches that would make a liner behave like an outer glove. Use Alpine Merino 150 and 200 Grid as separate warmth benchmarks, selecting the appropriate weight rather than combining both into an unnecessarily bulky hand layer. Study the new Alpine gloves’ low-profile palm construction and seam-free back, placing the most sensitive joins away from loaded gripping surfaces. Develop a discreet touchscreen-compatible finger zone after Vigor Lightweight, verifying device operation on the actual sampled material rather than relying on a visual patch. Use a compact pull tab, tonal fingertips and a smooth dark cuff that fits beneath an outer glove. Functional contact materials remain closely matched in value and free of branding.",
+      "fit": "Close dexterous fit with slight knuckle ease; no loose material at fingertips.",
+      "validation": "Test fingertip dexterity, seam comfort, wash stability and performance beneath an outer glove.",
+      "features": [
+        {
+          "name": "Simple hand silhouette",
+          "text": "Retain Andie’s narrow five-finger shape and quiet cuff, avoiding oversized reinforcement patches that would make a liner behave like an outer glove.",
+          "sources": [
+            "ROA-323"
+          ]
+        },
+        {
+          "name": "Fine thermal knit",
+          "text": "Use Alpine Merino 150 and 200 Grid as separate warmth benchmarks, selecting the appropriate weight rather than combining both into an unnecessarily bulky hand layer.",
+          "sources": [
+            "OR-019",
+            "OR-052"
+          ]
+        },
+        {
+          "name": "Smooth palm seams",
+          "text": "Study the new Alpine gloves’ low-profile palm construction and seam-free back, placing the most sensitive joins away from loaded gripping surfaces.",
+          "sources": [
+            "OR-019",
+            "OR-052"
+          ]
+        },
+        {
+          "name": "Useful fingertip operation",
+          "text": "Develop a discreet touchscreen-compatible finger zone after Vigor Lightweight, verifying device operation on the actual sampled material rather than relying on a visual patch.",
+          "sources": [
+            "OR-438"
+          ]
+        },
+        {
+          "name": "Quiet layered cuff",
+          "text": "Use a compact pull tab, tonal fingertips and a smooth dark cuff that fits beneath an outer glove. Functional contact materials remain closely matched in value and free of branding.",
+          "sources": [
+            "OR-019",
+            "ROA-323"
+          ]
+        }
+      ],
+      "kind": "Liner glove"
+    }
+  },
+  {
+    "id": "trail-belt",
+    "name": "Trail Belt",
+    "category": "accessories",
+    "type": "Belts & suspenders",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/trail-belt.jpg",
+        "alt": "Trail Belt in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "29",
+      "intro": "Retain the approved first Trail Belt exactly: narrow dark webbing, plain compact brushed-metal open buckle, short controlled tail. Any improvement to webbing, edge finishing or reinforcement should preserve this visible design.",
+      "description": "Retain the approved first Trail Belt exactly: narrow dark webbing, plain compact brushed-metal open buckle, short controlled tail. Any improvement to webbing, edge finishing or reinforcement should preserve this visible design. Keep Centipede’s compact webbing width and uncluttered open buckle, retaining the straightforward silhouette that already fits the collection’s restrained workwear character. Use OR suspenders only as an adjacent reference for low-bulk strap comfort and secure adjustment, then select belt-specific webbing for stiffness and edge feel. Refine the buckle geometry around dependable friction and easy adjustment, checking slippage with the actual weave rather than adding extra hardware for appearance. Keep the buckle flat and round only the contact edges, reducing concentrated pressure when a backpack hip belt sits across the front waist. Keep the original narrow dark webbing and plain brushed-metal buckle. Reinforcement stitching remains tonal and the tail controlled, preserving the belt's already successful appearance.",
+      "fit": "Adjustable over the full intended trouser size range; compact enough beneath a pack belt.",
+      "validation": "Test buckle slip, edge fray, sweat corrosion, wash behavior and compatibility with every trouser loop.",
+      "features": [
+        {
+          "name": "Preserved narrow proportion",
+          "text": "Keep Centipede’s compact webbing width and uncluttered open buckle, retaining the straightforward silhouette that already fits the collection’s restrained workwear character.",
+          "sources": [
+            "ROA-325"
+          ]
+        },
+        {
+          "name": "Stable webbing study",
+          "text": "Use OR suspenders only as an adjacent reference for low-bulk strap comfort and secure adjustment, then select belt-specific webbing for stiffness and edge feel.",
+          "sources": [
+            "OR-130"
+          ]
+        },
+        {
+          "name": "Secure simple adjustment",
+          "text": "Refine the buckle geometry around dependable friction and easy adjustment, checking slippage with the actual weave rather than adding extra hardware for appearance.",
+          "sources": [
+            "ROA-325"
+          ]
+        },
+        {
+          "name": "Comfort under load",
+          "text": "Keep the buckle flat and round only the contact edges, reducing concentrated pressure when a backpack hip belt sits across the front waist.",
+          "sources": [
+            "OR-130"
+          ]
+        },
+        {
+          "name": "Preserved hardware finish",
+          "text": "Keep the original narrow dark webbing and plain brushed-metal buckle. Reinforcement stitching remains tonal and the tail controlled, preserving the belt's already successful appearance.",
+          "sources": [
+            "ROA-325"
+          ]
+        }
+      ],
+      "kind": "Webbing belt"
+    }
+  },
+  {
+    "id": "shelter-neck-warmer",
+    "name": "Shelter Neck Warmer",
+    "category": "accessories",
+    "type": "Neckwear",
+    "color": "Umber",
+    "colorHex": "#574b40",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/shelter-neck-warmer.jpg",
+        "alt": "Shelter Neck Warmer in umber — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "30",
+      "intro": "A deep taupe-brown textured neck tube, keeping the original generous opening and soft vertical gathering. Use tonal drawcord hardware and a dark soft interior. Fine irregular yarn depth replaces any graphic pattern or colored border.",
+      "description": "A deep taupe-brown textured neck tube, keeping the original generous opening and soft vertical gathering. Use tonal drawcord hardware and a dark soft interior. Fine irregular yarn depth replaces any graphic pattern or colored border. Retain Golm and Kogi breadth with a soft taupe-brown surface and irregular yarn depth. Keep the existing vertical gathering and avoid adding graphic prints or colored borders. Study Alpine Onset’s wool-blend tube for comfort at the neck and face, selecting a fabric weight that matches the intended weather and exertion. Use the Polartec 200 tube’s adjustable opening as a reference for stable coverage, keeping any cord short, enclosed and comfortable against the cheek. Trail Mix XT provides an adjacent textured-fleece benchmark, helping evaluate warmth against drying rather than assuming thicker pile is always preferable. Keep the rear seam flat and the lower edge soft, allowing the tube to sit beneath a shell collar without a hard ridge at the throat.",
+      "fit": "Easy neck circumference with enough stretch to pull over the head without stressing seams.",
+      "validation": "Check breathing moisture, drying, edge stretch, seam comfort and stability when raised over the nose.",
+      "features": [
+        {
+          "name": "Generous textured tube",
+          "text": "Retain Golm and Kogi breadth with a soft taupe-brown surface and irregular yarn depth. Keep the existing vertical gathering and avoid adding graphic prints or colored borders.",
+          "sources": [
+            "ROA-331",
+            "ROA-333"
+          ]
+        },
+        {
+          "name": "Soft contact layer",
+          "text": "Study Alpine Onset’s wool-blend tube for comfort at the neck and face, selecting a fabric weight that matches the intended weather and exertion.",
+          "sources": [
+            "OR-012"
+          ]
+        },
+        {
+          "name": "Controlled upper opening",
+          "text": "Use the Polartec 200 tube’s adjustable opening as a reference for stable coverage, keeping any cord short, enclosed and comfortable against the cheek.",
+          "sources": [
+            "OR-193"
+          ]
+        },
+        {
+          "name": "Breathable thermal texture",
+          "text": "Trail Mix XT provides an adjacent textured-fleece benchmark, helping evaluate warmth against drying rather than assuming thicker pile is always preferable.",
+          "sources": [
+            "OR-068"
+          ]
+        },
+        {
+          "name": "Low-bulk layering",
+          "text": "Keep the rear seam flat and the lower edge soft, allowing the tube to sit beneath a shell collar without a hard ridge at the throat.",
+          "sources": [
+            "ROA-327",
+            "OR-012"
+          ]
+        }
+      ],
+      "kind": "Neck warmer"
+    }
+  },
+  {
+    "id": "traverse-crew-sock",
+    "name": "Traverse Crew Sock",
+    "category": "accessories",
+    "type": "Socks & booties",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/traverse-crew-sock.jpg",
+        "alt": "Traverse Crew Sock in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "31",
+      "intro": "A charcoal crew sock with original articulated knit texture, restrained muted olive heel and toe, and only a very faint tonal vertical rib. Remove bright stripes and all lettering. A quiet utilitarian sock with visibly considered yarn structure.",
+      "description": "A charcoal crew sock with original articulated knit texture, restrained muted olive heel and toe, and only a very faint tonal vertical rib. Remove bright stripes and all lettering. A quiet utilitarian sock with visibly considered yarn structure. Study OR’s documented merino, nylon and elastane sock blend as a material benchmark, selecting yarns for moisture comfort, durability and elastic recovery. Place cushioning beneath high-contact heel and forefoot zones after the OR hiking references, keeping the upper foot lighter to avoid unnecessary bulk inside a boot. Develop a reinforced heel and toe after the OR hiking and MTB socks, matching reinforcement placement to the ROA mapped color fields. Use a more open upper-foot knit informed by the MTB sock while preserving the clean crew height and controlled surface geometry of Bones and Ryli. Keep charcoal dominant and muted olive limited to heel and toe. Let knit density identify functional zones, omitting bright cuff stripes, source lettering and large decorative graphics.",
+      "fit": "Secure heel and midfoot; no aggressive cuff compression or extra toe folds.",
+      "validation": "Test heel retention, abrasion, cushioning compression, wet comfort and wash shrinkage.",
+      "features": [
+        {
+          "name": "Balanced yarn system",
+          "text": "Study OR’s documented merino, nylon and elastane sock blend as a material benchmark, selecting yarns for moisture comfort, durability and elastic recovery.",
+          "sources": [
+            "OR-394",
+            "OR-369",
+            "OR-182"
+          ]
+        },
+        {
+          "name": "Targeted cushioning",
+          "text": "Place cushioning beneath high-contact heel and forefoot zones after the OR hiking references, keeping the upper foot lighter to avoid unnecessary bulk inside a boot.",
+          "sources": [
+            "OR-394",
+            "OR-182"
+          ]
+        },
+        {
+          "name": "Reinforced wear points",
+          "text": "Develop a reinforced heel and toe after the OR hiking and MTB socks, matching reinforcement placement to the ROA mapped color fields.",
+          "sources": [
+            "OR-369",
+            "ROA-349"
+          ]
+        },
+        {
+          "name": "Ventilated upper knit",
+          "text": "Use a more open upper-foot knit informed by the MTB sock while preserving the clean crew height and controlled surface geometry of Bones and Ryli.",
+          "sources": [
+            "OR-369",
+            "ROA-335",
+            "ROA-353"
+          ]
+        },
+        {
+          "name": "Restrained knit hierarchy",
+          "text": "Keep charcoal dominant and muted olive limited to heel and toe. Let knit density identify functional zones, omitting bright cuff stripes, source lettering and large decorative graphics.",
+          "sources": [
+            "ROA-353"
+          ]
+        }
+      ],
+      "kind": "Crew sock"
+    }
+  },
+  {
+    "id": "forecast-rain-trouser",
+    "name": "Forecast Rain Trouser",
+    "category": "clothing",
+    "type": "Pants",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/forecast-rain-trouser.jpg",
+        "alt": "Forecast Rain Trouser in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "32",
+      "intro": "A loose charcoal rain trouser with the full straight stance of Talus. Long side closures lie within the side seam. Same-color angular ankle facings and discrete knee darts; a clean elastic waist. The surface is a dry matte shell, with no oval knee graphics.",
+      "description": "A loose charcoal rain trouser with the full straight stance of Talus. Long side closures lie within the side seam. Same-color angular ankle facings and discrete knee darts; a clean elastic waist. The surface is a dry matte shell, with no oval knee graphics. Use Foray’s three-layer sealed construction as the principal benchmark, specifying a candidate laminate and tape system whose waterproof performance must be verified after flexing and wear. Keep Gelo and Hiko leg volume with straight outer seams and an elongated, angular lower-leg field, avoiding the round knee panels rejected in the first study. Study Foray’s long side zips for pulling the trouser over footwear, aligning the opening with the outer leg so closures remain visually quiet. Use a gusseted crotch, articulated knee and adjustable elastic waist, comparing Stratoburst and Foray construction so volume supports stepping rather than sagging. Study Helium UL for packability while choosing fabric against the intended wear demands. Keep all face zones charcoal, with only a subtle tonal ankle facing and concealed adjustments.",
+      "fit": "Room over the work trouser or a thermal layer, with adjustable cuffs that do not drag.",
+      "validation": "Test seam leakage, boot entry, seat flexion, packability and abrasion at the inner ankle.",
+      "features": [
+        {
+          "name": "Continuous barrier",
+          "text": "Use Foray’s three-layer sealed construction as the principal benchmark, specifying a candidate laminate and tape system whose waterproof performance must be verified after flexing and wear.",
+          "sources": [
+            "OR-337"
+          ]
+        },
+        {
+          "name": "Full straight geometry",
+          "text": "Keep Gelo and Hiko leg volume with straight outer seams and an elongated, angular lower-leg field, avoiding the round knee panels rejected in the first study.",
+          "sources": [
+            "ROA-251",
+            "ROA-253",
+            "ROA-257"
+          ]
+        },
+        {
+          "name": "Practical side entry",
+          "text": "Study Foray’s long side zips for pulling the trouser over footwear, aligning the opening with the outer leg so closures remain visually quiet.",
+          "sources": [
+            "OR-337"
+          ]
+        },
+        {
+          "name": "Mobile waist and knee",
+          "text": "Use a gusseted crotch, articulated knee and adjustable elastic waist, comparing Stratoburst and Foray construction so volume supports stepping rather than sagging.",
+          "sources": [
+            "OR-337",
+            "OR-372"
+          ]
+        },
+        {
+          "name": "Quiet packable finish",
+          "text": "Study Helium UL for packability while choosing fabric against the intended wear demands. Keep all face zones charcoal, with only a subtle tonal ankle facing and concealed adjustments.",
+          "sources": [
+            "OR-121"
+          ]
+        }
+      ],
+      "kind": "Waterproof overtrouser"
+    }
+  },
+  {
+    "id": "snowline-bib",
+    "name": "Snowline Bib",
+    "category": "clothing",
+    "type": "Pants",
+    "color": "Umber",
+    "colorHex": "#574b40",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/snowline-bib.jpg",
+        "alt": "Snowline Bib in umber — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "33",
+      "intro": "A roomy taupe-brown snow bib with a simple compact chest panel, straight broad legs and dark flat suspenders. Long tonal angular cuff reinforcement, quiet thigh vents and concealed storage. Derive its stance from the first work trousers; avoid a fitted ski-racing silhouette.",
+      "description": "A roomy taupe-brown snow bib with a simple compact chest panel, straight broad legs and dark flat suspenders. Long tonal angular cuff reinforcement, quiet thigh vents and concealed storage. Derive its stance from the first work trousers; avoid a fitted ski-racing silhouette. Combine the wide ROA trouser stance with a compact upper bib, keeping the chest panel simple and the leg reinforcement long and angular. Use Hemispheres and Carbide as references for sealed snow-shell construction, selecting the laminate and seam system around a defined use case rather than borrowed waterproof claims. Study Powderverse’s outer-thigh ventilation, placing protected openings clear of cargo storage and reinforcement seams so they can be operated with gloved hands. Develop internal snow gaiters and replaceable or repairable cuff wear zones, following the OR bib references and checking the fit against intended footwear. Use low-bulk dark suspenders and secure upper storage. Keep the bib and leg taupe-brown, allowing the broad workwear stance to remain clear without contrasting leg planes.",
+      "fit": "Generous seat and thigh over base layers, with independently adjustable upper-body support.",
+      "validation": "Check suspenders, vent access, seam sealing, boot gaiters and full squat movement.",
+      "features": [
+        {
+          "name": "Clean bib architecture",
+          "text": "Combine the wide ROA trouser stance with a compact upper bib, keeping the chest panel simple and the leg reinforcement long and angular.",
+          "sources": [
+            "ROA-251",
+            "ROA-257",
+            "ROA-007"
+          ]
+        },
+        {
+          "name": "Weather-ready construction study",
+          "text": "Use Hemispheres and Carbide as references for sealed snow-shell construction, selecting the laminate and seam system around a defined use case rather than borrowed waterproof claims.",
+          "sources": [
+            "OR-248",
+            "OR-470"
+          ]
+        },
+        {
+          "name": "Independent heat release",
+          "text": "Study Powderverse’s outer-thigh ventilation, placing protected openings clear of cargo storage and reinforcement seams so they can be operated with gloved hands.",
+          "sources": [
+            "OR-020"
+          ]
+        },
+        {
+          "name": "Controlled boot overlap",
+          "text": "Develop internal snow gaiters and replaceable or repairable cuff wear zones, following the OR bib references and checking the fit against intended footwear.",
+          "sources": [
+            "OR-020",
+            "OR-248"
+          ]
+        },
+        {
+          "name": "Stable simple support",
+          "text": "Use low-bulk dark suspenders and secure upper storage. Keep the bib and leg taupe-brown, allowing the broad workwear stance to remain clear without contrasting leg planes.",
+          "sources": [
+            "OR-020",
+            "OR-470"
+          ]
+        }
+      ],
+      "kind": "Snow bib"
+    }
+  },
+  {
+    "id": "refuge-down-parka",
+    "name": "Refuge Down Parka",
+    "category": "clothing",
+    "type": "Jackets",
+    "color": "Fog",
+    "colorHex": "#b9b8af",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/refuge-down-parka.jpg",
+        "alt": "Refuge Down Parka in fog — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "34",
+      "intro": "An enveloping thigh-length parka in warm pale stone. Carry Basin's oversized hood, soft substantial volume and disciplined quilt rhythm into a longer straight shape. Broad lower chambers and an uninterrupted shoulder face, all tonal. Dark hardware should be barely visible.",
+      "description": "An enveloping thigh-length parka in warm pale stone. Carry Basin's oversized hood, soft substantial volume and disciplined quilt rhythm into a longer straight shape. Broad lower chambers and an uninterrupted shoulder face, all tonal. Dark hardware should be barely visible. Extend Nuna and Smooth volume into a straight thigh-length body, keeping the hood large and the lower silhouette broad enough to sit without compressing insulation. Study Super Alpine’s quilt-free hood, sleeve and side exterior, reducing exposed quilt lines at weather-facing zones while maintaining organized chambers inside. Compare OR alpine and urban parkas as different warmth and weight references; choose fill, distribution and fabric for the intended camp environment rather than mixing their claims. Use a two-way center closure and internal stash pockets informed by Super Alpine, with hand pockets positioned to stay accessible above the seated fold. Stormcraft provides a benchmark for integrating weather protection with insulation; the Odle parka remains a proposed assembly until its complete shell and seam design are tested.",
+      "fit": "Room over the complete layering system; two-way front opening preserves seated and stepping freedom.",
+      "validation": "Assess loft distribution, cold spots, seated warmth, hood visibility and drying after damp exposure.",
+      "features": [
+        {
+          "name": "Long generous shelter",
+          "text": "Extend Nuna and Smooth volume into a straight thigh-length body, keeping the hood large and the lower silhouette broad enough to sit without compressing insulation.",
+          "sources": [
+            "ROA-039",
+            "ROA-049"
+          ]
+        },
+        {
+          "name": "Protected quilt layout",
+          "text": "Study Super Alpine’s quilt-free hood, sleeve and side exterior, reducing exposed quilt lines at weather-facing zones while maintaining organized chambers inside.",
+          "sources": [
+            "OR-469"
+          ]
+        },
+        {
+          "name": "Purposeful insulation",
+          "text": "Compare OR alpine and urban parkas as different warmth and weight references; choose fill, distribution and fabric for the intended camp environment rather than mixing their claims.",
+          "sources": [
+            "OR-469",
+            "OR-001"
+          ]
+        },
+        {
+          "name": "Seated opening and storage",
+          "text": "Use a two-way center closure and internal stash pockets informed by Super Alpine, with hand pockets positioned to stay accessible above the seated fold.",
+          "sources": [
+            "OR-469"
+          ]
+        },
+        {
+          "name": "Weather-layer boundary",
+          "text": "Stormcraft provides a benchmark for integrating weather protection with insulation; the Odle parka remains a proposed assembly until its complete shell and seam design are tested.",
+          "sources": [
+            "OR-465",
+            "ROA-053"
+          ]
+        }
+      ],
+      "kind": "Long insulated parka"
+    }
+  },
+  {
+    "id": "daybreak-sun-hoodie",
+    "name": "Daybreak Sun Hoodie",
+    "category": "clothing",
+    "type": "Hoodies",
+    "color": "Lichen",
+    "colorHex": "#777c6b",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/daybreak-sun-hoodie.jpg",
+        "alt": "Daybreak Sun Hoodie in lichen — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "35",
+      "intro": "A lightweight pullover sun hoodie in pale grey-olive with generous dropped shoulders, long loose sleeves and a softly enclosing hood. Carry Trailhead's relaxed proportions into thin matte jersey with a straight unbanded hem. No kangaroo pocket, no contrast mapping and no oversized graphics.",
+      "description": "A lightweight pullover sun hoodie in pale grey-olive with generous dropped shoulders, long loose sleeves and a softly enclosing hood. Carry Trailhead's relaxed proportions into thin matte jersey with a straight unbanded hem. No kangaroo pocket, no contrast mapping and no oversized graphics. Carry the ROA dropped shoulder and generous hood into a much lighter textile, keeping the body broad but avoiding the heavy waistband of Trailhead. Compare Echo, Astroman Air and ActiveIce as distinct lightweight constructions; choose the final fabric by measured sun protection, airflow and durability for its intended color. Use low-bulk seam placement informed by Echo and ActiveIce, maintaining enough sleeve reach that a backpack does not drag the neckline backward. A three-panel hood and low-profile thumb openings follow the OR sun-layer references, with coverage assessed in movement rather than inferred from a static rendering. Use one pale grey-olive yarn shade through body and hood. Keep the hem straight and unbanded, carrying Trailhead's ease into a much lighter textile without adding graphic zones.",
+      "fit": "Easy airflow around torso, controlled cuffs and a hood that moves with the head.",
+      "validation": "Test finished-fabric UPF, airflow, wet cling, hood retention and pack-strap abrasion.",
+      "features": [
+        {
+          "name": "Relaxed light silhouette",
+          "text": "Carry the ROA dropped shoulder and generous hood into a much lighter textile, keeping the body broad but avoiding the heavy waistband of Trailhead.",
+          "sources": [
+            "ROA-177",
+            "ROA-233"
+          ]
+        },
+        {
+          "name": "Breathable sun textile",
+          "text": "Compare Echo, Astroman Air and ActiveIce as distinct lightweight constructions; choose the final fabric by measured sun protection, airflow and durability for its intended color.",
+          "sources": [
+            "OR-481",
+            "OR-384",
+            "OR-302"
+          ]
+        },
+        {
+          "name": "Smooth shoulder contact",
+          "text": "Use low-bulk seam placement informed by Echo and ActiveIce, maintaining enough sleeve reach that a backpack does not drag the neckline backward.",
+          "sources": [
+            "OR-481",
+            "OR-302"
+          ]
+        },
+        {
+          "name": "Useful coverage",
+          "text": "A three-panel hood and low-profile thumb openings follow the OR sun-layer references, with coverage assessed in movement rather than inferred from a static rendering.",
+          "sources": [
+            "OR-481",
+            "OR-302"
+          ]
+        },
+        {
+          "name": "Soft continuous surface",
+          "text": "Use one pale grey-olive yarn shade through body and hood. Keep the hem straight and unbanded, carrying Trailhead's ease into a much lighter textile without adding graphic zones.",
+          "sources": [
+            "ROA-173"
+          ]
+        }
+      ],
+      "kind": "Sun hoodie"
+    }
+  },
+  {
+    "id": "traverse-field-short",
+    "name": "Traverse Field Short",
+    "category": "clothing",
+    "type": "Shorts",
+    "color": "Umber",
+    "colorHex": "#574b40",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/traverse-field-short.jpg",
+        "alt": "Traverse Field Short in umber — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "36",
+      "intro": "A broad knee-length field short in washed taupe-brown, carrying Talus Work's dry woven character. Flat hand pockets and one quiet thigh pocket; substantial straight leg openings. Internal mobility and reinforcement do not add decorative patches to the face.",
+      "description": "A broad knee-length field short in washed taupe-brown, carrying Talus Work's dry woven character. Flat hand pockets and one quiet thigh pocket; substantial straight leg openings. Internal mobility and reinforcement do not add decorative patches to the face. Translate the long ROA work-trouser panels into a cleaner short with a broad leg opening, avoiding a miniature cargo trouser covered in extra pockets. Study Timberline Utility and Ferrosi shorts for a mobile woven fabric, selecting weight and stretch for the intended abrasion and drying balance. Use a gusset and articulated seat informed by Freewheel, keeping the pattern comfortable when crouching or riding without tightening the relaxed leg. Retain one secure thigh pocket and reinforced hand-pocket mouths after Timberline, placing the pocket bottom above the main knee-bending zone. A flat waistband and discreet internal adjustment keep the front calm; taupe-brown remains dominant, with charcoal hardware and a single controlled facing echoing Talus.",
+      "fit": "Wide thigh opening with enough crotch clearance for high steps and seated movement.",
+      "validation": "Check pocket bounce, saddle and seat wear, gusset stress and thigh clearance.",
+      "features": [
+        {
+          "name": "Workwear proportion",
+          "text": "Translate the long ROA work-trouser panels into a cleaner short with a broad leg opening, avoiding a miniature cargo trouser covered in extra pockets.",
+          "sources": [
+            "ROA-007",
+            "ROA-151"
+          ]
+        },
+        {
+          "name": "Stretch woven body",
+          "text": "Study Timberline Utility and Ferrosi shorts for a mobile woven fabric, selecting weight and stretch for the intended abrasion and drying balance.",
+          "sources": [
+            "OR-143",
+            "OR-479"
+          ]
+        },
+        {
+          "name": "Seat and crotch mobility",
+          "text": "Use a gusset and articulated seat informed by Freewheel, keeping the pattern comfortable when crouching or riding without tightening the relaxed leg.",
+          "sources": [
+            "OR-368"
+          ]
+        },
+        {
+          "name": "Low-profile utility storage",
+          "text": "Retain one secure thigh pocket and reinforced hand-pocket mouths after Timberline, placing the pocket bottom above the main knee-bending zone.",
+          "sources": [
+            "OR-143"
+          ]
+        },
+        {
+          "name": "Stable simple waist",
+          "text": "A flat waistband and discreet internal adjustment keep the front calm; taupe-brown remains dominant, with charcoal hardware and a single controlled facing echoing Talus.",
+          "sources": [
+            "OR-479",
+            "ROA-161"
+          ]
+        }
+      ],
+      "kind": "Trail and utility short"
+    }
+  },
+  {
+    "id": "traverse-convertible-trouser",
+    "name": "Traverse Convertible Trouser",
+    "category": "clothing",
+    "type": "Pants",
+    "color": "Lichen",
+    "colorHex": "#777c6b",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/traverse-convertible-trouser.jpg",
+        "alt": "Traverse Convertible Trouser in lichen — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "37",
+      "intro": "A generous straight convertible trouser in muted grey-olive. A discreet tonal horizontal zip seam just above each knee allows conversion, hidden under a neat fold. Keep the relaxed work-trouser stance and dry fabric face, with no contrast zipper rings or large cargo pockets.",
+      "description": "A generous straight convertible trouser in muted grey-olive. A discreet tonal horizontal zip seam just above each knee allows conversion, hidden under a neat fold. Keep the relaxed work-trouser stance and dry fabric face, with no contrast zipper rings or large cargo pockets. Study the Ferrosi zip-off system, placing the separation line above the knee and concealing the zip within a neat, straight seam allowance. Use Crimp and Hiko volume for a fuller lower leg and quiet front, ensuring the short mode also looks intentional rather than accidentally truncated. Use the Ferrosi listings as one construction-family benchmark for stretch, drying and movement; do not count inseam or gender versions as different technologies. Retain a low-profile side pocket and compact waistband informed by the workwear reference, keeping loaded pockets clear of the removable-leg zip. Use concealed left and right markers inside the zip tape and an charcoal internal facing, keeping muted olive uninterrupted on the outer leg and avoiding contrasting zipper rings.",
+      "fit": "Relaxed seat and thigh in both modes; short length determined through stride and seated fit.",
+      "validation": "Test zipper alignment, knee comfort, repeated conversion, leg identification and storage of removed sections.",
+      "features": [
+        {
+          "name": "Clean convertible join",
+          "text": "Study the Ferrosi zip-off system, placing the separation line above the knee and concealing the zip within a neat, straight seam allowance.",
+          "sources": [
+            "OR-472",
+            "OR-312"
+          ]
+        },
+        {
+          "name": "Generous trouser shape",
+          "text": "Use Crimp and Hiko volume for a fuller lower leg and quiet front, ensuring the short mode also looks intentional rather than accidentally truncated.",
+          "sources": [
+            "ROA-151",
+            "ROA-257"
+          ]
+        },
+        {
+          "name": "Flexible woven body",
+          "text": "Use the Ferrosi listings as one construction-family benchmark for stretch, drying and movement; do not count inseam or gender versions as different technologies.",
+          "sources": [
+            "OR-472",
+            "OR-097"
+          ]
+        },
+        {
+          "name": "Stable storage and waist",
+          "text": "Retain a low-profile side pocket and compact waistband informed by the workwear reference, keeping loaded pockets clear of the removable-leg zip.",
+          "sources": [
+            "ROA-007",
+            "OR-312"
+          ]
+        },
+        {
+          "name": "Subtle matching system",
+          "text": "Use concealed left and right markers inside the zip tape and an charcoal internal facing, keeping muted olive uninterrupted on the outer leg and avoiding contrasting zipper rings.",
+          "sources": [
+            "OR-472"
+          ]
+        }
+      ],
+      "kind": "Convertible trouser"
+    }
+  },
+  {
+    "id": "canopy-rain-hat",
+    "name": "Canopy Rain Hat",
+    "category": "accessories",
+    "type": "Headwear",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/canopy-rain-hat.jpg",
+        "alt": "Canopy Rain Hat in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "38",
+      "intro": "A charcoal rain hat with a low quiet crown and soft medium-width brim, slightly longer at the rear. Adapt Ridgeline's simple panel lines and dark restrained hardware. Fine matte ripstop, tonal brim stitching and a discreet removable chin cord; no bright lining.",
+      "description": "A charcoal rain hat with a low quiet crown and soft medium-width brim, slightly longer at the rear. Adapt Ridgeline's simple panel lines and dark restrained hardware. Fine matte ripstop, tonal brim stitching and a discreet removable chin cord; no bright lining. Borrow the approved cap’s restrained paneling and low crown, expanding the brim without introducing a tall bucket shape or oversized logo panel. Use Seattle and Stratoburst rain hats as references for a sealed fabric crown; the proposed material and seam tape must work together after repeated folding. Study Seattle’s longer rear brim for neck coverage, keeping the front slightly shorter for vision and shaping the edge to direct runoff away from the collar. Compare OR foam-supported brims for packability and recovery, using Odyssey as an adjacent bucket-hat reference without transferring its water resistance into a waterproof claim. Use an internal size adjustment and a removable short chin cord. Match the crown, brim and underside in charcoal, preserving the quiet panel language of the approved cap.",
+      "fit": "Stable adjustable crown; brim sized to clear shoulders and preserve peripheral vision.",
+      "validation": "Test seam leakage, brim runoff, gust retention, packing recovery and cord comfort.",
+      "features": [
+        {
+          "name": "Low calm crown",
+          "text": "Borrow the approved cap’s restrained paneling and low crown, expanding the brim without introducing a tall bucket shape or oversized logo panel.",
+          "sources": [
+            "ROA-307",
+            "ROA-313"
+          ]
+        },
+        {
+          "name": "Sealed crown construction",
+          "text": "Use Seattle and Stratoburst rain hats as references for a sealed fabric crown; the proposed material and seam tape must work together after repeated folding.",
+          "sources": [
+            "OR-333",
+            "OR-284"
+          ]
+        },
+        {
+          "name": "Useful brim geometry",
+          "text": "Study Seattle’s longer rear brim for neck coverage, keeping the front slightly shorter for vision and shaping the edge to direct runoff away from the collar.",
+          "sources": [
+            "OR-333"
+          ]
+        },
+        {
+          "name": "Recoverable brim support",
+          "text": "Compare OR foam-supported brims for packability and recovery, using Odyssey as an adjacent bucket-hat reference without transferring its water resistance into a waterproof claim.",
+          "sources": [
+            "OR-287",
+            "OR-284"
+          ]
+        },
+        {
+          "name": "Discreet retention",
+          "text": "Use an internal size adjustment and a removable short chin cord. Match the crown, brim and underside in charcoal, preserving the quiet panel language of the approved cap.",
+          "sources": [
+            "OR-333",
+            "ROA-309"
+          ]
+        }
+      ],
+      "kind": "Brimmed weather hat"
+    }
+  },
+  {
+    "id": "horizon-visor",
+    "name": "Horizon Visor",
+    "category": "accessories",
+    "type": "Headwear",
+    "color": "Lichen",
+    "colorHex": "#777c6b",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/horizon-visor.jpg",
+        "alt": "Horizon Visor in lichen — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "39",
+      "intro": "A muted grey-olive open-crown visor with Ridgeline's shallow curved brim and a simple soft band. Keep the dark underside, tiny rear adjuster and fine edge finish. No sports logo, broad piping or stiff oversized peak.",
+      "description": "A muted grey-olive open-crown visor with Ridgeline's shallow curved brim and a simple soft band. Keep the dark underside, tiny rear adjuster and fine edge finish. No sports logo, broad piping or stiff oversized peak. Translate the Aair and Pursuit brim proportion into an open-crown form, retaining the quiet curved edge rather than adding a wide racing-style peak. Use Trail LT’s stretch sweatband as a benchmark for even pressure around the head, keeping the front sufficiently stable to hold the brim angle. Use a dark underside beneath the muted grey-olive brim, following Swift's practical approach. Keep that contrast out of the upper view and omit large exterior graphics. Evaluate the Trail LT foam-supported brim for recovery after packing, checking that any flexible insert does not twist or develop a permanent fold. Use a compact quick-release rear closure, with no long loose tail and only a fine piping line drawn from the approved cap detail.",
+      "fit": "Secure at the brow without pressure at temples or behind the ears.",
+      "validation": "Check sweatband drying, brim recovery, rear-closure pressure and retention during running.",
+      "features": [
+        {
+          "name": "Recognizable brim line",
+          "text": "Translate the Aair and Pursuit brim proportion into an open-crown form, retaining the quiet curved edge rather than adding a wide racing-style peak.",
+          "sources": [
+            "ROA-307",
+            "ROA-313"
+          ]
+        },
+        {
+          "name": "Soft continuous band",
+          "text": "Use Trail LT’s stretch sweatband as a benchmark for even pressure around the head, keeping the front sufficiently stable to hold the brim angle.",
+          "sources": [
+            "OR-286"
+          ]
+        },
+        {
+          "name": "Glare-conscious underside",
+          "text": "Use a dark underside beneath the muted grey-olive brim, following Swift's practical approach. Keep that contrast out of the upper view and omit large exterior graphics.",
+          "sources": [
+            "OR-393"
+          ]
+        },
+        {
+          "name": "Packable support",
+          "text": "Evaluate the Trail LT foam-supported brim for recovery after packing, checking that any flexible insert does not twist or develop a permanent fold.",
+          "sources": [
+            "OR-286"
+          ]
+        },
+        {
+          "name": "Quiet rear adjustment",
+          "text": "Use a compact quick-release rear closure, with no long loose tail and only a fine piping line drawn from the approved cap detail.",
+          "sources": [
+            "OR-393",
+            "ROA-309"
+          ]
+        }
+      ],
+      "kind": "Visor"
+    }
+  },
+  {
+    "id": "moraine-storm-glove",
+    "name": "Moraine Storm Glove",
+    "category": "accessories",
+    "type": "Gloves & mitts",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/moraine-storm-glove.jpg",
+        "alt": "Moraine Storm Glove in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "40",
+      "intro": "A charcoal storm glove with a quiet full-grain dark-brown palm, five naturally pre-curved fingers and a moderate soft gauntlet. One calm back-of-hand field, minimal seam divisions and a discreet wrist adjustment. Refined matte materials, no sporty contrast armor.",
+      "description": "A charcoal storm glove with a quiet full-grain dark-brown palm, five naturally pre-curved fingers and a moderate soft gauntlet. One calm back-of-hand field, minimal seam divisions and a discreet wrist adjustment. Refined matte materials, no sporty contrast armor. Use Team and Alpinite’s shaped finger construction as the technical starting point, keeping the exterior simpler and quieter than a field of contrasting finger patches. Study Arete’s outer shell, waterproof insert and removable liner as a system; the proposed glove needs assembly testing, not just a waterproof fabric choice. Place leather or a validated alternative at the palm and loaded finger surfaces, following OR reinforcement logic while keeping the back-of-hand panel mostly uninterrupted. Use a compact adjustable wrist and a moderate gauntlet that overlaps Basalt comfortably, retaining the original Andie glove’s visual restraint where possible. charcoal and taupe-brown replace bright sport blocking; straight seam divisions echo Gelo and Pilot without copying their garment shapes onto the fingers.",
+      "fit": "Room for insulation and a liner without fingertip slack; pattern around a natural gripping hand.",
+      "validation": "Test grip, dexterity, seam abrasion, waterproof assembly, cuff overlap and drying of removable parts.",
+      "features": [
+        {
+          "name": "Pre-curved hand",
+          "text": "Use Team and Alpinite’s shaped finger construction as the technical starting point, keeping the exterior simpler and quieter than a field of contrasting finger patches.",
+          "sources": [
+            "OR-318",
+            "OR-361"
+          ]
+        },
+        {
+          "name": "Layered weather assembly",
+          "text": "Study Arete’s outer shell, waterproof insert and removable liner as a system; the proposed glove needs assembly testing, not just a waterproof fabric choice.",
+          "sources": [
+            "OR-258"
+          ]
+        },
+        {
+          "name": "Durable contact zones",
+          "text": "Place leather or a validated alternative at the palm and loaded finger surfaces, following OR reinforcement logic while keeping the back-of-hand panel mostly uninterrupted.",
+          "sources": [
+            "OR-318",
+            "OR-361"
+          ]
+        },
+        {
+          "name": "Controlled cuff",
+          "text": "Use a compact adjustable wrist and a moderate gauntlet that overlaps Basalt comfortably, retaining the original Andie glove’s visual restraint where possible.",
+          "sources": [
+            "OR-258",
+            "ROA-323"
+          ]
+        },
+        {
+          "name": "Quiet collection identity",
+          "text": "charcoal and taupe-brown replace bright sport blocking; straight seam divisions echo Gelo and Pilot without copying their garment shapes onto the fingers.",
+          "sources": [
+            "ROA-011",
+            "ROA-073"
+          ]
+        }
+      ],
+      "kind": "Insulated storm glove"
+    }
+  },
+  {
+    "id": "moraine-modular-mitt",
+    "name": "Moraine Modular Mitt",
+    "category": "accessories",
+    "type": "Gloves & mitts",
+    "color": "Umber",
+    "colorHex": "#574b40",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/moraine-modular-mitt.jpg",
+        "alt": "Moraine Modular Mitt in umber — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "41",
+      "intro": "A generous dark taupe modular mitten with a charcoal palm and thumb. One continuous softly insulated upper chamber, moderate cuff and compact dark adjustment. Show the outer mitten from dorsal and palm sides, with no extra detached parts or decorative quilt grid.",
+      "description": "A generous dark taupe modular mitten with a charcoal palm and thumb. One continuous softly insulated upper chamber, moderate cuff and compact dark adjustment. Show the outer mitten from dorsal and palm sides, with no extra detached parts or decorative quilt grid. Use Alti, Mt. Baker and Arete as references for separate shell and liner systems, selecting one coherent insulation strategy for the intended conditions. Borrow the soft enclosing volume of Nuna and Smooth as a styling cue, preserving a simple mitten chamber with no unnecessary quilt pattern across the palm. Place a durable continuous palm and thumb facing where gripping loads occur, following OR handwear construction while keeping the upper mitten visually calm. Use separate wrist retention and gauntlet adjustment so opening the cuff does not loosen the hand; all pulls should be operable with the opposite mitten. Develop a removable liner whose pattern aligns with the outer mitten. Keep the visible upper dark taupe and palm charcoal, with every strap serving retention or handling.",
+      "fit": "Enough finger volume to avoid compressing insulation, with a secure wrist independent of the gauntlet opening.",
+      "validation": "Test liner removal, wet drying, grip, seam sealing, insulation compression and glove-compatible adjustment.",
+      "features": [
+        {
+          "name": "Modular warmth",
+          "text": "Use Alti, Mt. Baker and Arete as references for separate shell and liner systems, selecting one coherent insulation strategy for the intended conditions.",
+          "sources": [
+            "OR-018",
+            "OR-047",
+            "OR-359"
+          ]
+        },
+        {
+          "name": "Generous insulated form",
+          "text": "Borrow the soft enclosing volume of Nuna and Smooth as a styling cue, preserving a simple mitten chamber with no unnecessary quilt pattern across the palm.",
+          "sources": [
+            "ROA-039",
+            "ROA-049"
+          ]
+        },
+        {
+          "name": "Protected gripping surface",
+          "text": "Place a durable continuous palm and thumb facing where gripping loads occur, following OR handwear construction while keeping the upper mitten visually calm.",
+          "sources": [
+            "OR-359"
+          ]
+        },
+        {
+          "name": "Independent wrist closure",
+          "text": "Use separate wrist retention and gauntlet adjustment so opening the cuff does not loosen the hand; all pulls should be operable with the opposite mitten.",
+          "sources": [
+            "OR-018"
+          ]
+        },
+        {
+          "name": "Separable drying system",
+          "text": "Develop a removable liner whose pattern aligns with the outer mitten. Keep the visible upper dark taupe and palm charcoal, with every strap serving retention or handling.",
+          "sources": [
+            "OR-047",
+            "ROA-323"
+          ]
+        }
+      ],
+      "kind": "Insulated mitten"
+    }
+  },
+  {
+    "id": "scree-gaiter",
+    "name": "Scree Gaiter",
+    "category": "accessories",
+    "type": "Gaiters & sleeves",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/scree-gaiter.jpg",
+        "alt": "Scree Gaiter in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "42",
+      "intro": "A charcoal gaiter with long clean vertical form, a subtle angular tonal transition at the lower boot zone and a replaceable underfoot strap. Keep the calf uncluttered and the closure concealed. Show one front and one rear three-quarter product view, without a human model.",
+      "description": "A charcoal gaiter with long clean vertical form, a subtle angular tonal transition at the lower boot zone and a replaceable underfoot strap. Keep the calf uncluttered and the closure concealed. Show one front and one rear three-quarter product view, without a human model. Study Crocodile’s separate upper and heavy lower fabrics, concentrating abrasion resistance around the boot instead of unnecessarily thickening the whole calf. Use a long angular transition at the lower boot zone with closely matched charcoal fabrics. The shape should read through structure and texture rather than a contrasting diagonal stripe. Develop a replaceable underfoot strap after Crocodile, making the likely wear part serviceable without discarding an otherwise useful upper gaiter. Compare Rocky Mountain’s closure and top adjustment with Crocodile’s offset opening, keeping the fastener easy to align and clear of the main abrasion zone. Use Helium UL as a lightweight comparison, not a promise of equivalent toughness; retain the ROA workwear restraint and choose weight only after the wear target is defined.",
+      "fit": "Enough calf clearance over trousers; secure boot coverage without loose fabric near the sole.",
+      "validation": "Test abrasion, closure peel, instep-strap replacement, boot fit and water entry during repeated flexion.",
+      "features": [
+        {
+          "name": "Durable lower zone",
+          "text": "Study Crocodile’s separate upper and heavy lower fabrics, concentrating abrasion resistance around the boot instead of unnecessarily thickening the whole calf.",
+          "sources": [
+            "OR-309"
+          ]
+        },
+        {
+          "name": "Tonal angular division",
+          "text": "Use a long angular transition at the lower boot zone with closely matched charcoal fabrics. The shape should read through structure and texture rather than a contrasting diagonal stripe.",
+          "sources": [
+            "ROA-251",
+            "ROA-257"
+          ]
+        },
+        {
+          "name": "Replaceable instep link",
+          "text": "Develop a replaceable underfoot strap after Crocodile, making the likely wear part serviceable without discarding an otherwise useful upper gaiter.",
+          "sources": [
+            "OR-309"
+          ]
+        },
+        {
+          "name": "Secure simple closure",
+          "text": "Compare Rocky Mountain’s closure and top adjustment with Crocodile’s offset opening, keeping the fastener easy to align and clear of the main abrasion zone.",
+          "sources": [
+            "OR-221",
+            "OR-309"
+          ]
+        },
+        {
+          "name": "Weight discipline",
+          "text": "Use Helium UL as a lightweight comparison, not a promise of equivalent toughness; retain the ROA workwear restraint and choose weight only after the wear target is defined.",
+          "sources": [
+            "OR-109",
+            "ROA-007"
+          ]
+        }
+      ],
+      "kind": "Boot gaiter"
+    }
+  },
+  {
+    "id": "refuge-camp-bootie",
+    "name": "Refuge Camp Bootie",
+    "category": "accessories",
+    "type": "Socks & booties",
+    "color": "Umber",
+    "colorHex": "#574b40",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/refuge-camp-bootie.jpg",
+        "alt": "Refuge Camp Bootie in umber — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "43",
+      "intro": "A soft taupe-brown camp bootie with restrained angular quilting, a dark continuous lower mudguard and rounded anatomical toe. Short ankle height, quiet pull tab and contained drawcord. A padded camp silhouette rather than a hiking boot, with no logos or contrasting quilt panels.",
+      "description": "A soft taupe-brown camp bootie with restrained angular quilting, a dark continuous lower mudguard and rounded anatomical toe. Short ankle height, quiet pull tab and contained drawcord. A padded camp silhouette rather than a hiking boot, with no logos or contrasting quilt panels. Study both Tundra Trax listings for insulated upper construction, using the ROA liner and down-jacket quilting as a restrained visual reference only. Retain a dark continuous mudguard around the taupe-brown padded upper. Keep the boundary quiet and functional, with no bright piping or added climbing-boot styling. Evaluate cushioning and an insulating insole as separate components, checking that comfort does not create an unstable, overly tall stack beneath the heel. A simple drawcord opening and rear pull tab should allow easy changes at camp while keeping the ankle free of excessive cord ends or loose hardware. Use broad angular upper quilting informed by Nuna and Smooth, retaining a rounded anatomical toe without turning the bootie into a stiff hiking boot.",
+      "fit": "Room for a warm sock and relaxed toes, with a secure heel and adjustable upper opening.",
+      "validation": "Test sole grip on intended surfaces, seam flexing, insulation compression and moisture drying.",
+      "features": [
+        {
+          "name": "Warm enclosed upper",
+          "text": "Study both Tundra Trax listings for insulated upper construction, using the ROA liner and down-jacket quilting as a restrained visual reference only.",
+          "sources": [
+            "OR-131",
+            "OR-421",
+            "ROA-061"
+          ]
+        },
+        {
+          "name": "Continuous lower perimeter",
+          "text": "Retain a dark continuous mudguard around the taupe-brown padded upper. Keep the boundary quiet and functional, with no bright piping or added climbing-boot styling.",
+          "sources": [
+            "OR-131"
+          ]
+        },
+        {
+          "name": "Comfortable footbed",
+          "text": "Evaluate cushioning and an insulating insole as separate components, checking that comfort does not create an unstable, overly tall stack beneath the heel.",
+          "sources": [
+            "OR-131",
+            "OR-421"
+          ]
+        },
+        {
+          "name": "Controlled opening",
+          "text": "A simple drawcord opening and rear pull tab should allow easy changes at camp while keeping the ankle free of excessive cord ends or loose hardware.",
+          "sources": [
+            "OR-131"
+          ]
+        },
+        {
+          "name": "Quiet quilted volume",
+          "text": "Use broad angular upper quilting informed by Nuna and Smooth, retaining a rounded anatomical toe without turning the bootie into a stiff hiking boot.",
+          "sources": [
+            "ROA-039",
+            "ROA-049"
+          ]
+        }
+      ],
+      "kind": "Insulated camp bootie"
+    }
+  },
+  {
+    "id": "approach-boxer",
+    "name": "Approach Boxer",
+    "category": "clothing",
+    "type": "Base layers",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/approach-boxer.jpg",
+        "alt": "Approach Boxer in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "44",
+      "intro": "A charcoal boxer brief with a broad plain soft waistband, clean anatomical front and mid-thigh leg. Tonal flat seams and quiet shaped crotch construction. Fine matte jersey, no branded elastic and no contrasting athletic panels. Product-only front and back views.",
+      "description": "A charcoal boxer brief with a broad plain soft waistband, clean anatomical front and mid-thigh leg. Tonal flat seams and quiet shaped crotch construction. Fine matte jersey, no branded elastic and no contrasting athletic panels. Product-only front and back views. Use the Echo Boxer as the single direct OR underwear reference, studying its lightweight knit and moisture-management priorities before choosing the actual fabric. Develop a properly shaped front and crotch gusset, following Echo’s functional construction and the clean line of the ROA long-john references. Use smooth, low-bulk seams away from the inner-thigh rubbing zone, checking their position while walking and climbing rather than only on a standing form. Keep the waistband broad and soft, with muted olive on the inside and no large logo elastic; tension must remain even when sitting or bending. Use a low-profile leg hem that resists rolling and avoids a tight ring at the thigh, preserving Tenna’s restrained base-layer appearance.",
+      "fit": "Supportive close fit with room through the seat and thigh; no compression claim.",
+      "validation": "Test chafe, waistband pressure, leg ride-up, drying, opacity and elastic recovery.",
+      "features": [
+        {
+          "name": "Breathable knit",
+          "text": "Use the Echo Boxer as the single direct OR underwear reference, studying its lightweight knit and moisture-management priorities before choosing the actual fabric.",
+          "sources": [
+            "OR-505"
+          ]
+        },
+        {
+          "name": "Shaped support",
+          "text": "Develop a properly shaped front and crotch gusset, following Echo’s functional construction and the clean line of the ROA long-john references.",
+          "sources": [
+            "OR-505",
+            "ROA-163"
+          ]
+        },
+        {
+          "name": "Low-friction seams",
+          "text": "Use smooth, low-bulk seams away from the inner-thigh rubbing zone, checking their position while walking and climbing rather than only on a standing form.",
+          "sources": [
+            "OR-505"
+          ]
+        },
+        {
+          "name": "Stable quiet waist",
+          "text": "Keep the waistband broad and soft, with muted olive on the inside and no large logo elastic; tension must remain even when sitting or bending.",
+          "sources": [
+            "OR-505",
+            "ROA-153"
+          ]
+        },
+        {
+          "name": "Clean leg finish",
+          "text": "Use a low-profile leg hem that resists rolling and avoids a tight ring at the thigh, preserving Tenna’s restrained base-layer appearance.",
+          "sources": [
+            "ROA-159"
+          ]
+        }
+      ],
+      "kind": "Boxer brief"
+    }
+  },
+  {
+    "id": "horizon-sun-sleeve",
+    "name": "Horizon Sun Sleeve",
+    "category": "accessories",
+    "type": "Gaiters & sleeves",
+    "color": "Fog",
+    "colorHex": "#b9b8af",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/horizon-sun-sleeve.jpg",
+        "alt": "Horizon Sun Sleeve in fog — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "45",
+      "intro": "A pair of warm pale-grey sun sleeves with long clean seams, subtle elbow shaping and soft upper edges. A discreet thumb opening permits hand coverage; all binding is tonal. Show one outer and one inner sleeve view without arms or body parts.",
+      "description": "A pair of warm pale-grey sun sleeves with long clean seams, subtle elbow shaping and soft upper edges. A discreet thumb opening permits hand coverage; all binding is tonal. Show one outer and one inner sleeve view without arms or body parts. Use ActiveIce Sun Sleeves as the direct product reference, preserving coverage from upper arm to wrist while shaping the sleeve for a bent elbow. Develop a comfortable bicep-grip system after the OR sleeve, testing several arm sizes so retention does not rely on excessive pressure. Keep the thumb opening and optional finger loop low in bulk, allowing the hand cover to fold back cleanly when finer dexterity is needed. Translate Ashi, Wama and Daze contour language into long, low-contrast lines, avoiding a thick decorative elbow patch that obstructs stretch or airflow. Choose the light slate-grey textile by tested coverage, stretch and moisture behavior; OR’s cooling treatment and UPF rating are source claims, not inherited properties of the concept.",
+      "fit": "Close enough to stay in place, with measured bicep and wrist ranges rather than one tight universal fit.",
+      "validation": "Test finished-fabric UPF, bicep slip, pressure marks, seam comfort and hand coverage in motion.",
+      "features": [
+        {
+          "name": "Full arm coverage",
+          "text": "Use ActiveIce Sun Sleeves as the direct product reference, preserving coverage from upper arm to wrist while shaping the sleeve for a bent elbow.",
+          "sources": [
+            "OR-510"
+          ]
+        },
+        {
+          "name": "Stable upper edge",
+          "text": "Develop a comfortable bicep-grip system after the OR sleeve, testing several arm sizes so retention does not rely on excessive pressure.",
+          "sources": [
+            "OR-510"
+          ]
+        },
+        {
+          "name": "Optional hand extension",
+          "text": "Keep the thumb opening and optional finger loop low in bulk, allowing the hand cover to fold back cleanly when finer dexterity is needed.",
+          "sources": [
+            "OR-510"
+          ]
+        },
+        {
+          "name": "Quiet mapped seams",
+          "text": "Translate Ashi, Wama and Daze contour language into long, low-contrast lines, avoiding a thick decorative elbow patch that obstructs stretch or airflow.",
+          "sources": [
+            "ROA-215",
+            "ROA-207",
+            "ROA-209"
+          ]
+        },
+        {
+          "name": "Measured sun target",
+          "text": "Choose the light slate-grey textile by tested coverage, stretch and moisture behavior; OR’s cooling treatment and UPF rating are source claims, not inherited properties of the concept.",
+          "sources": [
+            "OR-510"
+          ]
+        }
+      ],
+      "kind": "Sun sleeve"
+    }
+  },
+  {
+    "id": "shelter-sport-hijab",
+    "name": "Shelter Sport Hijab",
+    "category": "accessories",
+    "type": "Headwear",
+    "color": "Heather",
+    "colorHex": "#625d59",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/shelter-sport-hijab.jpg",
+        "alt": "Shelter Sport Hijab in heather — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "46",
+      "intro": "A soft smoky taupe-grey sport hijab with continuous head, neck and shoulder coverage and a generous flowing lower drape. Restrained crown seams and a smooth tonal face opening. Fine matte jersey and discreet rear fit adjustment. Display on an invisible form, front and back, with no person.",
+      "description": "A soft smoky taupe-grey sport hijab with continuous head, neck and shoulder coverage and a generous flowing lower drape. Restrained crown seams and a smooth tonal face opening. Fine matte jersey and discreet rear fit adjustment. Display on an invisible form, front and back, with no person. Retain the OR sport hijab’s integrated head, neck and shoulder coverage, keeping the lower drape generous enough to remain in place while reaching. Study the source’s differentiated stretch fabrics and moisture-management approach, choosing a soft textile that balances opacity, drying and freedom of movement. Use a flat adjustment system inspired by OR, keeping hardware away from pressure points and leaving the face edge smooth under repeated movement. Borrow Daze’s restrained crown lines and Ashi’s soft neck treatment only as visual references, preserving the hijab’s specific coverage and drape requirements. Use one smoky taupe-grey shade through the drape and face edge. Keep the opening smooth and low in bulk, preserving coverage and flowing proportion without external cords or logos.",
+      "fit": "Secure face opening with comfortable neck and shoulder drape; develop with people who wear sport hijabs.",
+      "validation": "Check coverage in motion, face-edge pressure, layering, drying and helmet compatibility where intended.",
+      "features": [
+        {
+          "name": "Continuous modest coverage",
+          "text": "Retain the OR sport hijab’s integrated head, neck and shoulder coverage, keeping the lower drape generous enough to remain in place while reaching.",
+          "sources": [
+            "OR-194",
+            "OR-103"
+          ]
+        },
+        {
+          "name": "Breathable stretch body",
+          "text": "Study the source’s differentiated stretch fabrics and moisture-management approach, choosing a soft textile that balances opacity, drying and freedom of movement.",
+          "sources": [
+            "OR-194"
+          ]
+        },
+        {
+          "name": "Discreet fit control",
+          "text": "Use a flat adjustment system inspired by OR, keeping hardware away from pressure points and leaving the face edge smooth under repeated movement.",
+          "sources": [
+            "OR-194"
+          ]
+        },
+        {
+          "name": "Quiet contour language",
+          "text": "Borrow Daze’s restrained crown lines and Ashi’s soft neck treatment only as visual references, preserving the hijab’s specific coverage and drape requirements.",
+          "sources": [
+            "ROA-319",
+            "ROA-327"
+          ]
+        },
+        {
+          "name": "Soft tonal opening",
+          "text": "Use one smoky taupe-grey shade through the drape and face edge. Keep the opening smooth and low in bulk, preserving coverage and flowing proportion without external cords or logos.",
+          "sources": [
+            "ROA-233"
+          ]
+        }
+      ],
+      "kind": "Sport hijab"
+    }
+  },
+  {
+    "id": "load-suspenders",
+    "name": "Load Suspenders",
+    "category": "accessories",
+    "type": "Belts & suspenders",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/load-suspenders.jpg",
+        "alt": "Load Suspenders in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "47",
+      "intro": "Simple charcoal suspenders in dense narrow flat webbing, a compact Y-shaped rear junction and small dark adjusters. Use the Trail Belt's plain hardware character. Display the complete front and rear arrangement with anatomically plausible straps and attachment points, no fashion harness additions.",
+      "description": "Simple charcoal suspenders in dense narrow flat webbing, a compact Y-shaped rear junction and small dark adjusters. Use the Trail Belt's plain hardware character. Display the complete front and rear arrangement with anatomically plausible straps and attachment points, no fashion harness additions. Use OR’s flat-webbing suspenders as the direct reference, selecting strap width and elasticity to support trousers without creating thick ridges beneath a backpack. Develop a simple, accessible attachment system after the source, validating the connection with each intended trouser rather than claiming universal compatibility. Keep the back junction compact and positioned below the highest shoulder-pressure zone, allowing the straps to move during bending without twisting across the upper back. Borrow Centipede’s plain metal restraint for small dark adjusters, removing unnecessary buckles and long dangling ends that could catch under layers. Use dense charcoal webbing, tonal reinforcement stitching and plain dark adjusters. The restrained finish follows Trail Belt, with no decorative harness straps or dangling ends.",
+      "fit": "Adjustable for torso length with broad enough pressure distribution at shoulders.",
+      "validation": "Test attachment security, adjustment slip, elastic recovery and compatibility with the actual trouser loops.",
+      "features": [
+        {
+          "name": "Low-bulk straps",
+          "text": "Use OR’s flat-webbing suspenders as the direct reference, selecting strap width and elasticity to support trousers without creating thick ridges beneath a backpack.",
+          "sources": [
+            "OR-130"
+          ]
+        },
+        {
+          "name": "Secure attachment",
+          "text": "Develop a simple, accessible attachment system after the source, validating the connection with each intended trouser rather than claiming universal compatibility.",
+          "sources": [
+            "OR-130"
+          ]
+        },
+        {
+          "name": "Stable rear junction",
+          "text": "Keep the back junction compact and positioned below the highest shoulder-pressure zone, allowing the straps to move during bending without twisting across the upper back.",
+          "sources": [
+            "OR-130"
+          ]
+        },
+        {
+          "name": "Quiet adjustment hardware",
+          "text": "Borrow Centipede’s plain metal restraint for small dark adjusters, removing unnecessary buckles and long dangling ends that could catch under layers.",
+          "sources": [
+            "ROA-325"
+          ]
+        },
+        {
+          "name": "Shared accessory finish",
+          "text": "Use dense charcoal webbing, tonal reinforcement stitching and plain dark adjusters. The restrained finish follows Trail Belt, with no decorative harness straps or dangling ends.",
+          "sources": [
+            "ROA-325"
+          ]
+        }
+      ],
+      "kind": "Suspenders"
+    }
+  },
+  {
+    "id": "ridge-fingerless-glove",
+    "name": "Ridge Fingerless Glove",
+    "category": "accessories",
+    "type": "Gloves & mitts",
+    "color": "Umber",
+    "colorHex": "#574b40",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/ridge-fingerless-glove.jpg",
+        "alt": "Ridge Fingerless Glove in umber — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "48",
+      "intro": "A dark taupe fingerless glove with a fine wool-like knitted back and closely matched dark leather palm. Five short open finger channels including the thumb, clean finished ends, low quiet cuff. Show dorsal and palm views, with no cover mitten flap or exposed hand.",
+      "description": "A dark taupe fingerless glove with a fine wool-like knitted back and closely matched dark leather palm. Five short open finger channels including the thumb, clean finished ends, low quiet cuff. Show dorsal and palm views, with no cover mitten flap or exposed hand. Use Fossil Rock and Fairbanks as references for fingerless coverage, choosing a clean termination above the finger joints while preserving free fingertip movement. Study Fossil Rock’s layered palm construction, concentrating a durable facing on loaded contact areas and avoiding bulky padding across the entire hand. Use Fairbanks and Lost Coast as wool-knit comfort references, translating the ROA beanie’s quiet yarn depth into a smaller, more stable hand surface. Retain Andie’s slim cuff language with a low-profile pull tab, keeping the wrist secure enough that the glove does not creep during gripping. Use taupe-brown yarn above and charcoal below with no large logo patch; finish the finger edges smoothly so the textile does not shed or unravel.",
+      "fit": "Close at palm and wrist, with comfortable finger openings and no tight webbing between digits.",
+      "validation": "Test palm wear, edge fray, grip, seam pressure and cuff stability.",
+      "features": [
+        {
+          "name": "Open-finger construction",
+          "text": "Use Fossil Rock and Fairbanks as references for fingerless coverage, choosing a clean termination above the finger joints while preserving free fingertip movement.",
+          "sources": [
+            "OR-268",
+            "OR-128"
+          ]
+        },
+        {
+          "name": "Protected palm",
+          "text": "Study Fossil Rock’s layered palm construction, concentrating a durable facing on loaded contact areas and avoiding bulky padding across the entire hand.",
+          "sources": [
+            "OR-268"
+          ]
+        },
+        {
+          "name": "Soft knit back",
+          "text": "Use Fairbanks and Lost Coast as wool-knit comfort references, translating the ROA beanie’s quiet yarn depth into a smaller, more stable hand surface.",
+          "sources": [
+            "OR-128",
+            "OR-113",
+            "ROA-287"
+          ]
+        },
+        {
+          "name": "Controlled cuff",
+          "text": "Retain Andie’s slim cuff language with a low-profile pull tab, keeping the wrist secure enough that the glove does not creep during gripping.",
+          "sources": [
+            "ROA-323"
+          ]
+        },
+        {
+          "name": "Refined tonal finish",
+          "text": "Use taupe-brown yarn above and charcoal below with no large logo patch; finish the finger edges smoothly so the textile does not shed or unravel.",
+          "sources": [
+            "ROA-299",
+            "OR-128"
+          ]
+        }
+      ],
+      "kind": "Fingerless glove"
+    }
+  },
+  {
+    "id": "traverse-split-mitt",
+    "name": "Traverse Split Mitt",
+    "category": "accessories",
+    "type": "Gloves & mitts",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/traverse-split-mitt.jpg",
+        "alt": "Traverse Split Mitt in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "49",
+      "intro": "A charcoal split mitten with exactly three compartments: separate thumb, separate index finger, shared chamber for the other three fingers. Quiet dark-brown palm, restrained insulated upper, moderate cuff and compact adjustment. Show matching dorsal and palm views with consistent anatomy.",
+      "description": "A charcoal split mitten with exactly three compartments: separate thumb, separate index finger, shared chamber for the other three fingers. Quiet dark-brown palm, restrained insulated upper, moderate cuff and compact adjustment. Show matching dorsal and palm views with consistent anatomy. Use Team and Arete three-finger construction as the direct references, maintaining a distinct index finger and shared outer chamber rather than generating an anatomically ambiguous glove. Study Arete’s removable liner system for drying and adjustable warmth, keeping the liner’s finger layout aligned precisely with the outer shell. Use Team’s leather contact zones as a benchmark for palm and finger durability, shaping seams so they avoid the highest loaded gripping edges. Compare the Freewheel four-finger glove only as an adjacent control-use study, not as the same finger layout; retain the chosen three-compartment design consistently. Use the ROA insulated pieces’ rounded volume and Andie’s restraint for the exterior, with charcoal above and taupe-brown at the palm, avoiding extra decorative quilting.",
+      "fit": "Natural pre-curved grip; enough chamber volume to preserve insulation around the grouped fingers.",
+      "validation": "Test pole grip, liner alignment, index mobility, seam abrasion and cuff overlap.",
+      "features": [
+        {
+          "name": "Purposeful finger grouping",
+          "text": "Use Team and Arete three-finger construction as the direct references, maintaining a distinct index finger and shared outer chamber rather than generating an anatomically ambiguous glove.",
+          "sources": [
+            "OR-319",
+            "OR-360"
+          ]
+        },
+        {
+          "name": "Separable warmth study",
+          "text": "Study Arete’s removable liner system for drying and adjustable warmth, keeping the liner’s finger layout aligned precisely with the outer shell.",
+          "sources": [
+            "OR-360"
+          ]
+        },
+        {
+          "name": "Durable contact assembly",
+          "text": "Use Team’s leather contact zones as a benchmark for palm and finger durability, shaping seams so they avoid the highest loaded gripping edges.",
+          "sources": [
+            "OR-319"
+          ]
+        },
+        {
+          "name": "Dexterity comparison",
+          "text": "Compare the Freewheel four-finger glove only as an adjacent control-use study, not as the same finger layout; retain the chosen three-compartment design consistently.",
+          "sources": [
+            "OR-329"
+          ]
+        },
+        {
+          "name": "Quiet insulated form",
+          "text": "Use the ROA insulated pieces’ rounded volume and Andie’s restraint for the exterior, with charcoal above and taupe-brown at the palm, avoiding extra decorative quilting.",
+          "sources": [
+            "ROA-049",
+            "ROA-053",
+            "ROA-323"
+          ]
+        }
+      ],
+      "kind": "Split-finger mitten"
+    }
+  },
+  {
+    "id": "talus-crack-glove",
+    "name": "Talus Crack Glove",
+    "category": "accessories",
+    "type": "Gloves & mitts",
+    "color": "Basalt",
+    "colorHex": "#353734",
+    "imageClass": "product-image-concept",
+    "images": [
+      {
+        "src": "/images/field-study-03/talus-crack-glove.jpg",
+        "alt": "Talus Crack Glove in basalt — generated garment design study",
+        "label": "Design study",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "50",
+      "intro": "A minimalist charcoal crack glove covering only the back of the hand. Four finger loops at the knuckles, one thumb loop, a slim wrist closure and entirely open palm. Matte dark gripping surface with restrained angular boundaries. Show dorsal and open-palm views; never render a closed full glove.",
+      "description": "A minimalist charcoal crack glove covering only the back of the hand. Four finger loops at the knuckles, one thumb loop, a slim wrist closure and entirely open palm. Matte dark gripping surface with restrained angular boundaries. Show dorsal and open-palm views; never render a closed full glove. Use Splitter II as the single direct reference for back-of-hand protection with an open palm, preserving tactile contact rather than illustrating a conventional full glove. Study the source’s anti-slip back material as a development benchmark, selecting a surface and backing assembly through abrasion and hand-movement trials. Give the finger and thumb loops focused reinforcement after the source, checking edge pressure and repeated loading rather than simply making every strap thicker. Use a slim wrist closure and the original Andie restraint, keeping the fastener clear of the palm and avoiding a large hard buckle. Translate the work trouser’s long angular reinforcement language into small purposeful hand fields, using charcoal and taupe-brown without logos, ornamental bolts or unsupported protection ratings.",
+      "fit": "Close across the back of the hand with unobstructed palm and carefully fitted finger loops.",
+      "validation": "Develop with climbers; test abrasion, loop strain, wrist retention, tactile control and failure behavior before any use claim.",
+      "features": [
+        {
+          "name": "Open-palm structure",
+          "text": "Use Splitter II as the single direct reference for back-of-hand protection with an open palm, preserving tactile contact rather than illustrating a conventional full glove.",
+          "sources": [
+            "OR-365"
+          ]
+        },
+        {
+          "name": "Protected back surface",
+          "text": "Study the source’s anti-slip back material as a development benchmark, selecting a surface and backing assembly through abrasion and hand-movement trials.",
+          "sources": [
+            "OR-365"
+          ]
+        },
+        {
+          "name": "Reinforced loops",
+          "text": "Give the finger and thumb loops focused reinforcement after the source, checking edge pressure and repeated loading rather than simply making every strap thicker.",
+          "sources": [
+            "OR-365"
+          ]
+        },
+        {
+          "name": "Secure low wrist",
+          "text": "Use a slim wrist closure and the original Andie restraint, keeping the fastener clear of the palm and avoiding a large hard buckle.",
+          "sources": [
+            "OR-365",
+            "ROA-323"
+          ]
+        },
+        {
+          "name": "Sharp quiet geometry",
+          "text": "Translate the work trouser’s long angular reinforcement language into small purposeful hand fields, using charcoal and taupe-brown without logos, ornamental bolts or unsupported protection ratings.",
+          "sources": [
+            "ROA-007",
+            "ROA-151"
+          ]
+        }
+      ],
+      "kind": "Open-palm crack glove"
+    }
+  }
+]
