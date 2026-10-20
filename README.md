@@ -6,8 +6,8 @@ Outdoor layers and shared adventure, born in the Washington backcountry. This st
 
 The latest October 20, 2026 horizontal Capra reference replaces the earlier Odle identity across the homepage, navigation, footer, page titles, browser icon, share metadata, Vision copy and test-checkout display name.
 
-- Original supplied artwork: `public/brand/capra-reference.png`, preserved without pixel edits.
-- Shared logo: `src/components/capra-logo.tsx`. SVG presentation masks expose independent horn and lettering colors without redrawing the mark.
+- Original supplied artwork: `public/brand/capra-horn-source.png` (second reference) and `public/brand/capra-lettering-source.png` (first reference), both preserved unchanged. The current mark combines the exact horn and letter shapes through SVG clipping and uniform placement.
+- Shared logo: `src/components/capra-logo.tsx`. SVG presentation masks expose independent horn and lettering colors without redrawing either part. Rebuild `capra-logo.svg`, `capra-icon.svg` and the share PNG `capra-reference.png` with `node scripts/build-capra-assets.mjs`. See [artwork sources](docs/brand-artwork.md).
 - Typography: self-hosted Archivo sans-serif for all interface text. The rounded logo lettering belongs only in the artwork, as requested. License: `src/app/fonts/Archivo-OFL.txt`.
 - Brand styles: `src/app/capra.css`; layout styles: `src/app/globals.css`.
 - Defaults: charcoal `#20201e` for both parts on white. `/experimental` changes horn/lettering colors and the homepage background.

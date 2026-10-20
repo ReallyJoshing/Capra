@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.APP_URL || 'https://odle-storefront.vercel.app'),
   description: 'Born in the Washington backcountry. A vision for capable layers, freedom of movement, and a lifetime of shared adventure.',
   applicationName: 'Capra',
-  icons: { icon: '/brand/capra-icon.svg?v=3' },
-  openGraph: { title: 'Capra', description: 'Born in the Washington backcountry. Capable layers and a lifetime of shared adventure.', images: [{ url: '/brand/capra-reference.png?v=3', width: 1254, height: 1254, alt: 'Capra' }] },
+  icons: { icon: '/brand/capra-icon.svg?v=4' },
+  openGraph: { title: 'Capra', description: 'Born in the Washington backcountry. Capable layers and a lifetime of shared adventure.', images: [{ url: '/brand/capra-reference.png?v=4', width: 1089, height: 541, alt: 'Capra' }] },
   robots: { index: false, follow: false },
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
