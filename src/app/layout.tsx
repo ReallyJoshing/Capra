@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
-import { BrandTheme } from '@/components/brand-theme';
 import { SiteHeader } from '@/components/site-header';
-import { OdleWordmark } from '@/components/odle-wordmark';
 import './globals.css';
 import { SiteFooter } from '@/components/site-footer';
 
@@ -15,7 +13,7 @@ const navigationFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Odle',
+  title: 'Capra',
   description: 'Born in the Washington backcountry. A vision for capable layers, freedom of movement, and a lifetime of shared adventure.',
   robots: { index: false, follow: false },
 };
@@ -23,9 +21,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" className={navigationFont.variable}>
       <body>
-        <BrandTheme />
         <a href="#main-content" className="skip-link">Skip to content</a>
-        <SiteHeader logo={<OdleWordmark monogram />} />
+        <SiteHeader />
         {children}
         <SiteFooter />
       </body>

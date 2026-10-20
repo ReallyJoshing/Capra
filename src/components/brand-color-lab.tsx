@@ -2,7 +2,7 @@
 
 import { useId, type KeyboardEvent } from 'react';
 import { useBrandColors } from '@/components/brand-theme';
-import { OdleWordmark } from '@/components/odle-wordmark';
+import { CapraWordmark } from '@/components/capra-wordmark';
 import { brandPalette, defaultBrandColors } from '@/config/brand-palettes';
 
 function ColorTiles({ label, description, value, onChange }: {
@@ -68,15 +68,15 @@ export function BrandColorLab() {
     <div className="brand-color-lab">
       <section className="brand-preview" aria-label="Live brand previews">
         <figure className="brand-preview-title">
-          <figcaption>ODLE title</figcaption>
-          <div className="brand-preview-art" role="img" aria-label={`ODLE wordmark in ${primary} with ${secondary} inlays`}>
-            <OdleWordmark />
+          <figcaption>CAPRA title</figcaption>
+          <div className="brand-preview-art" role="img" aria-label={`CAPRA wordmark in ${primary} with ${secondary} inlays`}>
+            <CapraWordmark />
           </div>
         </figure>
         <figure className="brand-preview-logo">
           <figcaption>Header logo</figcaption>
-          <div className="brand-preview-art" role="img" aria-label={`O logo in ${primary} with ${secondary} inlays`}>
-            <OdleWordmark monogram />
+          <div className="brand-preview-art" role="img" aria-label={`C logo in ${primary} with ${secondary} inlays`}>
+            <CapraWordmark monogram />
           </div>
         </figure>
       </section>

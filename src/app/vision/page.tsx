@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Our vision | Odle',
+  title: 'Our vision | Capra',
   description: 'Born in the Washington backcountry. Our vision for capable layers, freedom of movement, and trust earned over a lifetime of shared adventure.',
 };
 
@@ -25,7 +25,7 @@ export default function VisionPage() {
         <h2 id="vision-heart">The feeling we keep coming back for.</h2>
         <div>
           <p>You have worked hard to get here. The pack comes off. Your friends settle in beside you. You have enough comfort left to linger, look around, and enjoy where you are.</p>
-          <p>That moment is the heart of Odle. The deep satisfaction of knowing the gear you spent your hard-earned money on helped make the whole experience feel this good.</p>
+          <p>That moment is the heart of Capra. The deep satisfaction of knowing the gear you spent your hard-earned money on helped make the whole experience feel this good.</p>
           <p>We want to make clothes that earn a place in those days. Clothes that move naturally with you, hold up to repeated use, and become familiar companions on the way to somewhere new.</p>
         </div>
       </section>
@@ -74,7 +74,7 @@ export default function VisionPage() {
         <div>
           <h2 id="vision-company-title">A lifetime of going together.</h2>
           <p>There is warmth in the effort. In pushing yourself with heart in hand. In making camp with the people you hope to keep adventuring with for years.</p>
-          <p>Odle is for people who feel that pull toward nature. Experience grows with time; the desire to be out there is where it begins.</p>
+          <p>Capra is for people who feel that pull toward nature. Experience grows with time; the desire to be out there is where it begins.</p>
         </div>
       </section>
 
@@ -83,7 +83,7 @@ export default function VisionPage() {
         <h2 id="vision-trust-title">Every piece has to earn your trust.</h2>
         <p>Every fabric, color, fit, and form deserves a reason. Our love of fashion lives in those decisions: considered proportions, restraint, and close attention to how something feels on the body.</p>
         <p>We want that care to hold up through years of use. It asks us to develop patiently, test thoroughly, be clear about a garment’s limits, and take responsibility for what we make.</p>
-        <p>Our ambition is a devoted community whose confidence grows with every piece they choose. The feeling that their money was respected, and that they would choose Odle again.</p>
+        <p>Our ambition is a devoted community whose confidence grows with every piece they choose. The feeling that their money was respected, and that they would choose Capra again.</p>
         <Link className="vision-collection-link" href="/clothing">Explore the collection <span aria-hidden="true">↗</span></Link>
       </section>
 

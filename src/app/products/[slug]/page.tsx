@@ -5,7 +5,7 @@ import { productDetails, money } from '@/data/commerce';
 import { ProductGallery } from '@/components/product-gallery';
 import { ProductPurchase } from '@/components/product-purchase';
 import { ConceptDetails } from '@/components/concept-details';
-export async function generateMetadata({params}:{params:Promise<{slug:string}>}) { const {slug}=await params;return {title:`${products.find(p=>p.id===slug)?.name??'Product'} — Odle`}; }
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}) { const {slug}=await params;return {title:`${products.find(p=>p.id===slug)?.name??'Product'} — Capra`}; }
 export default async function ProductPage({params}:{params:Promise<{slug:string}>}) {
   const {slug}=await params;const product=products.find(p=>p.id===slug);if(!product)notFound();const detail=productDetails[slug];
   if (product.concept) return <main className="product-page" id="main-content">
@@ -15,7 +15,7 @@ export default async function ProductPage({params}:{params:Promise<{slug:string}
   return <main className="product-page" id="main-content">
     <nav className="breadcrumb" aria-label="Breadcrumb"><Link href={`/${product.category}`}>{product.category}</Link><span>/</span><span>{product.name}</span></nav>
     <div className="product-detail-layout"><ProductGallery product={product}/><section className="product-info">
-      <p className="eyebrow">ODLE / {product.type}</p><h1>{product.name}</h1><p className="detail-price">{money(detail.price)} <span>USD</span></p>
+      <p className="eyebrow">CAPRA / {product.type}</p><h1>{product.name}</h1><p className="detail-price">{money(detail.price)} <span>USD</span></p>
       <p className="detail-description">{detail.description}</p>
       <div className="detail-color"><span className="product-swatch" style={{backgroundColor:product.colorHex}} role="img" aria-label={product.color}/><span>One color</span></div>
       <ProductPurchase id={slug}/>

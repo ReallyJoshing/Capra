@@ -1,6 +1,6 @@
 # JN scenes and founder quotations
 
-The JN archive supplies real landscape and trip references for Odle's vision. The quotations below are exact excerpts from the founder's statements in the October 16, 2026 vision conversation. They are paired editorially with archive scenes; they are not quotations transcribed from the video audio.
+The JN archive supplies real landscape and trip references for Capra's vision. The quotations below are exact excerpts from the founder's statements in the October 16, 2026 vision conversation. They are paired editorially with archive scenes; they are not quotations transcribed from the video audio.
 
 ## Washington origin and shared effort
 

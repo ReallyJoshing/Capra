@@ -37,6 +37,7 @@ test('earlier prototype product links and saved bags still resolve', () => {
   for (const product of legacyProducts) {
     assert.ok(allProducts.find(item => item.id === product.id));
     assert.doesNotThrow(() => validateCart([{id: product.id, size: productDetails[product.id].sizes[0], quantity: 1}], productDetails));
+    for (const image of product.images) assert.ok(existsSync(new URL(`../public${image.src}`, import.meta.url)), image.src);
   }
 });
 

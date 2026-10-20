@@ -1,6 +1,6 @@
 // Edit copy here, layout in components, and shared styling in globals.css.
 export const storefront = {
-  name: 'ODLE',
+  name: 'CAPRA',
   hero: {
     eyebrow: 'Born in the Washington backcountry',
     title: 'At home out there.',

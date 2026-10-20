@@ -1,13 +1,13 @@
 'use client';
 
-import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { OdleWordmark } from '@/components/odle-wordmark';
 import { BagLink } from '@/components/bag-link';
 import { navigation } from '@/config/navigation';
 
-export function SiteHeader({ logo }: { logo: ReactNode }) {
+export function SiteHeader() {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const headerRef = useRef<HTMLElement>(null);
   const pathname = usePathname();
@@ -40,9 +40,8 @@ export function SiteHeader({ logo }: { logo: ReactNode }) {
         }
       }}
     >
-      <Link className="header-brand" href="/" aria-label="Odle home" onClick={() => setOpenMenu(null)}>
-        {logo}
-        <span className="header-brand-tail" aria-hidden="true"><OdleWordmark suffix /></span>
+      <Link className="header-brand" href="/" aria-label="Capra home" onClick={() => setOpenMenu(null)}>
+        <Image className="header-sketch" src="/images/brand/capra-sketch.png" alt="" width={1459} height={1078} sizes="(max-width: 639px) 76px, 100px" />
       </Link>
       <nav className="header-nav" aria-label="Main navigation">
         <ul className="nav-list">

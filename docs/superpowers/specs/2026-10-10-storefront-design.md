@@ -1,6 +1,6 @@
 # Storefront framework
 
-Historical scaffold specification from October 10, 2026. Current product direction is documented in [Odle core vision](../../core-vision.md) and the [knowledge base](../../knowledge-base.md). The current site also includes the `/vision` route described in the repository README. The original scaffold description is preserved below.
+Historical scaffold specification from October 10, 2026. Current product direction is documented in [Capra core vision](../../core-vision.md) and the [knowledge base](../../knowledge-base.md). The current site also includes the `/vision` route described in the repository README. The original scaffold description is preserved below.
 
 A simple wireframe for an outdoor athleisure store, ready for iteration in v0.
 

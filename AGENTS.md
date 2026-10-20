@@ -1,19 +1,18 @@
-# Odle clean starting page
+# Capra sketch and film storefront
 
-Publication: this snapshot is shared at `ReallyJoshing/Capra` on `feature/landing`. The branch names in the local development notes below refer to the original source checkout.
-
-The active experiment is `feat/clean-start`; `release` preserves the earlier annotated storefront.
+Publication: this work is on `capra-jc-1` in `ReallyJoshing/Capra`. `feature/landing` is the parent branch; `release` preserved an earlier annotated storefront in the original source checkout.
 
 - Read `docs/core-vision.md` and `docs/knowledge-base.md` before changing product direction, brand copy, imagery, or the shopping experience. The current vision centers on feeling at home outdoors, shared effort, comfort at the destination, and trust earned through use.
-- The Vision tab at `/vision` pairs founder statements with real JN archive scenes. Source details live in `docs/jn-vision-references.md` and `docs/vision-media-sources.json`. Do not present these images as Odle performance tests or the founder's quotes as video transcripts.
-- Environment-based shopping with selectable garments is a documented future direction. Preserve the existing homepage until that experience is explicitly requested.
+- The Vision tab at `/vision` pairs founder statements with real JN archive scenes. Source details live in `docs/jn-vision-references.md` and `docs/vision-media-sources.json`. Do not present these images as Capra performance tests or the founder's quotes as video transcripts.
+- The homepage uses the supplied hand-drawn goat and CAPRA sketch at `public/images/brand/capra-sketch.png`. Its film at `public/videos/capra-reel.mp4` mixes outdoor feats with brief victory and celebration moments. It starts automatically in a small frame and expands across the viewport over about 6.5 seconds. Preserve its pause/play control, still poster, and reduced-motion equivalent. The montage is illustrative stock footage, not Capra product testing, founder-trip footage, or an endorsement by the people shown; see `docs/video-sources.md`.
+- Environment-based shopping with selectable garments is a documented future direction. Preserve the sketch-and-film homepage until that experience is explicitly requested.
 
-- Keep the homepage minimal until the user requests a visual direction or features.
 - Homepage: `src/app/page.tsx`. Styling: `src/app/globals.css`. Metadata: `src/app/layout.tsx`.
-- Wordmark: `src/components/odle-wordmark.tsx`; geometry: `src/assets/odle-wordmark.json`; generator: `scripts/generate-wordmark.py`. The Archivo settings are baked into these vector paths.
+- Active brand art: `public/images/brand/capra-sketch.png` on the homepage and shared header; `/experimental` is a simple Studio page showing the sketch. The earlier Archivo vector wordmark remains in `src/components/capra-wordmark.tsx`, `src/assets/capra-wordmark.json`, and `scripts/generate-wordmark.py` for reference, but is no longer the primary site mark or an interactive color lab.
+- Homepage film: `public/videos/capra-reel.mp4`, with `public/videos/capra-reel-poster.jpg` as its still. The source and usage notes are in `docs/video-sources.md`.
 - Shared header: `src/components/site-header.tsx`. Collection routes: `/clothing` and `/accessories`. Product data: `src/data/products.ts`; filters: `src/lib/catalog.mjs`.
-- Keep the Archivo wordmark geometry and navigation typography on a plain white homepage. The wordmark uses dark bone-greige with pale sage inlays and nested four-point stars inside the O, shared by the header monogram. The experimental serif wordmark and landscape background were reverted.
-- The active catalog is Field Study 03: 50 concepts in `src/data/field-study-03.json`, imported with `scripts/import-field-study.py`. Images are unchanged generated study previews in `public/images/field-study-03/`. Keep five features per design. Concepts have no price, sizes or purchase controls. The earlier five prototype items remain in `legacyProducts` for existing URLs and saved test bags; `allProducts` resolves both sets. Do not imply verified inventory or manufacturing facts.
+- Keep Archivo navigation typography and the hand-drawn sketch as the active identity. The old mist-forest/background picker and two-color vector lab are retained code, not current homepage or `/experimental` features.
+- The active catalog is Field Study 03: 50 concepts in `src/data/field-study-03.json`, imported with `scripts/import-field-study.py`. Images in `public/images/field-study-03/` are generated study previews; four have curated CAPRA heading edits (`hearth-beanie`, `trail-belt`, `ridgeline-cap`, `talus-work-trouser`) that the importer preserves. Keep five features per design. Concepts have no price, sizes or purchase controls. The earlier five prototype items remain in `legacyProducts` for existing URLs and saved test bags; `allProducts` resolves both sets. Do not imply verified inventory or manufacturing facts.
 - Existing components and configuration from the previous storefront are retained but not rendered by the homepage.
 - Use Next.js App Router, TypeScript, and Tailwind v4 / CSS; preserve Vercel compatibility.
 - Add real commerce, customer data collection, or additional features only when requested.

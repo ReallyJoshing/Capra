@@ -3,19 +3,20 @@
 import { useSyncExternalStore } from 'react';
 import { backgrounds, defaultBackground } from '@/config/backgrounds';
 
-const key = 'odle-home-background';
+const key = 'capra-home-background';
+const legacyKey = 'odle-home-background';
 let temporarySelection: string | undefined;
 function read() {
-  try { return temporarySelection ?? localStorage.getItem(key) ?? defaultBackground.id; }
+  try { return temporarySelection ?? localStorage.getItem(key) ?? localStorage.getItem(legacyKey) ?? defaultBackground.id; }
   catch { return temporarySelection ?? defaultBackground.id; }
 }
 function subscribe(callback: () => void) {
-  const storage = () => { temporarySelection = undefined; callback(); };
+  const storage = (event: StorageEvent) => { if (event.key === key || event.key === legacyKey || event.key === null) { temporarySelection = undefined; callback(); } };
   window.addEventListener('storage', storage);
-  window.addEventListener('odle-background-change', callback);
+  window.addEventListener('capra-background-change', callback);
   return () => {
     window.removeEventListener('storage', storage);
-    window.removeEventListener('odle-background-change', callback);
+    window.removeEventListener('capra-background-change', callback);
   };
 }
 export function useHomeBackground() {
@@ -23,8 +24,8 @@ export function useHomeBackground() {
   const selected = backgrounds.find(background => background.id === id) ?? defaultBackground;
   function select(id: string) {
     temporarySelection = id;
-    try { localStorage.setItem(key, id); } catch { /* Keep the current session usable without storage. */ }
-    window.dispatchEvent(new Event('odle-background-change'));
+    try { localStorage.setItem(key, id); localStorage.removeItem(legacyKey); } catch { /* Keep the current session usable without storage. */ }
+    window.dispatchEvent(new Event('capra-background-change'));
   }
   return { selected, select };
 }

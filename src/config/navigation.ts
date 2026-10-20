@@ -28,10 +28,4 @@ export const navigation = [
     href: '/vision',
     items: [],
   },
-  {
-    id: 'experimental',
-    label: 'Experimental',
-    href: '/experimental',
-    items: [],
-  },
 ];

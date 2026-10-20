@@ -1,10 +1,10 @@
-# Odle core vision
+# Capra core vision
 
-Updated October 16, 2026. This is the current reference for product direction, brand voice, and the website. It supersedes the generic outdoor athleisure framing in the original storefront scaffold.
+Updated October 20, 2026. This is the current reference for product direction, brand voice, and the website. It supersedes the generic outdoor athleisure framing in the original storefront scaffold.
 
 ## The feeling at the center
 
-Odle begins in the Washington backcountry: effort shared with friends, changing weather, rough terrain, and the pleasure of arriving somewhere you want to stay. The defining moment is reaching the destination and feeling deeply glad you invested your hard-earned money in gear that helps you enjoy being there.
+Capra begins in the Washington backcountry: effort shared with friends, changing weather, rough terrain, and the pleasure of arriving somewhere you want to stay. The defining moment is reaching the destination and feeling deeply glad you invested your hard-earned money in gear that helps you enjoy being there.
 
 The ambition is to feel at home in wild places. Capable layers should let the wearer move naturally, stay comfortable within the garment's intended conditions, and settle into the landscape with the people they care about. The product has to respect the money, time, and trust someone puts into it.
 
@@ -14,7 +14,7 @@ Health and individual strength are part of this vision. Effort is approached wit
 
 People with an orientation toward nature who want a full, active life outdoors. The shared quality is a desire to participate, explore, and return. Experience can grow over time. The brand should speak with the specificity of lived outdoor experience while remaining welcoming to people finding their way into it.
 
-The founder's ambition is a devoted community whose trust strengthens with repeated use. Success means people reach for their Odle clothes again, recommend them from experience, and have good reason to consider the next release.
+The founder's ambition is a devoted community whose trust strengthens with repeated use. Success means people reach for their Capra clothes again, recommend them from experience, and have good reason to consider the next release.
 
 ## What the clothes must work toward
 
@@ -29,19 +29,19 @@ These are development standards. No garment's weather protection, lifespan, safe
 
 ## The visual world
 
-Use real landscapes, real outdoor moments, and the people within them. Washington is the origin of the vision. Trips elsewhere can extend the story with their actual locations identified.
+Use real landscapes, real outdoor moments, and the people within them. Washington is the origin of the vision. Trips elsewhere can extend the story with their actual locations identified. The homepage montage uses illustrative licensed stock footage; it does not document the founder's trips or Capra garment testing.
 
 The phrase “ready for foreign planets” describes the feeling of capability and possibility. The website direction is documentary: actual terrain, weather, friends, and garments. Photography should retain the character of those places.
 
-The existing Odle wordmark, Archivo typography, restrained palette, and plain homepage remain the visual foundation. ROA helped the founder identify a standard of coherence, fashion sensitivity, material care, and product visibility. Odle's subject and source material come from the founder's own outdoor experience.
+The hand-drawn mountain goat and CAPRA sketch now lead the site, with Archivo navigation typography. The homepage pairs it with a short, energetic film of outdoor pursuits and victory moments, plus copy about making an imagined day real. ROA helped the founder identify a standard of coherence, fashion sensitivity, material care, and product visibility. Capra's purpose comes from the founder's own outdoor experience.
 
 ## The website concept
 
 The long-term shopping concept begins with environments. A visitor selects a landscape and enters a scene where a crew wears the collection. Discreet, accessible garment markers reveal product details while preserving the sense of place.
 
-The garment must remain easy to see and understand. Close views, fit in motion, material information, intended conditions, and the reason for each choice should substantiate the feeling. Direct collection browsing remains available. Motion, when added, should be restrained and offer a reduced-motion equivalent.
+The garment must remain easy to see and understand. Close views, fit in motion, material information, intended conditions, and the reason for each choice should substantiate the feeling. Direct collection browsing remains available. The current homepage uses an expanding film frame to convey exhilaration; provide a reduced-motion equivalent and a still image when video is unavailable.
 
-The current implementation adds a dedicated **Vision** navigation tab and `/vision` page. Environment selection, moving scenes, and shoppable people are future work; this update does not implement them.
+The current implementation has a dedicated **Vision** navigation tab and `/vision` page alongside the sketch-and-film homepage. Environment selection and shoppable people remain future work; the homepage film does not demonstrate garments or their performance.
 
 ## Voice
 
