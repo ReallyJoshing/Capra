@@ -1,6 +1,6 @@
 # Capra — Greatness, through time
 
-**Independent homepage design: `capra-jc-2`.** The earlier design remains on `capra-jc-1`; `main` remains a separate baseline. This homepage was composed from scratch around the supplied sketch and Known.com’s minimal film-led presentation.
+**Homepage design branch: `capra-jc-1`.** Improvements to this direction stay on this branch; `main` remains a separate baseline. This homepage was composed from scratch around the supplied sketch and Known.com’s minimal film-led presentation.
 
 ## Homepage
 
@@ -12,17 +12,15 @@ Full provenance, exact edit ranges and source licenses are in [video sources](do
 
 The homepage has its own component and scoped CSS. Existing catalog and Vision routes remain available at their URLs but do not determine the homepage’s visual design. Product context remains documented in the [core vision](docs/core-vision.md) and [knowledge base](docs/knowledge-base.md).
 
-## Compare versions
+## Branch workflow
 
-Open each branch in its own worktree and run a different port. This version uses `npm run dev -- --port 3002` at **http://localhost:3002**. Keep the versions separate until one is explicitly selected for release. A normal branch diff compares their source snapshots:
+Continue improving this design on `capra-jc-1`. Create another design branch only when explicitly requested. Earlier iterations remain available in Git history. Keep this design separate from `main` until it is explicitly selected for release.
 
-```sh
-git diff capra-jc-1..capra-jc-2
-```
+The homepage preview runs at **http://localhost:3000** with `npm run dev -- --port 3000`.
 
 ## Work locally
 
-Use Node 20.9 or later. Run `npm ci`, then `npm run dev -- --port 3002` and open http://localhost:3002.
+Use Node 20.9 or later. Run `npm ci`, then `npm run dev -- --port 3000` and open http://localhost:3000.
 
 - Homepage: `src/app/page.tsx`
 - Homepage component: `src/components/decades-home.tsx`
@@ -58,7 +56,7 @@ Run `npm test`, `npm run typecheck`, and `npm run build`. If Turbopack is unavai
 
 This is a standard Next.js project. Use the Next.js framework preset, the repository root as the root directory, and the default build/output settings. No environment variables are required for the current page.
 
-See Hosting below for deployment configuration. The `capra-jc-2` redesign is a branch for review and is not described here as a production deployment. Keep `.vercel/` and credentials out of source control. Search indexing remains disabled in the page metadata.
+See Hosting below for deployment configuration. The `capra-jc-1` redesign is a branch for review and is not described here as a production deployment. Keep `.vercel/` and credentials out of source control. Search indexing remains disabled in the page metadata.
 
 ## Studio and catalog details
 

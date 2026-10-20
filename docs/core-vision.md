@@ -33,7 +33,7 @@ Use real landscapes, real outdoor moments, and the people within them. Washingto
 
 The phrase “ready for foreign planets” describes the feeling of capability and possibility. The website direction is documentary: actual terrain, weather, friends, and garments. Photography should retain the character of those places.
 
-The supplied mountain goat and CAPRA sketch remains the identity. Independent homepage version `capra-jc-2` uses a dark, minimal composition inspired by Known.com, a centered statement, and a film of real historical feats cut every half second. The previous visual direction remains on `capra-jc-1`; each version is developed independently. ROA helped the founder identify a standard of coherence, fashion sensitivity, material care, and product visibility. Capra's purpose comes from the founder's own outdoor experience.
+The supplied mountain goat and CAPRA sketch remains the identity. The rebuilt homepage on `capra-jc-1` uses a dark, minimal composition inspired by Known.com, a centered statement, and a film of real historical feats cut every half second. This composition was developed independently of the earlier storefront. Continue improving it on `capra-jc-1`; earlier iterations remain in Git history. ROA helped the founder identify a standard of coherence, fashion sensitivity, material care, and product visibility. Capra's purpose comes from the founder's own outdoor experience.
 
 ## The website concept
 

@@ -1,6 +1,6 @@
-# Capra — independent homepage version 2
+# Capra — Greatness, through time
 
-Current design branch: `capra-jc-2` in `ReallyJoshing/Capra`. `capra-jc-1` preserves the earlier homepage. `main` is the repository baseline. Keep each design on its own branch; do not merge a design to main without an explicit request.
+Current design branch: `capra-jc-1` in `ReallyJoshing/Capra`. Improve this design on this branch. Do not create a new branch for an iteration unless the user explicitly requests one. `main` is the repository baseline; do not merge this design to main without an explicit request.
 
 ## Homepage direction
 
@@ -21,7 +21,7 @@ Read `docs/core-vision.md` and `docs/knowledge-base.md` for product work. The ho
 
 The catalog is Field Study 03: 50 generated concepts with five features each. Keep catalog facts and prototype commerce disclosures accurate. Do not add real commerce or collect customer data without a request. Preserve Next.js App Router, TypeScript and Vercel compatibility.
 
-Run `npm test`, `npm run typecheck`, and `npm run build` before a release checkpoint. Check desktop and narrow layouts and the film controls in a browser. The development preview for this version uses port 3002: `npm run dev -- --port 3002`.
+Run `npm test`, `npm run typecheck`, and `npm run build` before a release checkpoint. Check desktop and narrow layouts and the film controls in a browser. The homepage preview uses port 3000: `npm run dev -- --port 3000`.
 
 Keep private conversation details, downloaded source footage, and credentials out of source control. The finished film, poster, edit manifest and attribution belong in the repository.
 

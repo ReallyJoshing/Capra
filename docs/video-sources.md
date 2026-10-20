@@ -1,6 +1,6 @@
 # Greatness, through time
 
-The `capra-jc-2` homepage uses a new, chronological film: **27 shots, 0.5 seconds each, 13.5 seconds total**. Its imagery progresses from genuine black-and-white archival film to analog color and contemporary digital footage. The 1920s–1960s material retains its actual age and texture; modern footage has not been disguised as historical footage. Source quality varies within each era, so individual successive shots are not guaranteed to have increasing resolution.
+The `capra-jc-1` homepage uses a new, chronological film: **27 shots, 0.5 seconds each, 13.5 seconds total**. Its imagery progresses from genuine black-and-white archival film to analog color and contemporary digital footage. The 1920s–1960s material retains its actual age and texture; modern footage has not been disguised as historical footage. Source quality varies within each era, so individual successive shots are not guaranteed to have increasing resolution.
 
 The silent 1920 × 1080 H.264 MP4 plays at 30 fps. All 405 frames belong to the shot list below. There are no dissolves, added flashes, audio tracks, or speed changes. Native source aspect ratios are cropped for the landscape edit. Cinema mode displays that full edit without additional viewport cropping. The normal mobile background uses cover framing behind the centered copy.
 
