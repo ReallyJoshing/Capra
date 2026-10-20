@@ -4,14 +4,13 @@ import { useSyncExternalStore } from 'react';
 import { backgrounds, defaultBackground } from '@/config/backgrounds';
 
 const key = 'capra-home-background';
-const legacyKey = 'odle-home-background';
 let temporarySelection: string | undefined;
 function read() {
-  try { return temporarySelection ?? localStorage.getItem(key) ?? localStorage.getItem(legacyKey) ?? defaultBackground.id; }
+  try { return temporarySelection ?? localStorage.getItem(key) ?? defaultBackground.id; }
   catch { return temporarySelection ?? defaultBackground.id; }
 }
 function subscribe(callback: () => void) {
-  const storage = (event: StorageEvent) => { if (event.key === key || event.key === legacyKey || event.key === null) { temporarySelection = undefined; callback(); } };
+  const storage = (event: StorageEvent) => { if (event.key === key || event.key === null) { temporarySelection = undefined; callback(); } };
   window.addEventListener('storage', storage);
   window.addEventListener('capra-background-change', callback);
   return () => {
@@ -24,7 +23,7 @@ export function useHomeBackground() {
   const selected = backgrounds.find(background => background.id === id) ?? defaultBackground;
   function select(id: string) {
     temporarySelection = id;
-    try { localStorage.setItem(key, id); localStorage.removeItem(legacyKey); } catch { /* Keep the current session usable without storage. */ }
+    try { localStorage.setItem(key, id); } catch { /* Keep the current session usable without storage. */ }
     window.dispatchEvent(new Event('capra-background-change'));
   }
   return { selected, select };

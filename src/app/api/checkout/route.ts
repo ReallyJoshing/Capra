@@ -36,8 +36,6 @@ export async function POST(request: Request) {
     const subtotal = items.reduce((sum, item) => sum + item.unitAmount * item.quantity, 0);
     const session = await stripe.checkout.sessions.create({
       mode: 'payment',
-      // Existing Stripe integration ID is an opaque account identifier; retain it for test checkout continuity.
-      integration_identifier: 'odle_storefront_qkmtvxab',
       branding_settings: {
         display_name: `${commerce.businessName} — Prototype`,
         background_color: '#ffffff',

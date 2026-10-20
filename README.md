@@ -18,7 +18,7 @@ The floating header uses the sketch as its home mark. Clothing and Accessories l
 
 The active catalog is **Field Study 03**: 50 collection concepts, split into 29 clothing pieces and 21 accessories. Each has a design image, palette color, fit direction and five design features. Type and color filters combine, with live result counts and collection shortcuts in the header. The images show generated concepts, not manufactured products. Four previews have edited CAPRA headings: `hearth-beanie`, `trail-belt`, `ridgeline-cap`, and `talus-work-trouser`; the other study previews remain unchanged. Pricing and availability remain unset, so these concepts cannot be added to checkout. Earlier prototype product URLs and saved test bags remain supported.
 
-The default import source is the sibling `capra-field-study-03/data/design-book.json` plus its `previews/` folder. Run `python3 scripts/import-field-study.py` to refresh `src/data/field-study-03.json` and `public/images/field-study-03/` from that source. If the study lives elsewhere, set `FIELD_STUDY_SOURCE=/path/to/study` for the command. The import preserves all 50 designs, all 250 features, and the four curated CAPRA previews while normalizing brand text in the catalog data. The original design-study workspace is not included in this repository; the checked-in data and images are sufficient to run the storefront.
+The default import source is the sibling `capra-field-study-03/data/design-book.json` plus its `previews/` folder. Run `python3 scripts/import-field-study.py` to refresh `src/data/field-study-03.json` and `public/images/field-study-03/` from that source. If the study lives elsewhere, set `FIELD_STUDY_SOURCE=/path/to/study` for the command. The import preserves all 50 designs, all 250 features, and the four curated CAPRA previews using the Capra-branded source data. The original design-study workspace is not included in this repository; the checked-in data and images are sufficient to run the storefront.
 
 ## Work locally
 
@@ -58,7 +58,7 @@ Run `npm test`, `npm run typecheck`, and `npm run build`. If Turbopack is unavai
 
 This is a standard Next.js project. Use the Next.js framework preset, the repository root as the root directory, and the default build/output settings. No environment variables are required for the current page.
 
-An earlier hosted prototype is linked to Vercel; see Earlier hosted prototype below. The `capra-jc-1` redesign is a branch for review and is not described here as a production deployment. Keep `.vercel/` and credentials out of source control. Search indexing remains disabled in the page metadata.
+See Hosting below for deployment configuration. The `capra-jc-1` redesign is a branch for review and is not described here as a production deployment. Keep `.vercel/` and credentials out of source control. Search indexing remains disabled in the page metadata.
 
 ## Studio and catalog details
 
@@ -90,10 +90,8 @@ Set the listener's signing secret as `STRIPE_WEBHOOK_SECRET` in `.env.local`. Ne
 
 See [launch readiness](docs/launch-readiness.md) for researched legal/operational requirements and unresolved launch gates. This prototype is not certified compliant or ready for live sales.
 
-## Earlier hosted prototype
+## Hosting
 
-Public URL: https://odle-storefront.vercel.app (legacy infrastructure hostname for a prior Capra prototype; it may differ from this branch)
-
-Vercel project: `joshingnaturepnw-8394s-projects/odle-storefront` (legacy infrastructure identifier). A production deployment of this checkout would use `vercel deploy --prod` from this folder and the checked-in webpack build setting. The production Vercel environment still uses **Stripe test credentials**; production hosting does not enable real charges. Checkout derives the trusted public origin from Vercel's production-domain environment variable.
+Link this checkout to a Capra-named Vercel project before deploying. Keep hosting project identifiers in ignored local configuration. The prototype uses **Stripe test credentials**; production hosting does not enable real charges. Checkout derives the trusted public origin from Vercel's production-domain environment variable.
 
 On Vercel, signed paid test events are marked on the Stripe Checkout Session (`prototype_payment_recorded`) rather than written to the read-only deployment filesystem. Stripe remains the prototype payment record; a real order/stock/fulfillment database is still required before live retail. The local listener and local test-order files remain available for local development.

@@ -3,15 +3,14 @@ import { useSyncExternalStore } from 'react';
 import { productDetails } from '@/data/commerce';
 export type CartItem = { id: string; size: string; quantity: number };
 const key = 'capra-cart-v1';
-const legacyKey = 'odle-cart-v1';
 let memory: string | undefined;
-function snapshot() { try { return memory ?? localStorage.getItem(key) ?? localStorage.getItem(legacyKey) ?? '[]'; } catch { return memory ?? '[]'; } }
+function snapshot() { try { return memory ?? localStorage.getItem(key) ?? '[]'; } catch { return memory ?? '[]'; } }
 function subscribe(callback: () => void) {
-  const sync = (event: StorageEvent) => { if (event.key === key || event.key === legacyKey || event.key === null) { memory = undefined; callback(); } };
+  const sync = (event: StorageEvent) => { if (event.key === key || event.key === null) { memory = undefined; callback(); } };
   window.addEventListener('storage', sync); window.addEventListener('capra-cart', callback);
   return () => { window.removeEventListener('storage', sync); window.removeEventListener('capra-cart', callback); };
 }
-function write(items: CartItem[]) { memory = JSON.stringify(items); try { localStorage.setItem(key, memory); localStorage.removeItem(legacyKey); } catch {} window.dispatchEvent(new Event('capra-cart')); }
+function write(items: CartItem[]) { memory = JSON.stringify(items); try { localStorage.setItem(key, memory); } catch {} window.dispatchEvent(new Event('capra-cart')); }
 export function useCart() {
   const raw = useSyncExternalStore(subscribe, snapshot, () => '[]');
   let items: CartItem[] = [];

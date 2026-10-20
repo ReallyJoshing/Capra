@@ -9,16 +9,6 @@ root = Path(__file__).resolve().parents[1]
 source = Path(os.environ.get('FIELD_STUDY_SOURCE', root.parent / 'capra-field-study-03')).expanduser()
 book = json.loads((source / 'data/design-book.json').read_text())
 
-
-def rebrand(value):
-    """Keep the imported study aligned with the current Capra name."""
-    if isinstance(value, str):
-        return value.replace('ODLE', 'CAPRA').replace('Odle', 'Capra').replace('odle', 'capra')
-    if isinstance(value, list):
-        return [rebrand(item) for item in value]
-    if isinstance(value, dict):
-        return {key: rebrand(item) for key, item in value.items()}
-    return value
 groups = {
     'Jackets': [1, 2, 3, 4, 5, 34],
     'Vests': [6],
@@ -64,7 +54,7 @@ for concept in book['concepts']:
         'images': [{'src': f'/images/field-study-03/{slug}.jpg',
                     'alt': f'{name} in {color.lower()} — generated garment design study',
                     'label': 'Design study', 'generated': True}],
-        'concept': rebrand({key: concept[key] for key in ['code', 'intro', 'description', 'fit', 'validation', 'features']})
+        'concept': {key: concept[key] for key in ['code', 'intro', 'description', 'fit', 'validation', 'features']}
     })
     catalog[-1]['concept']['kind'] = concept['type']
 assert len({product['id'] for product in catalog}) == 50
