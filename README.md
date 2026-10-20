@@ -2,13 +2,14 @@
 
 Best clothes Mother Nature ever seen.
 
-## Independent website designs
+## Website design workflow
 
-Each visual direction lives on its own branch so versions can be previewed and
-compared without replacing one another:
+The current homepage is developed on
+[`capra-jc-1`](https://github.com/ReallyJoshing/Capra/tree/capra-jc-1).
+Continue improving that design on the same branch. Earlier iterations remain
+available in Git history.
 
-- [`capra-jc-1`](https://github.com/ReallyJoshing/Capra/tree/capra-jc-1): the first sketch-and-film storefront.
-- `capra-jc-2`: a new homepage direction, developed independently from the first design.
+Create another design branch only when explicitly requested.
 
 `main` is the shared repository baseline. Keep design work on its version branch
 until a version is explicitly selected for release.
