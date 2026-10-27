@@ -1,0 +1,178 @@
+{
+  "collection": "v2",
+  "route": "/clothing/v2",
+  "status": "Generated development concepts; color, fabric, fit and performance require physical sampling.",
+  "generation": "Built-in image generation, reference-based edits",
+  "logo": "Original hand-drawn Capra goat, small scale",
+  "palette": [
+    {
+      "product": "Boulder Fleece",
+      "colorways": [
+        {
+          "name": "Stone grey / Ivory",
+          "colorHex": "#85837e",
+          "accentHex": "#e5dfcd",
+          "imageIndex": 0
+        },
+        {
+          "name": "Mist / Graphite",
+          "colorHex": "#d6d5d0",
+          "accentHex": "#454947",
+          "imageIndex": 1
+        }
+      ],
+      "images": [
+        "/images/collections/v2/boulder-small-goat.png",
+        "/images/collections/v2/boulder-inverse.png"
+      ]
+    },
+    {
+      "product": "Utility Air",
+      "colorways": [
+        {
+          "name": "Charcoal / Ivory",
+          "colorHex": "#414241",
+          "accentHex": "#e5dfcd",
+          "imageIndex": 0
+        },
+        {
+          "name": "Silver / Charcoal",
+          "colorHex": "#cecfce",
+          "accentHex": "#3c3f41",
+          "imageIndex": 1
+        }
+      ],
+      "images": [
+        "/images/collections/v2/air-small-goat.png",
+        "/images/collections/v2/air-inverse.png"
+      ]
+    },
+    {
+      "product": "Utility Storm",
+      "colorways": [
+        {
+          "name": "Charcoal / Ivory",
+          "colorHex": "#414241",
+          "accentHex": "#e5dfcd",
+          "imageIndex": 0
+        },
+        {
+          "name": "Pearl / Graphite",
+          "colorHex": "#d9d9d4",
+          "accentHex": "#45494a",
+          "imageIndex": 1
+        }
+      ],
+      "images": [
+        "/images/collections/v2/storm-small-goat.png",
+        "/images/collections/v2/storm-inverse.png"
+      ]
+    },
+    {
+      "product": "Heather Zip Knit",
+      "colorways": [
+        {
+          "name": "Heather taupe / Ivory",
+          "colorHex": "#7b6c5b",
+          "accentHex": "#e5dfcd",
+          "imageIndex": 0
+        },
+        {
+          "name": "Ivory / Taupe",
+          "colorHex": "#e5dfd1",
+          "accentHex": "#675a4c",
+          "imageIndex": 1
+        }
+      ],
+      "images": [
+        "/images/collections/v2/heather-small-goat.png",
+        "/images/collections/v2/heather-inverse.png"
+      ]
+    },
+    {
+      "product": "Scree Long Sleeve",
+      "colorways": [
+        {
+          "name": "Charcoal / Ivory",
+          "colorHex": "#414241",
+          "accentHex": "#e5dfcd",
+          "imageIndex": 0
+        },
+        {
+          "name": "Ash / Graphite",
+          "colorHex": "#d1d2cf",
+          "accentHex": "#41474a",
+          "imageIndex": 1
+        }
+      ],
+      "images": [
+        "/images/collections/v2/scree-small-goat.png",
+        "/images/collections/v2/scree-inverse.png"
+      ]
+    },
+    {
+      "product": "Contour Base Crew",
+      "colorways": [
+        {
+          "name": "Charcoal / Ivory",
+          "colorHex": "#414241",
+          "accentHex": "#e5dfcd",
+          "imageIndex": 0
+        },
+        {
+          "name": "Fog / Charcoal",
+          "colorHex": "#d3d5d3",
+          "accentHex": "#414649",
+          "imageIndex": 1
+        }
+      ],
+      "images": [
+        "/images/collections/v2/contour-small-goat.png",
+        "/images/collections/v2/contour-inverse.png"
+      ]
+    },
+    {
+      "product": "Trailhead Hoodie",
+      "colorways": [
+        {
+          "name": "Peat charcoal / Ivory",
+          "colorHex": "#3c3932",
+          "accentHex": "#e5dfcd",
+          "imageIndex": 0
+        },
+        {
+          "name": "Chalk / Peat",
+          "colorHex": "#e1ded2",
+          "accentHex": "#4b493e",
+          "imageIndex": 1
+        }
+      ],
+      "images": [
+        "/images/collections/v2/trailhead-small-goat.png",
+        "/images/collections/v2/trailhead-inverse.png"
+      ]
+    },
+    {
+      "product": "Basalt Shell",
+      "colorways": [
+        {
+          "name": "Charcoal / Ivory",
+          "colorHex": "#414241",
+          "accentHex": "#e5dfcd",
+          "imageIndex": 0
+        },
+        {
+          "name": "Chalk / Carbon",
+          "colorHex": "#e4e5e0",
+          "accentHex": "#44494b",
+          "imageIndex": 1
+        }
+      ],
+      "images": [
+        "/images/collections/v2/basalt-small-goat.png",
+        "/images/collections/v2/basalt-inverse.png"
+      ]
+    }
+  ],
+  "paletteDirection": "Classic dark neutrals with light seam details; inverse pale greys with dark details. Brown tones reverse to warm ivory or chalk."
+}

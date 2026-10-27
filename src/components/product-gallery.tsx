@@ -1,6 +1,7 @@
 'use client';
 import { useRef, useState } from 'react';
 import type { Product } from '@/data/products';
+import { ColorwaySwatches } from '@/components/colorway-swatches';
 function GalleryPhoto({ image }: { image: Product['images'][number] }) {
   const ref = useRef<HTMLButtonElement>(null); const lens = useRef<HTMLSpanElement>(null);
   const [zoom,setZoom]=useState(false);
@@ -21,4 +22,12 @@ function GalleryPhoto({ image }: { image: Product['images'][number] }) {
     <span ref={lens} className="image-magnifier" hidden={!zoom} aria-hidden="true"><img src={image.src} alt="" draggable={false}/></span>
   </button>{image.generated&&<figcaption>{image.label} · Generated concept image</figcaption>}</figure>;
 }
-export function ProductGallery({product}:{product:Product}) { return <div className={`detail-gallery${product.concept ? ' concept-gallery' : ''}`}>{product.images.map(image=><GalleryPhoto key={image.src} image={image}/>)}</div>; }
+export function ProductGallery({ product, initialColor }: { product: Product; initialColor?: string }) {
+  const [selected, setSelected] = useState(product.colorways?.find(colorway => colorway.name === initialColor)?.imageIndex ?? 0);
+  if (product.colorways) return <div className="detail-gallery concept-gallery">
+    <GalleryPhoto key={product.images[selected].src} image={product.images[selected]} />
+    <ColorwaySwatches product={product} selected={selected} onSelect={setSelected} />
+    <p className="colorway-name" aria-live="polite">{product.colorways.find(colorway => colorway.imageIndex === selected)?.name}</p>
+  </div>;
+  return <div className={`detail-gallery${product.concept ? ' concept-gallery' : ''}`}>{product.images.map(image => <GalleryPhoto key={image.src} image={image} />)}</div>;
+}

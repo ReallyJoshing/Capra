@@ -1,14 +1,17 @@
 import fieldStudyCatalog from './field-study-03.json' with { type: 'json' };
+import v2Catalog from './v2.json' with { type: 'json' };
 
 export type Category = 'clothing' | 'accessories';
 
 export type Product = {
   id: string;
   category: Category;
+  collection?: 'v2';
   name: string;
   type: string;
   color: string;
   colorHex: string;
+  colorways?: { name: string; colorHex: string; accentHex: string; imageIndex: number }[];
   images: { src: string; alt: string; label: string; lifestyle?: boolean; generated?: boolean }[];
   hoverImageIndex?: number;
   imageClass?: string;
@@ -100,5 +103,6 @@ export const legacyProducts: Product[] = [
 ];
 
 export const products = fieldStudyCatalog as Product[];
+export const v2Products = v2Catalog as Product[];
 // Keep earlier prototype links and saved bags working after the catalog changes.
-export const allProducts: Product[] = [...products, ...legacyProducts];
+export const allProducts: Product[] = [...products, ...v2Products, ...legacyProducts];

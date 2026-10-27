@@ -76,6 +76,19 @@ button:focus-visible, a:focus-visible, summary:focus-visible, select:focus-visib
 .collection-meta a[aria-current='page'] { text-decoration: underline; text-underline-offset: 8px; text-decoration-thickness: 1px; }
 .collection-meta sup { margin-left: 7px; font-size: 10px; color: var(--muted); }
 .collection-meta p { margin: 0; font-size: 12px; color: var(--muted); }
+.collection-versions { display: flex; flex-wrap: wrap; gap: 28px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+.collection-versions a { color: var(--paper); font-size: 14px; text-decoration: none; }
+.collection-versions a[aria-current='page'] { text-decoration: underline; text-underline-offset: 7px; }
+.collection-versions span { margin-left: 8px; color: var(--muted); font-size: 11px; }
+.collection-looks { display: flex; gap: 3px; padding: 3px; border: 1px solid var(--line); border-radius: 999px; }
+.collection-looks button { padding: 9px 15px; border: 0; border-radius: 999px; background: transparent; font-size: 12px; }
+.collection-looks button[aria-pressed='true'] { background: var(--paper); color: var(--ink); }
+.colorway-swatches { display: flex; gap: 6px; margin-top: 12px; }
+.colorway-swatches button { display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid transparent; background: transparent; border-radius: 50%; }
+.colorway-swatches button[aria-pressed='true'] { border-color: var(--paper); }
+.colorway-swatches button span { width: 26px; height: 26px; border-radius: 50%; border: 1px solid #ffffff40; }
+.colorway-name, .detail-colorway-list { color: var(--muted); font-size: 12px; line-height: 1.6; }
+.colorway-name { margin: 0; }
 .catalog-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 24px 0; }
 .catalog-filters { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 22px; }
 .catalog-filter { position: relative; font-size: 13px; }

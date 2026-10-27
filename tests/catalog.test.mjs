@@ -27,3 +27,13 @@ test('an empty collection and unmatched filters return an empty grid', () => {
   assert.deepEqual(filterProducts([], 'accessories', {}), []);
   assert.deepEqual(filterProducts(products, 'clothing', { type: 'Unknown' }), []);
 });
+
+test('alternate colorways are discoverable without duplicating a product or crossing categories', () => {
+  const catalog = [
+    { id: 'fleece', category: 'clothing', type: 'Fleece', color: 'Stone grey', colorways: [{ name: 'Stone grey / Ivory' }, { name: 'Mist / Graphite' }] },
+    { id: 'hat', category: 'accessories', type: 'Headwear', color: 'Mist / Graphite' },
+  ];
+  assert.deepEqual(filterProducts(catalog, 'clothing', { color: 'Mist / Graphite' }).map(p => p.id), ['fleece']);
+  assert.deepEqual(filterProducts(catalog, 'clothing', { type: 'Pants', color: 'Mist / Graphite' }), []);
+  assert.deepEqual(filterProducts(catalog, 'clothing', { color: 'Stone grey' }).map(p => p.id), ['fleece']);
+});

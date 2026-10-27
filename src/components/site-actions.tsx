@@ -14,7 +14,7 @@ export function SiteActions() {
           key={page.href}
           href={page.href}
           transitionTypes={pathname === '/' ? ['home-navigation'] : undefined}
-          aria-current={pathname === page.href ? 'page' : undefined}
+          aria-current={pathname === page.href || pathname.startsWith(`${page.href}/`) ? 'page' : undefined}
         >
           {page.label}
         </Link>

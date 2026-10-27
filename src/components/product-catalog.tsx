@@ -6,6 +6,7 @@ import { useId, useRef, useState } from 'react';
 import { products, type Category, type Product } from '@/data/products';
 import { money, productDetails } from '@/data/commerce';
 import { filterProducts } from '@/lib/catalog.mjs';
+import { ColorwaySwatches } from '@/components/colorway-swatches';
 
 function CatalogFilter({ label, value, options, onChange }: {
   label: string; value: string; options: string[]; onChange: (value: string) => void;
@@ -48,16 +49,18 @@ function CatalogFilter({ label, value, options, onChange }: {
   );
 }
 
-function ProductCard({ product }: { product: Product }) {
-  const [selected, setSelected] = useState(0);
+function ProductCard({ product, initialIndex = 0 }: { product: Product; initialIndex?: number }) {
+  const [selected, setSelected] = useState(initialIndex);
   const [hovered, setHovered] = useState(false);
   const alternate = product.hoverImageIndex ?? 1;
-  const index = hovered && product.images.length > 1 ? (selected === alternate ? 0 : alternate) : selected;
+  const index = !product.colorways && hovered && product.images.length > 1 ? (selected === alternate ? 0 : alternate) : selected;
+  const colorway = product.colorways?.find(color => color.imageIndex === index);
+  const href = `/products/${product.id}${colorway ? `?color=${encodeURIComponent(colorway.name)}` : ''}`;
 
   return (
     <article className={`product-card${product.concept ? ' concept-card' : ''}`}>
       <div className="product-visual">
-        <Link href={`/products/${product.id}`} className="product-image-stage" aria-label={`View ${product.name}`}
+        <Link href={href} className="product-image-stage" aria-label={`View ${product.name}`}
           onPointerEnter={event => { if (event.pointerType === 'mouse') setHovered(true); }}
           onPointerLeave={() => setHovered(false)}>
           {product.images.map((image, i) => (
@@ -68,26 +71,30 @@ function ProductCard({ product }: { product: Product }) {
             </span>
           ))}
         </Link>
-        {product.images.length > 1 && <div className="view-dots card-view-dots" role="group" aria-label={`Photos of ${product.name}`} onClick={event => event.stopPropagation()}>
+        {!product.colorways && product.images.length > 1 && <div className="view-dots card-view-dots" role="group" aria-label={`Photos of ${product.name}`} onClick={event => event.stopPropagation()}>
           {product.images.map((image, i) => <button key={image.src} type="button" aria-label={`Show ${image.label.toLowerCase()} view (${i + 1} of ${product.images.length})`} aria-pressed={index === i}
             onClick={() => { setSelected(i); setHovered(false); }}><span /></button>)}
         </div>}
       </div>
       <div className="product-caption">
-        <div><h2><Link href={`/products/${product.id}`}>{product.name}</Link></h2><p className="card-price">{product.concept ? `${product.color} / Concept ${product.concept.code}` : money(productDetails[product.id].price)}</p></div>
-        <Link href={`/products/${product.id}`} className="product-arrow" aria-label={`Explore ${product.name}`}>↗</Link>
+        <div><h2><Link href={href}>{product.name}</Link></h2><p className="card-price">{product.concept ? `${colorway?.name ?? product.color} / Concept ${product.concept.code}` : money(productDetails[product.id].price)}</p></div>
+        <Link href={href} className="product-arrow" aria-label={`Explore ${product.name}`}>↗</Link>
       </div>
+      <ColorwaySwatches product={product} selected={index} onSelect={setSelected} />
     </article>
   );
 }
 
-export function ProductCatalog({ category, initialType = '' }: { category: Category; initialType?: string }) {
-  const collection = products.filter(product => product.category === category);
+export function ProductCatalog({ category, initialType = '', catalog = products }: { category: Category; initialType?: string; catalog?: Product[] }) {
+  const collection = catalog.filter(product => product.category === category);
   const [type, setType] = useState(initialType);
   const [color, setColor] = useState('');
+  const [look, setLook] = useState<'classic' | 'inverse'>('classic');
+  const [lookRevision, setLookRevision] = useState(0);
+  const hasColorways = collection.some(product => product.colorways?.length);
   const types = [...new Set(collection.map(product => product.type))];
-  const colors = [...new Set(collection.map(product => product.color))];
-  const results = filterProducts(products, category, { type, color });
+  const colors = [...new Set(collection.flatMap(product => product.colorways?.map(colorway => colorway.name) ?? [product.color]))];
+  const results = filterProducts(catalog, category, { type, color });
   const hasFilters = Boolean(type || color);
 
   function clearFilters() {
@@ -99,6 +106,10 @@ export function ProductCatalog({ category, initialType = '' }: { category: Categ
     <>
       <div className="catalog-toolbar">
         <div className="catalog-filters" role="group" aria-label="Filter products">
+          {hasColorways && <div className="collection-looks" role="group" aria-label="Collection tones">
+            {(['classic', 'inverse'] as const).map(value => <button key={value} type="button" aria-pressed={look === value && !color}
+              onClick={() => { setLook(value); setColor(''); setLookRevision(revision => revision + 1); }}>{value === 'classic' ? 'Classic' : 'Inverse'}</button>)}
+          </div>}
           <CatalogFilter label="Type" value={type} options={types} onChange={setType} />
           <CatalogFilter label="Color" value={color} options={colors} onChange={setColor} />
           {hasFilters && <button className="clear-filters" type="button" onClick={clearFilters}>Clear filters</button>}
@@ -107,7 +118,8 @@ export function ProductCatalog({ category, initialType = '' }: { category: Categ
       </div>
       {results.length ? (
         <div className="product-grid">
-          {results.map(product => <ProductCard key={product.id} product={product} />)}
+          {results.map(product => <ProductCard key={`${product.id}-${look}-${lookRevision}-${color}`} product={product}
+            initialIndex={product.colorways?.find(colorway => colorway.name === color)?.imageIndex ?? (look === 'inverse' ? product.colorways?.[1]?.imageIndex ?? 0 : 0)} />)}
         </div>
       ) : (
         <div className="catalog-empty">

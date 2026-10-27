@@ -6,11 +6,13 @@ import { ProductGallery } from '@/components/product-gallery';
 import { ProductPurchase } from '@/components/product-purchase';
 import { ConceptDetails } from '@/components/concept-details';
 export async function generateMetadata({params}:{params:Promise<{slug:string}>}) { const {slug}=await params;return {title:`${products.find(p=>p.id===slug)?.name??'Product'} — Capra`}; }
-export default async function ProductPage({params}:{params:Promise<{slug:string}>}) {
+export default async function ProductPage({params, searchParams}:{params:Promise<{slug:string}>; searchParams:Promise<{color?:string|string[]}>}) {
   const {slug}=await params;const product=products.find(p=>p.id===slug);if(!product)notFound();const detail=productDetails[slug];
+  const query = await searchParams;
+  const initialColor = typeof query.color === 'string' ? query.color : undefined;
   if (product.concept) return <main className="product-page" id="main-content">
-    <nav className="breadcrumb" aria-label="Breadcrumb"><Link href={`/${product.category}`}>{product.category}</Link><span>/</span><span>{product.name}</span></nav>
-    <div className="product-detail-layout"><ProductGallery product={product}/><ConceptDetails product={product} concept={product.concept}/></div>
+    <nav className="breadcrumb" aria-label="Breadcrumb"><Link href={`/${product.category}`}>{product.category}</Link><span>/</span>{product.collection === 'v2' && <><Link href="/clothing/v2">v2</Link><span>/</span></>}<span>{product.name}</span></nav>
+    <div className="product-detail-layout"><ProductGallery product={product} initialColor={initialColor}/><ConceptDetails product={product} concept={product.concept}/></div>
   </main>;
   return <main className="product-page" id="main-content">
     <nav className="breadcrumb" aria-label="Breadcrumb"><Link href={`/${product.category}`}>{product.category}</Link><span>/</span><span>{product.name}</span></nav>

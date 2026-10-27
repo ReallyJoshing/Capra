@@ -1,0 +1,578 @@
+[
+  {
+    "id": "v2-boulder-fleece",
+    "category": "clothing",
+    "collection": "v2",
+    "name": "Boulder Fleece",
+    "type": "Fleece",
+    "color": "Stone grey",
+    "colorHex": "#85837e",
+    "images": [
+      {
+        "src": "/images/collections/v2/boulder-small-goat.png",
+        "alt": "Boulder Fleece concept board with off-white seam accents and a small original Capra goat logo",
+        "label": "Stone grey / Ivory",
+        "generated": true
+      },
+      {
+        "src": "/images/collections/v2/boulder-inverse.png",
+        "alt": "Boulder Fleece in Mist / Graphite with dark seam accents and a small Capra goat",
+        "label": "Mist / Graphite",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "V2-01",
+      "kind": "Fine-pile layer",
+      "intro": "A soft fine-pile layer with a generous silhouette, quiet slanted pockets and a small goat signature.",
+      "description": "A soft fine-pile layer with a generous silhouette, quiet slanted pockets and a small goat signature.",
+      "fit": "Relaxed body with shaped sleeves and room to layer. Fine pile keeps the surface soft and visually restrained.",
+      "validation": "Generated design study. Fabric selection, logo application, fit, seam construction and durability require physical sampling and testing. These images do not establish performance or certification.",
+      "features": [
+        {
+          "name": "Fine, soft pile",
+          "text": "A compact, even pile direction in stone grey with ivory details, or pale mist with graphite details.",
+          "sources": []
+        },
+        {
+          "name": "Room to reach",
+          "text": "Shaped sleeves and stretch underarm gussets are intended to support overhead movement.",
+          "sources": []
+        },
+        {
+          "name": "Quiet slanted storage",
+          "text": "Low-profile zipped entries follow the body lines, with roomy pocket bags inside.",
+          "sources": []
+        },
+        {
+          "name": "Contrasting seam lines",
+          "text": "Fine stitching defines selected shoulder and pocket seams: ivory on stone grey, graphite on pale mist.",
+          "sources": []
+        },
+        {
+          "name": "Small goat signature",
+          "text": "The original hand-drawn goat sits below the hood, proposed through pile coloration.",
+          "sources": []
+        }
+      ]
+    },
+    "colorways": [
+      {
+        "name": "Stone grey / Ivory",
+        "colorHex": "#85837e",
+        "accentHex": "#e5dfcd",
+        "imageIndex": 0
+      },
+      {
+        "name": "Mist / Graphite",
+        "colorHex": "#d6d5d0",
+        "accentHex": "#454947",
+        "imageIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "v2-utility-air",
+    "category": "clothing",
+    "collection": "v2",
+    "name": "Utility Air",
+    "type": "Pants",
+    "color": "Charcoal",
+    "colorHex": "#414241",
+    "images": [
+      {
+        "src": "/images/collections/v2/air-small-goat.png",
+        "alt": "Utility Air concept board with off-white seam accents and a small original Capra goat logo",
+        "label": "Charcoal / Ivory",
+        "generated": true
+      },
+      {
+        "src": "/images/collections/v2/air-inverse.png",
+        "alt": "Utility Air in Silver / Charcoal with dark seam accents and a small Capra goat",
+        "label": "Silver / Charcoal",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "V2-02",
+      "kind": "Open-vent trouser",
+      "intro": "A broad, flowing utility trouser for the lighter-weather side of the collection, with recessed mesh vents and discreet storage.",
+      "description": "A broad, flowing utility trouser for the lighter-weather side of the collection, with recessed mesh vents and discreet storage.",
+      "fit": "Relaxed through the seat and thigh, with a broad leg, articulated knees and a front belt closure. First-sample waist target: 32 inches.",
+      "validation": "Generated design study. Fabric selection, logo application, fit, seam construction and durability require physical sampling and testing. These images do not establish performance or certification.",
+      "features": [
+        {
+          "name": "Open airflow",
+          "text": "Recessed mesh openings sit beneath folded lips, drawing on the vintage ventilation reference.",
+          "sources": []
+        },
+        {
+          "name": "Quiet, spacious pockets",
+          "text": "Low-profile hand entries lead to roomy pocket bags; side utility storage stays close to the leg.",
+          "sources": []
+        },
+        {
+          "name": "Slanted rear access",
+          "text": "Large rear utility openings follow a clean diagonal line.",
+          "sources": []
+        },
+        {
+          "name": "Movement and drape",
+          "text": "Ripstop fabric, shaped knees and a crotch gusset are the proposed basis for a flowing, mobile fit.",
+          "sources": []
+        },
+        {
+          "name": "Small goat and seam accents",
+          "text": "A small goat sits on the outer thigh, with fine pocket and vent seam accents that reverse from light on dark to dark on light.",
+          "sources": []
+        }
+      ]
+    },
+    "colorways": [
+      {
+        "name": "Charcoal / Ivory",
+        "colorHex": "#414241",
+        "accentHex": "#e5dfcd",
+        "imageIndex": 0
+      },
+      {
+        "name": "Silver / Charcoal",
+        "colorHex": "#cecfce",
+        "accentHex": "#3c3f41",
+        "imageIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "v2-utility-storm",
+    "category": "clothing",
+    "collection": "v2",
+    "name": "Utility Storm",
+    "type": "Pants",
+    "color": "Charcoal",
+    "colorHex": "#414241",
+    "images": [
+      {
+        "src": "/images/collections/v2/storm-small-goat.png",
+        "alt": "Utility Storm concept board with off-white seam accents and a small original Capra goat logo",
+        "label": "Charcoal / Ivory",
+        "generated": true
+      },
+      {
+        "src": "/images/collections/v2/storm-inverse.png",
+        "alt": "Utility Storm in Pearl / Graphite with dark seam accents and a small Capra goat",
+        "label": "Pearl / Graphite",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "V2-03",
+      "kind": "Shell trouser",
+      "intro": "The shell counterpart to Utility Air, developed around covered ventilation, layered weather protection and an adjustable woven gaiter.",
+      "description": "The shell counterpart to Utility Air, developed around covered ventilation, layered weather protection and an adjustable woven gaiter.",
+      "fit": "Broad leg with room for layering, articulated knees and a front belt closure. First-sample waist target: 32 inches.",
+      "validation": "Generated design study. Fabric selection, logo application, fit, seam construction and durability require physical sampling and testing. These images do not establish performance or certification.",
+      "features": [
+        {
+          "name": "Shell construction direction",
+          "text": "A three-layer GORE-TEX material option is under consideration; supplier approval and garment testing remain pending.",
+          "sources": []
+        },
+        {
+          "name": "Covered two-way ventilation",
+          "text": "Protected side openings use two-slider zippers to adjust airflow while preserving a closed option.",
+          "sources": []
+        },
+        {
+          "name": "Non-elastic inner gaiter",
+          "text": "An independent woven sleeve uses a low-stretch strap and ladder-lock adjustment at the boot collar.",
+          "sources": []
+        },
+        {
+          "name": "Ankle protection",
+          "text": "A medial scuff guard and inner comfort insert are proposed around the ankle contact area.",
+          "sources": []
+        },
+        {
+          "name": "Quiet storage and signature",
+          "text": "Spacious hand, side and rear pockets retain low-profile entries, finished with contrasting seam accents and a small goat.",
+          "sources": []
+        }
+      ]
+    },
+    "colorways": [
+      {
+        "name": "Charcoal / Ivory",
+        "colorHex": "#414241",
+        "accentHex": "#e5dfcd",
+        "imageIndex": 0
+      },
+      {
+        "name": "Pearl / Graphite",
+        "colorHex": "#d9d9d4",
+        "accentHex": "#45494a",
+        "imageIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "v2-heather-zip-knit",
+    "category": "clothing",
+    "collection": "v2",
+    "name": "Heather Zip Knit",
+    "type": "Knitwear",
+    "color": "Heather taupe",
+    "colorHex": "#7b6c5b",
+    "images": [
+      {
+        "src": "/images/collections/v2/heather-small-goat.png",
+        "alt": "Heather Zip Knit concept board with off-white seam accents and a small original Capra goat logo",
+        "label": "Heather taupe / Ivory",
+        "generated": true
+      },
+      {
+        "src": "/images/collections/v2/heather-inverse.png",
+        "alt": "Heather Zip Knit in Ivory / Taupe with dark seam accents and a small Capra goat",
+        "label": "Ivory / Taupe",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "V2-04",
+      "kind": "Zip knit",
+      "intro": "A marled knit layer with a funnel neck, broad body and slanted pockets shaped into the garment.",
+      "description": "A marled knit layer with a funnel neck, broad body and slanted pockets shaped into the garment.",
+      "fit": "Relaxed body with a saddle shoulder and shaped sleeves; ribbed edges bring the volume back toward the body.",
+      "validation": "Generated design study. Fabric selection, logo application, fit, seam construction and durability require physical sampling and testing. These images do not establish performance or certification.",
+      "features": [
+        {
+          "name": "Saddle shoulder",
+          "text": "Curved shoulder lines extend into the sleeve to support the intended reach and relaxed shape.",
+          "sources": []
+        },
+        {
+          "name": "Two-way front closure",
+          "text": "A two-way zipper is proposed for adjusting the opening while seated or moving.",
+          "sources": []
+        },
+        {
+          "name": "Slanted pocket entries",
+          "text": "Recessed entries keep the front calm while providing useful internal space.",
+          "sources": []
+        },
+        {
+          "name": "Fine underarm knit",
+          "text": "A lighter knit zone is proposed beneath the arm for mobility and airflow.",
+          "sources": []
+        },
+        {
+          "name": "Inverse knit detail",
+          "text": "Fine seams and a small knit-in goat contrast with the marled body: ivory on taupe, or taupe on warm ivory.",
+          "sources": []
+        }
+      ]
+    },
+    "colorways": [
+      {
+        "name": "Heather taupe / Ivory",
+        "colorHex": "#7b6c5b",
+        "accentHex": "#e5dfcd",
+        "imageIndex": 0
+      },
+      {
+        "name": "Ivory / Taupe",
+        "colorHex": "#e5dfd1",
+        "accentHex": "#675a4c",
+        "imageIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "v2-scree-long-sleeve",
+    "category": "clothing",
+    "collection": "v2",
+    "name": "Scree Long Sleeve",
+    "type": "Knitwear",
+    "color": "Charcoal",
+    "colorHex": "#414241",
+    "images": [
+      {
+        "src": "/images/collections/v2/scree-small-goat.png",
+        "alt": "Scree Long Sleeve concept board with off-white seam accents and a small original Capra goat logo",
+        "label": "Charcoal / Ivory",
+        "generated": true
+      },
+      {
+        "src": "/images/collections/v2/scree-inverse.png",
+        "alt": "Scree Long Sleeve in Ash / Graphite with dark seam accents and a small Capra goat",
+        "label": "Ash / Graphite",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "V2-05",
+      "kind": "Waffle crew",
+      "intro": "A relaxed waffle crew with a curved shoulder, sheltered underarm vents and the original goat in a small scale.",
+      "description": "A relaxed waffle crew with a curved shoulder, sheltered underarm vents and the original goat in a small scale.",
+      "fit": "Broad, easy crewneck silhouette with shaped sleeves and ribbed cuffs.",
+      "validation": "Generated design study. Fabric selection, logo application, fit, seam construction and durability require physical sampling and testing. These images do not establish performance or certification.",
+      "features": [
+        {
+          "name": "Waffle texture",
+          "text": "A fine waffle surface adds texture while keeping the silhouette simple, in charcoal or pale ash.",
+          "sources": []
+        },
+        {
+          "name": "Curved shoulder",
+          "text": "The shoulder-to-underarm line is shaped around reach and arm movement.",
+          "sources": []
+        },
+        {
+          "name": "Recessed underarm vent",
+          "text": "Mesh sits behind a folded opening inspired by the vintage ventilation construction.",
+          "sources": []
+        },
+        {
+          "name": "Soft seam direction",
+          "text": "Seam placement and low-bulk finishing are intended to reduce friction against the body.",
+          "sources": []
+        },
+        {
+          "name": "Small back signature",
+          "text": "A small goat sits below the back neckline, with fine seam accents in ivory on charcoal or graphite on pale ash.",
+          "sources": []
+        }
+      ]
+    },
+    "colorways": [
+      {
+        "name": "Charcoal / Ivory",
+        "colorHex": "#414241",
+        "accentHex": "#e5dfcd",
+        "imageIndex": 0
+      },
+      {
+        "name": "Ash / Graphite",
+        "colorHex": "#d1d2cf",
+        "accentHex": "#41474a",
+        "imageIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "v2-contour-base-crew",
+    "category": "clothing",
+    "collection": "v2",
+    "name": "Contour Base Crew",
+    "type": "Base layers",
+    "color": "Charcoal",
+    "colorHex": "#414241",
+    "images": [
+      {
+        "src": "/images/collections/v2/contour-small-goat.png",
+        "alt": "Contour Base Crew concept board with off-white seam accents and a small original Capra goat logo",
+        "label": "Charcoal / Ivory",
+        "generated": true
+      },
+      {
+        "src": "/images/collections/v2/contour-inverse.png",
+        "alt": "Contour Base Crew in Fog / Charcoal with dark seam accents and a small Capra goat",
+        "label": "Fog / Charcoal",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "V2-06",
+      "kind": "Fitted base layer",
+      "intro": "A close-fitting base layer with curved movement lines, mapped knit zones and a small back signature.",
+      "description": "A close-fitting base layer with curved movement lines, mapped knit zones and a small back signature.",
+      "fit": "Close to the body with shaped raglan sleeves and an extended reach gusset. Compression level has not been established.",
+      "validation": "Generated design study. Fabric selection, logo application, fit, seam construction and durability require physical sampling and testing. These images do not establish performance or certification.",
+      "features": [
+        {
+          "name": "Close fit",
+          "text": "A body-following silhouette forms the foundation of the compression-shirt direction.",
+          "sources": []
+        },
+        {
+          "name": "Mapped knit zones",
+          "text": "More open knit zones are proposed around the shoulder and underarm for airflow.",
+          "sources": []
+        },
+        {
+          "name": "Reach gusset",
+          "text": "A continuous underarm gusset is designed to accommodate lifting and reaching.",
+          "sources": []
+        },
+        {
+          "name": "Low-bulk seams",
+          "text": "Fine seam accents follow the existing raglan and side lines, in ivory on charcoal or charcoal on pale fog.",
+          "sources": []
+        },
+        {
+          "name": "Small goat",
+          "text": "The original goat sits within the solid back panel, clear of the airflow zones.",
+          "sources": []
+        }
+      ]
+    },
+    "colorways": [
+      {
+        "name": "Charcoal / Ivory",
+        "colorHex": "#414241",
+        "accentHex": "#e5dfcd",
+        "imageIndex": 0
+      },
+      {
+        "name": "Fog / Charcoal",
+        "colorHex": "#d3d5d3",
+        "accentHex": "#414649",
+        "imageIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "v2-trailhead-hoodie",
+    "category": "clothing",
+    "collection": "v2",
+    "name": "Trailhead Hoodie",
+    "type": "Hoodies",
+    "color": "Peat charcoal",
+    "colorHex": "#3c3932",
+    "images": [
+      {
+        "src": "/images/collections/v2/trailhead-small-goat.png",
+        "alt": "Trailhead Hoodie concept board with off-white seam accents and a small original Capra goat logo",
+        "label": "Peat charcoal / Ivory",
+        "generated": true
+      },
+      {
+        "src": "/images/collections/v2/trailhead-inverse.png",
+        "alt": "Trailhead Hoodie in Chalk / Peat with dark seam accents and a small Capra goat",
+        "label": "Chalk / Peat",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "V2-07",
+      "kind": "Waffle hooded layer",
+      "intro": "A roomy hooded waffle layer with split diagonal pockets, sheltered vents and a small goat below the hood.",
+      "description": "A roomy hooded waffle layer with split diagonal pockets, sheltered vents and a small goat below the hood.",
+      "fit": "Relaxed body and sleeves with a shaped hood, underarm gusset and ribbed edges.",
+      "validation": "Generated design study. Fabric selection, logo application, fit, seam construction and durability require physical sampling and testing. These images do not establish performance or certification.",
+      "features": [
+        {
+          "name": "Shaped hood",
+          "text": "A close-set opening and structured hood shape sit above the full front zipper.",
+          "sources": []
+        },
+        {
+          "name": "Split diagonal storage",
+          "text": "Two quiet pocket entries follow the garment's curved front lines.",
+          "sources": []
+        },
+        {
+          "name": "Sheltered ventilation",
+          "text": "Recessed mesh openings sit behind folded lips beneath the arm.",
+          "sources": []
+        },
+        {
+          "name": "Room for movement",
+          "text": "A gusset and shaped sleeves are intended to support overhead reach.",
+          "sources": []
+        },
+        {
+          "name": "Textile signature",
+          "text": "Fine seam accents and a small goat follow the waffle texture: ivory on peat charcoal, or peat on warm chalk.",
+          "sources": []
+        }
+      ]
+    },
+    "colorways": [
+      {
+        "name": "Peat charcoal / Ivory",
+        "colorHex": "#3c3932",
+        "accentHex": "#e5dfcd",
+        "imageIndex": 0
+      },
+      {
+        "name": "Chalk / Peat",
+        "colorHex": "#e1ded2",
+        "accentHex": "#4b493e",
+        "imageIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "v2-basalt-shell",
+    "category": "clothing",
+    "collection": "v2",
+    "name": "Basalt Shell",
+    "type": "Shells",
+    "color": "Charcoal",
+    "colorHex": "#414241",
+    "images": [
+      {
+        "src": "/images/collections/v2/basalt-small-goat.png",
+        "alt": "Basalt Shell concept board with off-white seam accents and a small original Capra goat logo",
+        "label": "Charcoal / Ivory",
+        "generated": true
+      },
+      {
+        "src": "/images/collections/v2/basalt-inverse.png",
+        "alt": "Basalt Shell in Chalk / Carbon with dark seam accents and a small Capra goat",
+        "label": "Chalk / Carbon",
+        "generated": true
+      }
+    ],
+    "concept": {
+      "code": "V2-08",
+      "kind": "Weather shell",
+      "intro": "A hooded shell concept with strong curved lines, slanted storage and covered ventilation.",
+      "description": "A hooded shell concept with strong curved lines, slanted storage and covered ventilation.",
+      "fit": "Roomy enough for layers, with shaped sleeves and solid underarm gussets for reach.",
+      "validation": "Generated design study. Fabric selection, logo application, fit, seam construction and durability require physical sampling and testing. These images do not establish performance or certification.",
+      "features": [
+        {
+          "name": "Three-layer shell direction",
+          "text": "A three-layer laminate is proposed; final material and weather performance require development.",
+          "sources": []
+        },
+        {
+          "name": "Slanted sealed storage",
+          "text": "Protected zipped pocket entries follow the front's clean diagonal lines.",
+          "sources": []
+        },
+        {
+          "name": "Covered reach vents",
+          "text": "Zipped openings provide an adjustable ventilation concept with protective overlap.",
+          "sources": []
+        },
+        {
+          "name": "Solid underarm gusset",
+          "text": "A continuous shell gusset preserves the intended weather barrier when vents are closed.",
+          "sources": []
+        },
+        {
+          "name": "Small goat and seam accents",
+          "text": "The original goat is a small upper-back mark, with light accents on the dark shell or carbon accents on chalk; shell-compatible coloration remains to be sampled.",
+          "sources": []
+        }
+      ]
+    },
+    "colorways": [
+      {
+        "name": "Charcoal / Ivory",
+        "colorHex": "#414241",
+        "accentHex": "#e5dfcd",
+        "imageIndex": 0
+      },
+      {
+        "name": "Chalk / Carbon",
+        "colorHex": "#e4e5e0",
+        "accentHex": "#44494b",
+        "imageIndex": 1
+      }
+    ]
+  }
+]
